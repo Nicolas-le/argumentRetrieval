@@ -9,7 +9,7 @@ import time
 from whoosh import scoring
 start_time = time.time()
 
-  
+ #test 
 def indexer():
    
     schema = Schema(topic_number=NUMERIC(stored=True),
