@@ -4,6 +4,12 @@ import nltk
 
 
 def main_stylo(tokens):
+    """
+    Main functionality of the stylometric analysis. Creates the dictionary of the calculated
+    values.
+    :param tokens:  a tokenized list of strings
+    :return:        dictionary key: calculated feature | value: value of the feature
+    """
 
     feature_Dict = defaultdict(dict)
 
@@ -15,17 +21,27 @@ def main_stylo(tokens):
 
 
 def vocab_richness(tokens):
-
+    """
+    Calculates the ratio of the number of distinct words to the number of total words.
+    :param tokens:  a tokenized list of strings
+    :return:        the calculated ratio
+    """
     distinct_words = len(set(tokens))
     total_words = len(tokens)
 
-    #prevent dividing with 0
+    #prevent dividing by 0
     if total_words == 0:
         return
 
     return distinct_words/total_words
 
 def hepax_legomena(tokens):
+    """
+    Hepax Legomena is the ratio of the numbers of words occurring once to the total number
+    of words.
+    :param tokens:  a tokenized list of strings
+    :return:        the calculated ratio
+    """
 
     all_words = set()
     duplicates = set()
@@ -38,7 +54,8 @@ def hepax_legomena(tokens):
     words_appearing_once = len(all_words-duplicates)
     total_words = len(tokens)
 
-    return total_words/words_appearing_once
+    return words_appearing_once/total_words
+
 
 
 #test the functionality
