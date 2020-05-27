@@ -1,4 +1,5 @@
 from collections import defaultdict
+import readability_measures
 import nltk
 
 
@@ -8,6 +9,7 @@ def main_stylo(tokens):
 
     feature_Dict['vocab_richeness'] = vocab_richness(tokens)
     feature_Dict['hepax_legomena'] = hepax_legomena(tokens)
+    feature_Dict['readability_measures'] = readability_measures.main(tokens)
 
     print(feature_Dict)
 
@@ -17,10 +19,11 @@ def vocab_richness(tokens):
     distinct_words = len(set(tokens))
     total_words = len(tokens)
 
-    if distinct_words == 0:
+    #prevent dividing with 0
+    if total_words == 0:
         return
 
-    return total_words/distinct_words
+    return distinct_words/total_words
 
 def hepax_legomena(tokens):
 
@@ -38,8 +41,7 @@ def hepax_legomena(tokens):
     return total_words/words_appearing_once
 
 
-
-sentence = "I would like to got to the my beach, sir"
-
+#test the functionality
+sentence = "I would like to got to the my beach, sir. And it would be very nice, thanks."
 tokens = nltk.word_tokenize(sentence)
 main_stylo(tokens)
