@@ -1,6 +1,7 @@
 from collections import defaultdict
 import readability_measures
 import nltk
+from spellchecker import SpellChecker as sc
 
 
 def main_stylo(tokens):
@@ -16,8 +17,10 @@ def main_stylo(tokens):
     feature_Dict['vocab_richeness'] = vocab_richness(tokens)
     feature_Dict['hepax_legomena'] = hepax_legomena(tokens)
     feature_Dict['readability_measures'] = readability_measures.main(tokens)
+    feature_Dict['spelling_erros'] = spelling_errors(tokens)
 
-    print(feature_Dict)
+
+    #print(feature_Dict)
 
 
 def vocab_richness(tokens):
@@ -56,9 +59,19 @@ def hepax_legomena(tokens):
 
     return words_appearing_once/total_words
 
+def spelling_errors(tokens):
+    """
+    Counts the spelling errors of a tokenized list (english). Possible value to measure tiredness
+    or hecticness of users.
+    :param tokens:  a tokenized list of strings
+    :return:        counter for spelling errors
+    """
+    spell = sc()
+    misspelled = spell.unknown(tokens)
 
+    return len(misspelled)
 
 #test the functionality
-sentence = "I would like to got to the my beach, sir. And it would be very nice, thanks."
+sentence = "I would like to go to the beech, sir. And it would be very nice, thanks."
 tokens = nltk.word_tokenize(sentence)
 main_stylo(tokens)
