@@ -1,4 +1,5 @@
 from empath import Empath
+import nltk
 
 def ts_mod(tokens):
     """
@@ -26,8 +27,13 @@ def threshold_filter(lexicon):
     :param lexicon:     dictionary created with empath
     :return:            the filtered dictionary lexicon
     """
-    threshold = 0.006 #hardcoded for now
+    threshold = 0.001 #hardcoded for now
     lexicon = { k: v for k,v in lexicon.items() if v >= threshold }
 
     return lexicon
 
+"""
+sentence = "Hello my friend, i hope that you are doing well. I am really happy right now."
+tokens = nltk.word_tokenize(sentence)
+print(ts_mod(tokens))
+"""
