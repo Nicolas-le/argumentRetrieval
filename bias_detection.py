@@ -13,31 +13,31 @@ def bias_score(tokens):
     :return:
     """
     bias = {}
-    bias["bias_word_count"] = bias_lexicon(tokens)
+    bias["bias_word_count"] = bias_lexicon(tokens,"bias-lexicon.txt")
     bias["sentiment_subjectivity"] = sent_analysis.textblob(TreebankWordDetokenizer().detokenize(tokens)).subjectivity
     empath_to_bias(tokens)
 
 
     print(bias)
 
-def bias_lexicon(tokens):
+def bias_lexicon(tokens,lexicon):
     """
     Implements the bias word lexicon of Marta Recasens, Cristian Danescu-Niculescu-Mizil, Dan Jurafsky.
     https://web.stanford.edu/~jurafsky/pubs/neutrality.pdf
     :param tokens:
     :return:            a counter of how many words appearing in the lexicon were used in the input tokens
     """
-    lexiconFile = open("bias-lexicon.txt","r")
-    lexicon = []
+    lexiconFile = open(lexicon,"r")
+    lexicon_list = []
     used_bias_words = []
 
     for i in lexiconFile:
-        lexicon.append(i.replace("\n",""))
+        lexicon_list.append(i.replace("\n",""))
 
     for token in tokens:
-        #lemmatize one time with the pattern lemmatizer
+        #lemmatize one time with the pattern lemmatizer, pattern is important!
         token_lemmatized = lemma(token)
-        for bias_word in lexicon:
+        for bias_word in lexicon_list:
             if bias_word == token_lemmatized:
                 used_bias_words.append((token,token_lemmatized))
 
