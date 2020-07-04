@@ -16,7 +16,7 @@ SS20 - Uni Le - work in progress
 
 }
 
-**bias.py based on**
+**bsDetector based on**
 
     Computationally Detecting and Quantifying the Degree of Bias in Sentence-Level Text of News Stories
     (by C.J. Hutto)
