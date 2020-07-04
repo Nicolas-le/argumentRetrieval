@@ -15,3 +15,11 @@ SS20 - Uni Le - work in progress
   year={2013}
 
 }
+
+**bias.py based on**
+
+    Computationally Detecting and Quantifying the Degree of Bias in Sentence-Level Text of News Stories
+    (by C.J. Hutto)
+    Second International Conference on Human and Social Analytics (HUSO-15). Barcelona, Spain 2015.
+
+
