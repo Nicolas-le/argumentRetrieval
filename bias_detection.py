@@ -2,31 +2,35 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 from pattern.en import lemma
-import sent_analysis
-import topic_signal_modeling
+#import sent_analysis
+#import topic_signal_modeling
+from bsdetector import bias
 
 
-def bias_score(tokens):
+def bias_score(sentence):
     """
     Sent Analysis + bias lex + empath
     :param tokens:
     :return:
     """
-    bias = {}
-    bias["bias_word_count"] = bias_lexicon(tokens,"bias-lexicon.txt")
-    bias["sentiment_subjectivity"] = sent_analysis.textblob(TreebankWordDetokenizer().detokenize(tokens)).subjectivity
-    empath_to_bias(tokens)
+    #bias = {}
+    #bias["bias_word_count"] = bias_lexicon(tokens,"bias-lexicon.txt")
+    #bias["sentiment_subjectivity"] = sent_analysis.textblob(TreebankWordDetokenizer().detokenize(tokens)).subjectivity
+    #empath_to_bias(tokens)
 
+    return bias.compute_bias(sentence)
 
+"""
     print(bias)
 
 def bias_lexicon(tokens,lexicon):
-    """
+    """"""
     Implements the bias word lexicon of Marta Recasens, Cristian Danescu-Niculescu-Mizil, Dan Jurafsky.
     https://web.stanford.edu/~jurafsky/pubs/neutrality.pdf
     :param tokens:
     :return:            a counter of how many words appearing in the lexicon were used in the input tokens
     """
+"""
     lexiconFile = open(lexicon,"r")
     lexicon_list = []
     used_bias_words = []
@@ -49,12 +53,12 @@ def empath_to_bias(tokens):
     if not empath_values:
         return 0
     print(empath_values)
+"""
 
 
 
 
 
-
-sentence = "I want to got swimming"
-tokens = nltk.word_tokenize(sentence)
-bias_score(tokens)
+sentence = "I hate yellow boats."
+#tokens = nltk.word_tokenize(sentence)
+print(bias_score(sentence))
