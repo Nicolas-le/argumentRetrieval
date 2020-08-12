@@ -1,8 +1,8 @@
 import readability_measures
-import pos_analysis
 from collections import defaultdict
 import nltk
 from spellchecker import SpellChecker as sc
+
 
 
 def main_stylo(tokens):
@@ -19,10 +19,8 @@ def main_stylo(tokens):
     feature_Dict['hepax_legomena'] = hepax_legomena(tokens)
     feature_Dict['readability_measures'] = readability_measures.main(tokens)
     feature_Dict['spelling_erros'] = spelling_errors(tokens)
-    feature_Dict["pos_analysis"] = pos_analysis.main(tokens)
 
-
-    print(feature_Dict)
+    return feature_Dict
 
 
 def vocab_richness(tokens):
@@ -74,7 +72,11 @@ def spelling_errors(tokens):
     #spelling error in relation to the length of the input tokens
     return len(misspelled)/len(tokens)
 
-#test the functionality
-sentence = "I wouuld like to go to thhe beach, sir. "
-tokens = nltk.word_tokenize(sentence)
-main_stylo(tokens)
+
+
+
+
+
+
+
+
