@@ -43,5 +43,5 @@ def analyze(tokens):
     print(json.dumps(response, indent=2))
 
 
-sentence = "Well I had this weird dream. I thought that I might be an alien from outer space. What do you think about it?"
+sentence = "Well I had this weird dream. I thought that I might be an alien from outer space. What do you think about it? Well who knows"
 analyze(sentence)
