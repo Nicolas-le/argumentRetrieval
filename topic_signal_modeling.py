@@ -31,9 +31,3 @@ def threshold_filter(lexicon):
     lexicon = { k: v for k,v in lexicon.items() if v >= threshold }
 
     return lexicon
-
-"""
-sentence = "Hello my friend, i hope that you are doing well. I am really happy right now."
-tokens = nltk.word_tokenize(sentence)
-print(ts_mod(tokens))
-"""
