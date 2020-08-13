@@ -62,7 +62,7 @@ def hepax_legomena(tokens):
 def spelling_errors(tokens):
     """
     Counts the spelling errors of a tokenized list (english). Possible value to measure tiredness
-    or hecticness of users.
+    or hecticness of users.(
     :param tokens:  a tokenized list of strings
     :return:        counter for spelling errors
     """
@@ -71,9 +71,6 @@ def spelling_errors(tokens):
 
     #spelling error in relation to the length of the input tokens
     return len(misspelled)/len(tokens)
-
-
-
 
 
 
