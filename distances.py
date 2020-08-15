@@ -2,6 +2,12 @@ import numpy
 
 
 def bias_distance(bias_val_one, bias_val_two):
+    """
+    Simple distance value between two bias values.
+    :param bias_val_one:    bias value of query
+    :param bias_val_two:    bias value of argument
+    :return:                difference as an absolute
+    """
 
     bias_val_one_round = round(bias_val_one,3)
     bias_val_two_round = round(bias_val_two,3)
@@ -9,10 +15,17 @@ def bias_distance(bias_val_one, bias_val_two):
     return abs(bias_val_one_round-bias_val_two_round)
 
 def stylo_distance(stylo_dict_one, stylo_dict_two):
+    """
+    Creates the vectors out of the dictionaries created by the nlp analysis.
+    returns the euclidean distance between the vectors
+    :param stylo_dict_one:
+    :param stylo_dict_two:
+    :return:
+    """
     vector_one = create_vector(stylo_dict_one)
     vector_two = create_vector(stylo_dict_two)
 
-    print(euclidean_distance(vector_one,vector_two))
+    return euclidean_distance(vector_one,vector_two)
 
 
 def create_vector(style_dict):
@@ -35,6 +48,7 @@ def euclidean_distance(vector_one, vector_two):
 
     return dist
 
-sample_dict= {'vocab_richeness': 0.9090909090909091, 'hepax_legomena': 0.8181818181818182, 'readability_measures': {'average_wordlength': 3.727272727272727, 'average_sentlength': 5.5}, 'spelling_errors': 0.0}
+sample_dict_query = {'vocab_richeness': 0.9090909090909091, 'hepax_legomena': 0.8181818181818182, 'readability_measures': {'average_wordlength': 3.727272727272727, 'average_sentlength': 5.5}, 'spelling_errors': 0.0}
+sample_dict_argument =
 
-stylo_distance(sample_dict,sample_dict)
+print(stylo_distance(sample_dict,sample_dict))
