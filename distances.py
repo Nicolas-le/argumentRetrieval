@@ -49,6 +49,7 @@ def euclidean_distance(vector_one, vector_two):
     return dist
 
 sample_dict_query = {'vocab_richeness': 0.9090909090909091, 'hepax_legomena': 0.8181818181818182, 'readability_measures': {'average_wordlength': 3.727272727272727, 'average_sentlength': 5.5}, 'spelling_errors': 0.0}
-sample_dict_argument =
+sample_dict_argument = {'vocab_richeness': 0.5483870967741935, 'hepax_legomena': 0.375, 'readability_measures': {'average_wordlength': 5.032258064516129, 'average_sentlength': 27.555555555555557}, 'spelling_errors': 0.004032258064516129}
+
 
 print(stylo_distance(sample_dict,sample_dict))
