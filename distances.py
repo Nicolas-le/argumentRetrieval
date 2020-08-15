@@ -10,8 +10,9 @@ def bias_distance(bias_val_one, bias_val_two):
 
 def stylo_distance(stylo_dict_one, stylo_dict_two):
     vector_one = create_vector(stylo_dict_one)
+    vector_two = create_vector(stylo_dict_two)
 
-
+    print(euclidean_distance(vector_one,vector_two))
 
 
 def create_vector(style_dict):
@@ -33,3 +34,7 @@ def euclidean_distance(vector_one, vector_two):
     dist = numpy.linalg.norm(a-b)
 
     return dist
+
+sample_dict= {'vocab_richeness': 0.9090909090909091, 'hepax_legomena': 0.8181818181818182, 'readability_measures': {'average_wordlength': 3.727272727272727, 'average_sentlength': 5.5}, 'spelling_errors': 0.0}
+
+stylo_distance(sample_dict,sample_dict)
