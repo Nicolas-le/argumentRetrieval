@@ -18,7 +18,7 @@ def main_stylo(tokens):
     feature_Dict['vocab_richeness'] = vocab_richness(tokens)
     feature_Dict['hepax_legomena'] = hepax_legomena(tokens)
     feature_Dict['readability_measures'] = readability_measures.main(tokens)
-    feature_Dict['spelling_erros'] = spelling_errors(tokens)
+    feature_Dict['spelling_errors'] = spelling_errors(tokens)
 
     return feature_Dict
 
