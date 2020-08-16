@@ -1,4 +1,5 @@
 import numpy
+import hectic
 
 
 def bias_distance(bias_val_one, bias_val_two):
@@ -25,18 +26,25 @@ def stylo_distance(stylo_dict_one, stylo_dict_two):
     vector_one = create_vector(stylo_dict_one)
     vector_two = create_vector(stylo_dict_two)
 
-    return euclidean_distance(vector_one,vector_two)
+    euclid_dist = euclidean_distance(vector_one,vector_two)
+    spelling_error_influence = hectic.distance(stylo_dict_one["spelling_errors"],stylo_dict_two["readability_measures"]["average_sentlength"])
+
+    if spelling_error_influence == 0:
+        distance = euclid_dist
+    else:
+        distance = euclid_dist*spelling_error_influence
+
+    return distance
 
 
 def create_vector(style_dict):
     #spelling errors zu länge eher,
-    vector = [0,0,0,0,0]
+    vector = [0,0,0,0]
 
     vector[0] = style_dict["vocab_richeness"]
     vector[1] = style_dict["hepax_legomena"]
     vector[2] = style_dict["readability_measures"]["average_wordlength"]
     vector[3] = style_dict["readability_measures"]["average_sentlength"]
-    vector[4] = style_dict["spelling_errors"]
 
     return vector
 
@@ -48,8 +56,10 @@ def euclidean_distance(vector_one, vector_two):
 
     return dist
 
-sample_dict_query = {'vocab_richeness': 0.9090909090909091, 'hepax_legomena': 0.8181818181818182, 'readability_measures': {'average_wordlength': 3.727272727272727, 'average_sentlength': 5.5}, 'spelling_errors': 0.0}
-sample_dict_argument = {'vocab_richeness': 0.5483870967741935, 'hepax_legomena': 0.375, 'readability_measures': {'average_wordlength': 5.032258064516129, 'average_sentlength': 27.555555555555557}, 'spelling_errors': 0.004032258064516129}
+"""
+sample_dict_query = {'vocab_richeness': 0.9090909090909091, 'hepax_legomena': 0.8181818181818182, 'readability_measures': {'average_wordlength': 3.727272727272727, 'average_sentlength': 27.555555555555557}, 'spelling_errors': 0}
+sample_dict_argument = {'vocab_richeness': 0.5483870967741935, 'hepax_legomena': 0.375, 'readability_measures': {'average_wordlength': 5.032258064516129, 'average_sentlength': 5.5}, 'spelling_errors': 0.004032258064516129}
 
 
-print(stylo_distance(sample_dict,sample_dict))
+print(stylo_distance(sample_dict_query,sample_dict_argument))
+"""

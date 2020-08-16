@@ -1,20 +1,19 @@
 """
-Calculates a distance value out of the mean squarred error of the wanted linear relation between spelling errors and average sentence length.
+Calculates a error value of the wanted linear relation between spelling errors and average sentence length.
 """
-import numpy as np
+import math
 
 def distance(spelling_errors,average_sentlength):
     """
     :return:
     """
-    Y_true = [1,2,3,4,5]  # Y_true = Y (original values)
+    # f(x)= -x+5
 
-    # Calculated values
-    Y_pred = [3,5]  # Y_pred = Y'
+    # if there are no spelling errors the distance is always 0 because its not relevant
+    y = -spelling_errors+10
 
-    # Mean Squared Error
-    MSE = np.square(np.subtract(Y_true,Y_pred)).mean()
 
-    return MSE
+    dist = abs(y-average_sentlength)
 
-print(distance(1,5))
+    return math.sqrt(math.sqrt(dist))
+
