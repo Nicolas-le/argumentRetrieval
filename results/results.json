@@ -1,0 +1,587 @@
+[
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "wFKb-HMBlIoMEmOa7JC_",
+        "_score": 1.3818233,
+        "_source": {
+            "conclusion": "We are against taking any steps backward.",
+            "premise": "This week marks the 20th anniversary of a very important ruling for women. In the Dr. Morgentaler case, the Supreme Court of Canada decriminalized abortion. After a tough 20-year battle led by doctors and women's groups, this ruling finally allowed women to take control of their bodies and their pregnancies and to have access to safe abortion. Since then, they have had the freedom to choose. That is why any threat by this Conservative government to limit the right to abortion is a direct affront to women's rights. Bill C-484 by the hon. Conservative member for Edmonton\u2014Sherwood Park opens the door to criminalizing abortion. We are against taking any steps backward. Abortion is a vested right ensuring the well-being and equality of women.",
+            "stance": true,
+            "discussionTitle": "Status of Women",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 2.4077016488000003,
+                "stylo_scores": {
+                    "vocab_richness": 0.6131386861313869,
+                    "hepax_legomena": 0.46715328467153283,
+                    "readability_measures": {
+                        "average_wordlength": 4.562043795620438,
+                        "average_sentlength": 15.222222222222221
+                    },
+                    "spelling_errors": 0.058394160583941604
+                },
+                "topics": {
+                    "health": 0.04819277108433735,
+                    "leader": 0.04819277108433735,
+                    "law": 0.04819277108433735,
+                    "government": 0.03614457831325301,
+                    "dominant_heirarchical": 0.03614457831325301,
+                    "strength": 0.03614457831325301,
+                    "power": 0.03614457831325301,
+                    "royalty": 0.024096385542168676,
+                    "worship": 0.024096385542168676,
+                    "fight": 0.024096385542168676
+                }
+            }
+        },
+        "new_doc_score": -11.486145607076466
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "oVKb-HMBlIoMEmOaMpD9",
+        "_score": 1.2947229,
+        "_source": {
+            "conclusion": "Canada promotes human rights around the world.",
+            "premise": "As a member of Parliament I often hear the concerns of Canadians for their loved ones overseas who are subject to difficulty. A good MP cannot help but extend heartfelt compassion and ensure that these concerns are heard by government and Parliament. Tamils, for example, have experienced great difficulty in Sri Lanka. Accountability and real reconciliation need to occur there. Iran continues to violate the rights of individuals, including academics, journalists and Baha'is. Reports that Falun Gong practitioners are arbitrarily detained in China are disconcerting. People in Sudan and the Ogaden region, among others, still face violence. There are many, many examples. My constituents told me of these situations and I have relayed them to our government. Canada promotes human rights around the world. Parliamentarians have a responsibility to make it our first priority to raise our voice in support of every person's fundamental human rights.",
+            "stance": true,
+            "discussionTitle": "Human Rights",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 2.7905419110000005,
+                "stylo_scores": {
+                    "vocab_richness": 0.6566265060240963,
+                    "hepax_legomena": 0.5240963855421686,
+                    "readability_measures": {
+                        "average_wordlength": 4.855421686746988,
+                        "average_sentlength": 15.090909090909092
+                    },
+                    "spelling_errors": 0.018072289156626505
+                },
+                "topics": {
+                    "leader": 0.036036036036036036,
+                    "law": 0.036036036036036036,
+                    "listen": 0.02702702702702703,
+                    "positive_emotion": 0.02702702702702703,
+                    "help": 0.018018018018018018,
+                    "government": 0.018018018018018018,
+                    "college": 0.018018018018018018,
+                    "sexual": 0.018018018018018018,
+                    "business": 0.018018018018018018,
+                    "dominant_heirarchical": 0.018018018018018018
+                }
+            }
+        },
+        "new_doc_score": -11.887221824744948
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "rlKb-HMBlIoMEmOagJDD",
+        "_score": 3.8918252,
+        "_source": {
+            "conclusion": "Many women get involved in prostitution to feed their drug addiction.",
+            "premise": "Prostitution is not a career choice. Many women get involved in prostitution to feed their drug addiction. Fines and prison are not the solution to drug-related prostitution. Prevention is better than repression. We have to address the problem at its source. In other words, we have to address substance abuse and addiction. That is what a number of groups and elected officials are trying to do in Hochelaga. The community organization Dopamine, which works in addictions services, wants to relocate to a neighbourhood where the need for its services is greatest. A respite care centre would be set up at Dopamine's former location where prostitutes could go to shower and sleep, and get help when they are ready to get out of the business. However, despite the recommendation of the Agence de sant\u00e9 de Montr\u00e9al, the application to the Homelessness Partnering Strategy to relocate Dopamine has been dragging on for months. What is more, I have received no response to the letter I sent to the Minister of Human Resources explaining this increasingly critical situation. I hope to receive a positive response soon and I hope that the budget tabled a little later on will not abandon these people who feel increasingly forgotten by society.",
+            "stance": false,
+            "discussionTitle": "Prostitution",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 2.6970651786,
+                "stylo_scores": {
+                    "vocab_richness": 0.6222222222222222,
+                    "hepax_legomena": 0.49333333333333335,
+                    "readability_measures": {
+                        "average_wordlength": 4.6,
+                        "average_sentlength": 18.75
+                    },
+                    "spelling_errors": 0.017777777777777778
+                },
+                "topics": {
+                    "messaging": 0.045454545454545456,
+                    "crime": 0.030303030303030304,
+                    "optimism": 0.030303030303030304,
+                    "real_estate": 0.030303030303030304,
+                    "business": 0.030303030303030304,
+                    "college": 0.022727272727272728,
+                    "stealing": 0.022727272727272728,
+                    "communication": 0.022727272727272728,
+                    "positive_emotion": 0.022727272727272728,
+                    "government": 0.015151515151515152
+                }
+            }
+        },
+        "new_doc_score": -12.73758091562468
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "o1Kb-HMBlIoMEmOaPZAk",
+        "_score": 2.6737118,
+        "_source": {
+            "conclusion": "Those opposing this cancer are to be commended for their courage and endeavours in these days.",
+            "premise": "The group Canadians Addressing Sexual Exploitation has sponsored white ribbon against pornography week and some of the members of the House are wearing white ribbons in support of this. People who view pornography are affected in different ways, but they are all affected. Child molesters have been shaped by the pornography they view. Individuals who become rapists have by pornography been desensitized to the personhood and dignity of women. And those seduced by pornography who do not become sexual criminals nevertheless develop a contaminated view of human sexuality. This breeds unfaithfulness to one's spouse and is therefore destructive to families. We are reminded of the need to restrain the pornography industry which causes so much personal devastation and societal harm. Those opposing this cancer are to be commended for their courage and endeavours in these days.",
+            "stance": false,
+            "discussionTitle": "Pornography",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 2.4956540481,
+                "stylo_scores": {
+                    "vocab_richness": 0.6643835616438356,
+                    "hepax_legomena": 0.541095890410959,
+                    "readability_measures": {
+                        "average_wordlength": 5.095890410958904,
+                        "average_sentlength": 18.25
+                    },
+                    "spelling_errors": 0.0136986301369863
+                },
+                "topics": {
+                    "sexual": 0.09411764705882353,
+                    "clothing": 0.03529411764705882,
+                    "beauty": 0.03529411764705882,
+                    "business": 0.023529411764705882,
+                    "healing": 0.023529411764705882,
+                    "help": 0.011764705882352941,
+                    "wedding": 0.011764705882352941,
+                    "medical_emergency": 0.011764705882352941,
+                    "aggression": 0.011764705882352941,
+                    "family": 0.011764705882352941
+                }
+            }
+        },
+        "new_doc_score": -13.347812439592936
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "nFKb-HMBlIoMEmOaF5CU",
+        "_score": 2.5103292,
+        "_source": {
+            "conclusion": "Immigrants and our wonderful country deserve so much better from this government.",
+            "premise": "Last week I held a town hall meeting on problems faced by new immigrants to Canada. Representatives from over 30 cultural groups gathered for a discussion of delays in processing, the need for settlement services and difficulties in obtaining accreditation for training received in other countries. One man from South America with Masters degrees in both science and education told of being accepted as an independent class immigrant on the basis of his 15 years' teaching experience. However when he reached Canada he discovered he did not qualify to teach here. His current job is restocking vending machines. A PhD student from China talked about other examples of wasted immigrant talent. He said \u201cIt's just like pulling out a tree--you transport it to this country but you forget to water it\u201d. Immigrants and our wonderful country deserve so much better from this government.",
+            "stance": false,
+            "discussionTitle": "Immigration",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 1.3582556972000006,
+                "stylo_scores": {
+                    "vocab_richness": 0.7721518987341772,
+                    "hepax_legomena": 0.6582278481012658,
+                    "readability_measures": {
+                        "average_wordlength": 4.670886075949367,
+                        "average_sentlength": 19.75
+                    },
+                    "spelling_errors": 0.02531645569620253
+                },
+                "topics": {
+                    "school": 0.061224489795918366,
+                    "college": 0.061224489795918366,
+                    "meeting": 0.030612244897959183,
+                    "poor": 0.030612244897959183,
+                    "government": 0.02040816326530612,
+                    "optimism": 0.02040816326530612,
+                    "independence": 0.02040816326530612,
+                    "speaking": 0.02040816326530612,
+                    "science": 0.02040816326530612,
+                    "economics": 0.02040816326530612
+                }
+            }
+        },
+        "new_doc_score": -13.770951640584913
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "mVKb-HMBlIoMEmOaBpD_",
+        "_score": 1.2551646,
+        "_source": {
+            "conclusion": "I find the continued existence of and the increase in poverty in Canada extremely worrisome.",
+            "premise": "I find the continued existence of and the increase in poverty in Canada extremely worrisome. According to the Hunger Count 2011 Report, released on November 16 by Banques alimentaires Qu\u00e9bec, the use of food banks has increased by 22% in Quebec since 2008. What is more, 15.6% of people used a food bank for the first time. Nearly three times as many seniors are using food banks and nearly half of the households asking for help are families with children. This situation is very troubling. In my riding, unemployment is high and the population is aging. These factors obviously affect the need for food aid. The Louiseville organization called Le No\u00ebl du pauvre has noticed an increase in requests for help. I feel it is our duty, as elected members, to work to implement measures that will fight poverty in Canada. I am committed to doing just that, as are my NDP colleagues, and I urge the government to do the same.",
+            "stance": true,
+            "discussionTitle": "Poverty",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 2.2105783274999995,
+                "stylo_scores": {
+                    "vocab_richness": 0.6373626373626373,
+                    "hepax_legomena": 0.510989010989011,
+                    "readability_measures": {
+                        "average_wordlength": 4.170329670329671,
+                        "average_sentlength": 18.2
+                    },
+                    "spelling_errors": 0.027472527472527472
+                },
+                "topics": {
+                    "help": 0.034482758620689655,
+                    "government": 0.034482758620689655,
+                    "cooking": 0.034482758620689655,
+                    "eating": 0.034482758620689655,
+                    "restaurant": 0.034482758620689655,
+                    "shopping": 0.034482758620689655,
+                    "business": 0.02586206896551724,
+                    "leader": 0.02586206896551724,
+                    "poor": 0.02586206896551724,
+                    "nervousness": 0.017241379310344827
+                }
+            }
+        },
+        "new_doc_score": -14.281047864841966
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "q1Kb-HMBlIoMEmOabJBf",
+        "_score": 3.4052525,
+        "_source": {
+            "conclusion": "We need laws that reinforce our commitment to stopping these sexual predators before they strike.",
+            "premise": "Recently the Manitoba Association of School Trustees, the Council of Women of Winnipeg and other community activists have expressed great concern with Canada's age of consent for sexual activity. All involved express that which we have known for a long time: The age of consent must be raised from 14 to 16. All too often we hear of very young girls and boys falling victim to sexual predators. Sadly this fate is most often suffered by young girls who are two or three times more likely to be a victim. In fact 54% of girls under 16 have been the targets of unwanted sexual advance. It is the responsibility of this government to help the nation's parents protect our children. We need to see tough consequences for the people who prey upon the sexual naivety of our young. We need laws that reinforce our commitment to stopping these sexual predators before they strike. This starts with the prohibition of adults engaging in sexual contact with persons under the age of 16.",
+            "stance": true,
+            "discussionTitle": "Criminal Code",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 2.5126325324,
+                "stylo_scores": {
+                    "vocab_richness": 0.6216216216216216,
+                    "hepax_legomena": 0.4594594594594595,
+                    "readability_measures": {
+                        "average_wordlength": 4.356756756756757,
+                        "average_sentlength": 20.555555555555557
+                    },
+                    "spelling_errors": 0.005405405405405406
+                },
+                "topics": {
+                    "sexual": 0.05309734513274336,
+                    "youth": 0.05309734513274336,
+                    "children": 0.035398230088495575,
+                    "stealing": 0.02654867256637168,
+                    "childish": 0.02654867256637168,
+                    "ancient": 0.02654867256637168,
+                    "friends": 0.02654867256637168,
+                    "feminine": 0.02654867256637168,
+                    "help": 0.017699115044247787,
+                    "crime": 0.017699115044247787
+                }
+            }
+        },
+        "new_doc_score": -14.792849980730573
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "oFKb-HMBlIoMEmOaLZBa",
+        "_score": 1.2551646,
+        "_source": {
+            "conclusion": "People are fed up with seeing drug and prostitution paraphernalia littered through their neighbourhoods and have taken matters into their own hands by creating a group called Residents Against Street Solicitation.",
+            "premise": "As Canadians we have a lot to be proud of, but we must take responsibility for the not so great. It is shameful that with all we know that the continued abuse and victimization of women and children exists in our society. The sex trade creates many victims. Some people from my town see this every day. People are fed up with seeing drug and prostitution paraphernalia littered through their neighbourhoods and have taken matters into their own hands by creating a group called Residents Against Street Solicitation. It is known as RASS, Residents against Street Prostitution and Solicitation. I call on the government to stand up for women and children, and provide more resources and social programs to women in need. Prostitution is a problem that illustrates the social inequalities between the sexes. The government wants to protect men with guns, but is doing very little to assist women and their families. If it is not right for our daughters, mothers or our wives, it is not right for any woman.",
+            "stance": false,
+            "discussionTitle": "Prostitution",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 2.8071017831000002,
+                "stylo_scores": {
+                    "vocab_richness": 0.6223404255319149,
+                    "hepax_legomena": 0.4574468085106383,
+                    "readability_measures": {
+                        "average_wordlength": 4.430851063829787,
+                        "average_sentlength": 18.8
+                    },
+                    "spelling_errors": 0.005319148936170213
+                },
+                "topics": {
+                    "leader": 0.038834951456310676,
+                    "law": 0.038834951456310676,
+                    "help": 0.02912621359223301,
+                    "government": 0.02912621359223301,
+                    "dominant_heirarchical": 0.02912621359223301,
+                    "children": 0.02912621359223301,
+                    "sexual": 0.019417475728155338,
+                    "business": 0.019417475728155338,
+                    "achievement": 0.019417475728155338,
+                    "giving": 0.019417475728155338
+                }
+            }
+        },
+        "new_doc_score": -15.509251260918772
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "uFKb-HMBlIoMEmOaupAB",
+        "_score": 1.2947229,
+        "_source": {
+            "conclusion": "It is not up to the church or the state to decide, and it is certainly not up to the Conservatives.",
+            "premise": "25 years ago this week, the Supreme Court of Canada ruled that restricting abortion is an unconstitutional attack on women's rights, freedoms and security. We in the NDP are proud to unequivocally support women's right to choose freely. The same cannot be said of the members across the floor. Since they came to power in 2006, the Conservatives have attempted on six separate occasions to reverse that Supreme Court decision. Why so many underhanded attacks? Why do the Conservatives want to prevent women from having control over their own bodies? The Prime Minister promised not to reopen the abortion debate, but clearly, once again, it is up to the NDP to stand up for women's right to choose. The Conservatives continue to stubbornly defend regressive ideas that have been rejected by Canadians. It is not up to the church or the state to decide, and it is certainly not up to the Conservatives. Terminating a pregnancy is for the individual woman to decide, period.",
+            "stance": true,
+            "discussionTitle": "Abortion",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 3.3229695959999996,
+                "stylo_scores": {
+                    "vocab_richness": 0.5913978494623656,
+                    "hepax_legomena": 0.44086021505376344,
+                    "readability_measures": {
+                        "average_wordlength": 4.349462365591398,
+                        "average_sentlength": 18.6
+                    },
+                    "spelling_errors": 0.005376344086021506
+                },
+                "topics": {
+                    "health": 0.027777777777777776,
+                    "dispute": 0.027777777777777776,
+                    "strength": 0.027777777777777776,
+                    "power": 0.027777777777777776,
+                    "aggression": 0.018518518518518517,
+                    "healing": 0.018518518518518517,
+                    "fight": 0.018518518518518517,
+                    "war": 0.018518518518518517,
+                    "help": 0.009259259259259259,
+                    "wedding": 0.009259259259259259
+                }
+            }
+        },
+        "new_doc_score": -15.77770402550043
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "slKb-HMBlIoMEmOalpBT",
+        "_score": 1.2551646,
+        "_source": {
+            "conclusion": "Here is what makes the Conservatives uncomfortable: the NDP is in favour of women's right to choose and we do not like white supremacists.",
+            "premise": "It has really been quite a week for the Conservatives. Eighty-six Conservative MPs, including ten cabinet ministers, voted to take away a woman's right to choose. The Minister for the Status of Women said two years ago that she did not want to reopen the abortion debate, then she voted to do the opposite. Listen to the comments the member for Fort McMurray\u2014Athabasca made to his local radio show. They reported that he said the code surrounding abortion in Canada is on par with North Korea human rights abuses. To quote, \u201cWe're exactly at the same place as North Korea, China, and Vietnam\u201d. It gets worse. Yesterday, when I asked a question about the Conservatives inviting white supremacists to committee, the Minister of State for Science and Technology started defending this group, shouting \u201cfree speech\u201d. Here is what makes the Conservatives uncomfortable: the NDP is in favour of women's right to choose and we do not like white supremacists.",
+            "stance": true,
+            "discussionTitle": "Status of Women",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 2.0881888632,
+                "stylo_scores": {
+                    "vocab_richness": 0.6432432432432432,
+                    "hepax_legomena": 0.4864864864864865,
+                    "readability_measures": {
+                        "average_wordlength": 4.286486486486487,
+                        "average_sentlength": 20.555555555555557
+                    },
+                    "spelling_errors": 0.032432432432432434
+                },
+                "topics": {
+                    "health": 0.016666666666666666,
+                    "leader": 0.016666666666666666,
+                    "speaking": 0.016666666666666666,
+                    "listen": 0.016666666666666666,
+                    "clothing": 0.016666666666666666,
+                    "dance": 0.008333333333333333,
+                    "hate": 0.008333333333333333,
+                    "attractive": 0.008333333333333333,
+                    "dispute": 0.008333333333333333,
+                    "suffering": 0.008333333333333333
+                }
+            }
+        },
+        "new_doc_score": -16.50792095985305
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "vVKb-HMBlIoMEmOa2pDP",
+        "_score": 2.8688223,
+        "_source": {
+            "conclusion": "I invite the House to join me in condemning these \u201cIsrael Apartheid Week\u201d activities and in encouraging university administrations to take steps to stop anti-Semitism and the dissemination of hatred.",
+            "premise": "Under the umbrella of free speech, some groups are using university campuses, like York, to undermine the fabric of civil discourse with events they have entitled \u201cIsrael Apartheid Week\u201d. Such events will inevitably sow discord, promote negative stereotyping and fuel hatred. One might well ask what motivates groups like the Canadian Arab Federation, CUPE Ontario and CUPW in their endorsement and organization of \u201cIsrael Apartheid Week\u201d. The safety and security of Jewish students and their instructors will be unnecessarily placed in danger by these demonstrations. The cause of peace in the Middle East will not be advanced by eroding the principles of freedom in Canadian universities. I invite the House to join me in condemning these \u201cIsrael Apartheid Week\u201d activities and in encouraging university administrations to take steps to stop anti-Semitism and the dissemination of hatred.",
+            "stance": true,
+            "discussionTitle": "Human Rights",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 2.1921646972,
+                "stylo_scores": {
+                    "vocab_richness": 0.6209150326797386,
+                    "hepax_legomena": 0.46405228758169936,
+                    "readability_measures": {
+                        "average_wordlength": 4.934640522875817,
+                        "average_sentlength": 25.5
+                    },
+                    "spelling_errors": 0.026143790849673203
+                },
+                "topics": {
+                    "aggression": 0.029411764705882353,
+                    "leader": 0.029411764705882353,
+                    "gain": 0.029411764705882353,
+                    "hate": 0.0196078431372549,
+                    "envy": 0.0196078431372549,
+                    "government": 0.0196078431372549,
+                    "horror": 0.0196078431372549,
+                    "school": 0.0196078431372549,
+                    "college": 0.0196078431372549,
+                    "irritability": 0.0196078431372549
+                }
+            }
+        },
+        "new_doc_score": -19.98309915111389
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "rFKb-HMBlIoMEmOac5Bf",
+        "_score": 2.3657644,
+        "_source": {
+            "conclusion": "This incitement must stop.",
+            "premise": "When I spoke yesterday in the House of the danger of anti-Jewish terror, the targeting of Jews because they are Jews, we in the House did not know that at that moment, in a tragic irony, a murderous terrorist assault on a Jewish school in Jerusalem was taking place. Nor could we even fathom that, in an obscene declaration, Hamas would actually bless the terrorist attack and call for more, while thousands celebrated the killings in the streets. It reminded me of the words of Mideast scholar Fouad Ajami. At the time of the Passover massacre, yet another anti-Jewish terrorist attack, he wrote: [The suicide bomber] did not descend from the sky: He walked straight out of the culture of incitement.... He partook of the culture all around him--the glee that greets those brutal deeds of terror, the cult that rises around the martyrs and their families. This culture of hate must end. This incitement must stop. For it is this Hamas sanctioned hate and incitement that leads to Hamas rockets targeting Jews in Sderot and Ashqelon and terrorist attacks in Jerusalem. We need a culture of peace, not a culture of hate.",
+            "stance": true,
+            "discussionTitle": "Human Rights",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 4.18860617,
+                "stylo_scores": {
+                    "vocab_richness": 0.5707762557077626,
+                    "hepax_legomena": 0.4429223744292237,
+                    "readability_measures": {
+                        "average_wordlength": 4.232876712328767,
+                        "average_sentlength": 24.333333333333332
+                    },
+                    "spelling_errors": 0.0273972602739726
+                },
+                "topics": {
+                    "crime": 0.051470588235294115,
+                    "war": 0.051470588235294115,
+                    "tourism": 0.03676470588235294,
+                    "kill": 0.03676470588235294,
+                    "legend": 0.03676470588235294,
+                    "terrorism": 0.03676470588235294,
+                    "hate": 0.029411764705882353,
+                    "aggression": 0.029411764705882353,
+                    "negative_emotion": 0.029411764705882353,
+                    "envy": 0.022058823529411766
+                }
+            }
+        },
+        "new_doc_score": -21.248142644456163
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "n1Kb-HMBlIoMEmOaJ5B7",
+        "_score": 1.2551646,
+        "_source": {
+            "conclusion": "Threatening women who have opted for this procedure with imprisonment because they can do as they choose with their bodies and labelling them as murderers when they are already in emotional turmoil is irresponsible, dangerous, unworthy of a member of Parliament and downright disgusting.",
+            "premise": "Since I came to the House, I have seen and heard plenty of Conservative rubbish about abortion. However, nothing prepared me for the appalling letters that were sent this week. Three Conservative members, male of course, wrote to the RCMP asking them investigate certain instances of abortion that they feel constitute murder. These three pathetic musketeers are out to dismantle women's rights and obviously have not understood that this issue was settled a long time ago. Threatening women who have opted for this procedure with imprisonment because they can do as they choose with their bodies and labelling them as murderers when they are already in emotional turmoil is irresponsible, dangerous, unworthy of a member of Parliament and downright disgusting. If the Prime Minister is telling the truth and does not want to reopen this debate, he needs to break his complicit silence and clearly tell these backward-thinking members that this type of action is unacceptable. Otherwise, the weight of their offensive actions will also rest on his shoulders.",
+            "stance": false,
+            "discussionTitle": "Abortion",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 3.2792477585,
+                "stylo_scores": {
+                    "vocab_richness": 0.6702702702702703,
+                    "hepax_legomena": 0.5351351351351351,
+                    "readability_measures": {
+                        "average_wordlength": 4.8108108108108105,
+                        "average_sentlength": 26.428571428571427
+                    },
+                    "spelling_errors": 0.016216216216216217
+                },
+                "topics": {
+                    "crime": 0.02830188679245283,
+                    "communication": 0.02830188679245283,
+                    "ugliness": 0.02830188679245283,
+                    "hate": 0.018867924528301886,
+                    "prison": 0.018867924528301886,
+                    "health": 0.018867924528301886,
+                    "dispute": 0.018867924528301886,
+                    "suffering": 0.018867924528301886,
+                    "kill": 0.018867924528301886,
+                    "speaking": 0.018867924528301886
+                }
+            }
+        },
+        "new_doc_score": -23.588324552361453
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "lVKa-HMBlIoMEmOa8JAv",
+        "_score": 1.1184716,
+        "_source": {
+            "conclusion": "I want them to know that their braids, their dreads, their super curly Afro puffs, their weaves, their hijabs, and their head scarves, and all other variety of hairstyles, belong in schools, in the workplace, in the boardroom, and yes, even here on Parliament Hill.",
+            "premise": "This week I have my hair in braids, much like I have had for most of my childhood. However, it has come to my attention that there are young girls here in Canada and other parts of the world who are removed from school, or shamed because of their hairstyle. Body shaming of any woman in any form from the top of her head to the soles of her feet is wrong, irrespective of her hairstyle, the size of her thighs, the size of her hips, the size of her baby bump, the size of her breasts, or the size of her lips. What makes is different makes us unique and beautiful. I will continue to rock these braids for three reasons. Number one, because I am sure everyone will agree, they look pretty dope; number two, in solidarity with women who have been shamed based on their appearance; and number three, and most importantly, in solidarity with young girls and women who look like me and those who do not. I want them to know that their braids, their dreads, their super curly Afro puffs, their weaves, their hijabs, and their head scarves, and all other variety of hairstyles, belong in schools, in the workplace, in the boardroom, and yes, even here on Parliament Hill.",
+            "stance": true,
+            "discussionTitle": "Body Shaming",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 1.7710930333999997,
+                "stylo_scores": {
+                    "vocab_richness": 0.492,
+                    "hepax_legomena": 0.324,
+                    "readability_measures": {
+                        "average_wordlength": 3.8,
+                        "average_sentlength": 35.714285714285715
+                    },
+                    "spelling_errors": 0.004
+                },
+                "topics": {
+                    "appearance": 0.05185185185185185,
+                    "feminine": 0.05185185185185185,
+                    "shape_and_size": 0.044444444444444446,
+                    "children": 0.037037037037037035,
+                    "youth": 0.02962962962962963,
+                    "work": 0.022222222222222223,
+                    "friends": 0.022222222222222223,
+                    "office": 0.014814814814814815,
+                    "family": 0.014814814814814815,
+                    "attractive": 0.014814814814814815
+                }
+            }
+        },
+        "new_doc_score": -31.398926744121603
+    },
+    {
+        "_index": "testindex1",
+        "_type": "_doc",
+        "_id": "pFKb-HMBlIoMEmOaQ5DY",
+        "_score": 1.2551646,
+        "_source": {
+            "conclusion": "It was this teaching of contempt, this demonizing of the other, this is where it all began.",
+            "premise": "54 years ago today, the United Nations adopted the genocide treaty, sometimes referred to as the never again treaty, to prevent and protect against this most unthinkable and unspeakable of crimes. Regrettably, and incredibly, genocide became the paradigmatic form of armed conflict in the 1990s, including the advocacy and perpetration of genocide in the Balkans and Rwanda. The enduring lesson of the Holocaust is that Nazism succeeded not only because of the industry of death but because of the ideology of hate. It was this teaching of contempt, this demonizing of the other, this is where it all began. Fifty years later we have witnessed an appalling trafficking in state sanctioned hate, which led us down the road to the unthinkable, ethnic cleansing in the Balkans, the unspeakable, the preventable genocide in Rwanda, and the demonizing, once again, of the Jews. What is needed at this point is a strategy of prevention, a culture of human rights in place of a culture of hate; a culture of respect in place of a culture of contempt, of respect for the inherent dignity of the human person, and the equal dignity of all persons everywhere.",
+            "stance": false,
+            "discussionTitle": "Human Rights",
+            "sourceDomain": "canadian-parliament",
+            "sourceUrl": "no url",
+            "custom_scores": {
+                "bias_score": 3.7365770447,
+                "stylo_scores": {
+                    "vocab_richness": 0.4954128440366973,
+                    "hepax_legomena": 0.3669724770642202,
+                    "readability_measures": {
+                        "average_wordlength": 4.389908256880734,
+                        "average_sentlength": 36.333333333333336
+                    },
+                    "spelling_errors": 0.009174311926605505
+                },
+                "topics": {
+                    "crime": 0.058333333333333334,
+                    "war": 0.05,
+                    "negative_emotion": 0.05,
+                    "hate": 0.041666666666666664,
+                    "tourism": 0.03333333333333333,
+                    "legend": 0.03333333333333333,
+                    "anger": 0.03333333333333333,
+                    "terrorism": 0.03333333333333333,
+                    "envy": 0.025,
+                    "fight": 0.025
+                }
+            }
+        },
+        "new_doc_score": -33.87901544520656
+    }
+]

@@ -1,14 +1,17 @@
 import json
 from elasticsearch import Elasticsearch
-
 from connect_to_elasticsearch import connect_to_elasticsearch
-from tokenizer import tokenize, stopword_removal
-from bias_detection import bias_score
-from stylometric_analysis import main_stylo
-from topic_signal_modeling import ts_mod
+from nlp_analysis import analyze
 
 
 def indexing( filepath, es_object, index_name ):
+    """
+    Main function to organize the whole indexing process of a JSON file.
+    :param filepath:    filepath to the JSON file
+    :param es_object:   connection to the elasticsearch cluster
+    :param index_name:  name of the index in which the document will be indexed
+    :return:             
+    """
     documents = process_jsonfile( filepath )
     for doc in documents:
         document = process_document( doc )
@@ -17,6 +20,11 @@ def indexing( filepath, es_object, index_name ):
 
 
 def process_jsonfile( filepath ):
+    """
+    Subfunction to open a JSON document and return it as a dictionary.
+    :param filepath:    filepath to the JSON file
+    :return:            dictionary with the structure of the JSON file               
+    """
     try:
         with open( filepath ) as json_file:
             documents = json.load( json_file )
@@ -27,28 +35,31 @@ def process_jsonfile( filepath ):
 
 
 def process_document( dict_object ):
+    """
+    Subfunction to extract specific data out of a dictionary and form it into a dictionary which fits the mapping of the index.
+    :param dict_object:     dictionary with raw data
+    :return:                dictionary with structured data fitting the mapping of the indey
+    """
+
     _conclusion = dict_object['conclusion']
     _premise = dict_object['premises'][0]['text']
     _stance = True
     if dict_object['premises'][0]['stance'] == 'CON':
         _stance = False
-    if 'discussionTitle' in dict_object:
+    if 'discussionTitle' in dict_object['context']:
         _discussionTitle = dict_object['context']['discussionTitle']
-    else: 
+    elif 'topic' in dict_object['context']: 
         _discussionTitle = dict_object['context']['topic']
+    else:
+         _discussionTitle = 'none'
     _sourceDomain = dict_object['context']['sourceDomain']
-    if 'sourceUrl' in dict_object:
+    if 'sourceUrl' in dict_object['context']:
         _sourceUrl = dict_object['context']['sourceUrl']
     else:
         _sourceUrl = 'no url'
 
-    tokens = tokenize( _premise )
-    tokens_without_stopwords = stopword_removal( tokens )
+    custom_scores = analyze( _premise )
 
-    _bias_score = bias_score( _premise )
-    _stylo_scores = main_stylo( tokens )
-    _topics = ts_mod( tokens_without_stopwords )
-    
     document = {
         'conclusion': _conclusion,
         'premise': _premise,
@@ -57,17 +68,17 @@ def process_document( dict_object ):
         'sourceDomain': _sourceDomain,
         'sourceUrl': _sourceUrl,
         'custom_scores' : {
-            'bias_score' : _bias_score,
+            'bias_score' : custom_scores[ 'bias_score' ],
             'stylo_scores' : {
-                'vocab_richness' : _stylo_scores[ 'vocab_richness' ],
-                'hepax_legomena' : _stylo_scores[ 'hepax_legomena' ],
+                'vocab_richness' : custom_scores[ 'stylo_scores' ][ 'vocab_richness' ],
+                'hepax_legomena' : custom_scores[ 'stylo_scores' ][ 'hepax_legomena' ],
                 'readability_measures' : {
-                    'average_wordlength' : _stylo_scores[ 'readability_measures' ]['average_wordlength'],
-                    'average_sentlength' : _stylo_scores[ 'readability_measures' ]['average_sentlength']
+                    'average_wordlength' : custom_scores[ 'stylo_scores' ][ 'readability_measures' ]['average_wordlength'],
+                    'average_sentlength' : custom_scores[ 'stylo_scores' ][ 'readability_measures' ]['average_sentlength']
                 },
-                'spelling_errors' : _stylo_scores[ 'spelling_errors' ]
+                'spelling_errors' : custom_scores[ 'stylo_scores' ][ 'spelling_errors' ]
             },
-            'topics' : _topics
+            'topics' : custom_scores[ 'topics' ]
         }   
     }
     return document
@@ -75,6 +86,13 @@ def process_document( dict_object ):
 
 # function to finally index a given dict object in a given index
 def indexing_document( es_object, index_name, document ):
+    """
+    Subfunction to finally index a well formed document.
+    :param es_object:   connection to the elasticsearch cluster
+    :param index_name:  name of the index in which the document will be indexed
+    :param document:    soon to be indexed document as a well formed dictionary 
+    :return:             
+    """
     try:
         es_object.index( index=index_name, doc_type='_doc', body=document )
         print( 'document successfully indexed' )
@@ -84,7 +102,7 @@ def indexing_document( es_object, index_name, document ):
 
 
 """
-index_name = 'testindex'
+index_name = 'testindex1'
 document_filepath = 'documents/parliamentary/parliamentary'
 es_object = connect_to_elasticsearch()
 for i in range(1,2):

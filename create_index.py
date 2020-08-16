@@ -1,11 +1,14 @@
-import json
 from elasticsearch import Elasticsearch
-
 from connect_to_elasticsearch import connect_to_elasticsearch
 
 
 def create_index( es_object, index_name ):
-    # sets the number of shards and a custom analyzer with selected tokenizer and filters
+    """
+    Tests, if a given index already exists and if not creates the index and defines its settings, fields and exact mapping.
+    :param es_object:   connection to the elasticsearch cluster
+    :param index_name:  name of the index
+    :return:       
+    """
     settings = {
         'settings' : {
             'number_of_shards' : 1,
@@ -115,9 +118,9 @@ def create_index( es_object, index_name ):
     except Exception as ex:
         print( str(ex) )
 
-        
-#index_object = connect_to_elasticsearch()
-#index_name = 'testindex'
-#create_index( index_object, index_name )
 
-# is working
+"""
+index_object = connect_to_elasticsearch()
+index_name = 'testindex1'
+create_index( index_object, index_name )
+"""
