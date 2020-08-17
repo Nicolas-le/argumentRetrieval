@@ -38,7 +38,7 @@ def influence_reducer(spelling_errors):
     #Quadratic function (f(x) = 0.5x^2)
     influence_value = 0.5*spelling_errors**2
 
-    transformed_influence_value = math.sqrt(math.sqrt(influence_value))
+    transformed_influence_value = math.sqrt(math.sqrt(math.sqrt(influence_value)))
 
     return transformed_influence_value
 
