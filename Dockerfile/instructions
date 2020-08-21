@@ -1,0 +1,29 @@
+1) connecting to the tira virtule maaschine :
+        
+         *) if we using windows , we can use the windows Powershell to connect to the tira virtule maschine:
+                 ssh canillac@betaweb.medien.uni-weimar.de -p 44403 
+                 
+         *)Then we will be asked to give the password.
+         
+2) after we have logged in , we can use the (ls) keyword to displa all the folders on the tira virtule maschine:
+        
+        *) the most important folder is the (v1.0)-folder which contains all the source-code,dockerfile folder and docker-compose file 
+        
+        *) we can the navigate to the folder , where the docker-compose.yml is contianed.
+        
+3) using ( docker container ls -a )  will dispaly two containers for two services 1) one for elasticsearch and 2) for python service.
+
+
+4) then we should write ( docker exec -it argumentretrieval-10_python_1 bash ) to run the python-container 
+
+5) typing the (ls)-keyword will dispal all the source code in the container 
+
+6) we can test, if our code works propbaly by trying to run each module alone using (e.g python bias_detection.py)
+
+7) we can get out of the container using the (exit)-keyword. 
+
+8) if we want to edit a module , we can at first get out of the container and then (e.g miv bias_detection) and the we type the letter (i)-for instert and after we finished editing,
+
+we can type (   Esc and then :wq ) nd we can run the container again. 
+
+
