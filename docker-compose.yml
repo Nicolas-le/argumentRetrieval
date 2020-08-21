@@ -1,0 +1,45 @@
+version: '3.3'
+
+services:
+        python:
+                build: ./dockerfile
+                restart: always
+                networks: ["tira"]
+                ports:
+                        - "8888:8888"
+                environment:
+                        - GRANT_SUDO=yes
+                user: root
+                volumes:
+                        - type: bind
+                          source: .
+                          target: /root
+                        - type: bind
+                          source: /media
+                          target: /media
+                        - type: bind
+                          source: /tmp
+                          target: /tmp
+
+
+                depends_on:
+                        - elastic
+                working_dir: /root
+
+        elastic:
+                image: "docker.elastic.co/elasticsearch/elasticsearch:7.6.2"
+                restart: always
+                networks: ["tira"]
+                ports:
+                        - "9200:9200"
+                        - "9300:9300"
+                volumes:
+                        - type: bind
+                          source: ./ES
+                          target: /usr/share/elasticsearch/data
+                environment:
+                        - discovery.type=single-node
+                healthcheck:
+                        test: ["CMD", "curl", "-s", "-f", "http://localhost:9200/_cat/health"]
+networks:
+        tira:
