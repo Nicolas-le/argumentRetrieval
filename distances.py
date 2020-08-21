@@ -18,7 +18,7 @@ def bias_distance(bias_val_one, bias_val_two):
 def stylo_distance(stylo_dict_one, stylo_dict_two):
     """
     Creates the vectors out of the dictionaries created by the nlp analysis.
-    returns the euclidean distance between the vectors including the influence of spelling errors to the average sentence length
+    returns the euclidean distance between the vSectors including the influence of spelling errors to the average sentence length
     :param stylo_dict_one:  Calculated dictionary containing stylometric values one
     :param stylo_dict_two:  Calculated dictionary containing stylometric values two
     :return:                a distance value of these two dictionaries (space vector model)
@@ -66,10 +66,4 @@ def euclidean_distance(vector_one, vector_two):
 
     return dist
 
-"""
-#Test functionality
-sample_dict_query = {'vocab_richeness': 0.9090909090909091, 'hepax_legomena': 0.8181818181818182, 'readability_measures': {'average_wordlength': 3.727272727272727, 'average_sentlength': 27.555555555555557}, 'spelling_errors': 0}
-sample_dict_argument = {'vocab_richeness': 0.5483870967741935, 'hepax_legomena': 0.375, 'readability_measures': {'average_wordlength': 5.032258064516129, 'average_sentlength': 5.5}, 'spelling_errors': 0.004032258064516129}
 
-print(stylo_distance(sample_dict_query,sample_dict_argument))
-"""
