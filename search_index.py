@@ -73,5 +73,5 @@ def search_and_display( es_object, index_name, query ):
 
 es_object = connect_to_elasticsearch()
 index_name = 'testindex1'
-query = 'is weed ok?'
+query = 'is a strong police force good?'
 search_and_display( es_object, index_name, query )

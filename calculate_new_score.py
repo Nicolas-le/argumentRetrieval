@@ -8,5 +8,5 @@ def calculate_new_score( old_score, bias_distance, stylo_distance, topic_match_c
     :param topic_match_count:   number of empath topics that matches between the document and the search query
     :return:                    new score based on a calculation of the old ranking score and the nlp scores
     """
-    new_score = old_score - bias_distance - stylo_distance + ( topic_match_count * 0.2 )
+    new_score = old_score - (bias_distance * 0.1) - (stylo_distance * 0.1) + ( topic_match_count * 0.1 )
     return new_score
