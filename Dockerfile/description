@@ -1,9 +1,11 @@
 1) connecting to the tira virtule maaschine :
         
-         *) if we using windows , we can use the windows Powershell to connect to the tira virtule maschine:
+         *) if we are using windows , we can use the windows Powershell to connect to the tira virtule maschine:
                  ssh canillac@betaweb.medien.uni-weimar.de -p 44403 
                  
          *)Then we will be asked to give the password.
+         
+         *) if we don't use windows , we can connect to it using the command line 
          
 2) after we have logged in , we can use the (ls) keyword to displa all the folders on the tira virtule maschine:
         
