@@ -42,6 +42,8 @@ COPY requirments.txt  .
 
 RUN pip install -r requirments.txt
 
+RUN python3 -m nltk.downloader punkt
+
 EXPOSE 8888
 
 CMD ["jupyter", "notebook", "--port=8888", "--allow-root","--no-browser", "--ip=0.0.0.0"]
