@@ -1,7 +1,7 @@
 import json
 from elasticsearch import Elasticsearch
 from connect_to_elasticsearch import connect_to_elasticsearch
-from nlp_analysis import analyze
+from custom_analytics import nlp_analysis
 from ranking_results import ranking_results
 
 
@@ -14,12 +14,12 @@ def search_index( es_object, index_name, query ):
     :return:            list of retrieved documents ranked by custom nlp scores
     """
     search_query = multi_match_search( query )
-    search_results = es_object.search( index=index_name, body=search_query, size=100 )
+    search_results = es_object.search( index=index_name, body=search_query, size=1000 )
     print( 'Total of %d documents retrieved\n' % search_results['hits']['total']['value'] )
 
     list_of_results = [ doc for doc in search_results['hits']['hits'] ]
     
-    query_scores = analyze( query )
+    query_scores = nlp_analysis.analyze( query )
     search_query['custom_scores'] = query_scores
     with open( 'results/query.json', 'w' ) as file:
         json.dump( search_query, file, indent=4 )
@@ -65,6 +65,7 @@ def search_and_display( es_object, index_name, query ):
     for doc in ranked_results:
         print( 'New score: %f' % doc['new_doc_score'] )
         print( 'Original score: %f' % doc['_score'] )
+        print( 'args.me ID: %s' % doc['_source']['argsMeID'] )
         print( 'Title: %s' % doc['_source']['discussionTitle'] )
         print( 'Conclusion: %s' % doc['_source']['conclusion'] )
         print( 'Premise: %s' % doc['_source']['premise'] )

@@ -44,6 +44,7 @@ def process_document( dict_object ):
     _conclusion = dict_object['conclusion']
     _premise = dict_object['premises'][0]['text']
     _stance = True
+    _argsMeID = dict_object['id']
     if dict_object['premises'][0]['stance'] == 'CON':
         _stance = False
     if 'discussionTitle' in dict_object['context']:
@@ -64,6 +65,7 @@ def process_document( dict_object ):
         'conclusion': _conclusion,
         'premise': _premise,
         'stance': _stance,
+        'argsMeID': _argsMeID,
         'discussionTitle': _discussionTitle,
         'sourceDomain': _sourceDomain,
         'sourceUrl': _sourceUrl,
