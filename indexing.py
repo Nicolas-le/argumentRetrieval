@@ -1,7 +1,7 @@
 import json
 from elasticsearch import Elasticsearch
 from connect_to_elasticsearch import connect_to_elasticsearch
-from nlp_analysis import analyze
+from custom_analytics.nlp_analysis import analyze
 
 
 def indexing( filepath, es_object, index_name ):
