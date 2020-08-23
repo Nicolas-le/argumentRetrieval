@@ -6,7 +6,6 @@ RUN mkdir -p /src/app
 
 WORKDIR src/app
 
-
 RUN apt-get update \
     && apt-get upgrade -y \
     && apt-get autoremove -y \
@@ -22,11 +21,13 @@ RUN apt-get update \
         libblas-dev \
         liblapack-dev \
         libatlas-base-dev \
+	python3.8-dev \
+	libmysqlclient-dev \
     && apt-get clean
 
 # Install Python packages
-RUN pip install --upgrade pip \
-    && pip install \
+RUN pip3 install --upgrade pip \
+    && pip3 install \
         ipython[all] \
         numpy \
         nose \
@@ -35,17 +36,21 @@ RUN pip install --upgrade pip \
         scipy \
         sympy \
         cython \
-		scikit-learn\
+        scikit-learn\
+	pattern \
     && rm -fr /root/.cache
+
 
 COPY requirments.txt  .  
 
-RUN pip install -r requirments.txt
+RUN pip3 install -r requirments.txt
 
 RUN python3 -m nltk.downloader punkt
 
+RUN python3 -m nltk.downloader wordnet_ic
+
 EXPOSE 8888
 
-CMD ["jupyter", "notebook", "--port=8888", "--allow-root","--no-browser", "--ip=0.0.0.0"]
+CMD ["jupyter","notebook","--port=8888","--allow-root","--no-browser","--ip=0.0.0.0"]
 
 
