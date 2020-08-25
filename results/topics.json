@@ -1,3 +1,8 @@
 {
-    "plant": 0.3333333333333333
+    "aggression": 0.4,
+    "masculine": 0.2,
+    "healing": 0.2,
+    "fight": 0.2,
+    "strength": 0.4,
+    "power": 0.2
 }

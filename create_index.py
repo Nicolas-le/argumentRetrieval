@@ -52,6 +52,10 @@ def create_index( es_object, index_name ):
                     'type' : 'boolean', 
                     'index' : 'false' 
                 },
+                'argsMeID' : { 
+                    'type' : 'keyword', 
+                    'index' : 'false' 
+                },
                 'sourceDomain' : { 
                     'type' : 'keyword', 
                     'index' : 'false' 
