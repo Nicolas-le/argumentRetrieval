@@ -29,5 +29,5 @@ def analyze( text ):
             'spelling_errors' : stylo_scores[ 'spelling_errors' ]
         },
         'topics' : topics
-    }   
+    }
     return scores

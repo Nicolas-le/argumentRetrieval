@@ -123,8 +123,8 @@ def create_index( es_object, index_name ):
         print( str(ex) )
 
 
-"""
+
 index_object = connect_to_elasticsearch()
-index_name = 'testindex1'
+index_name = 'testindex3'
 create_index( index_object, index_name )
-"""
+

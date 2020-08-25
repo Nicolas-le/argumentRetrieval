@@ -1,7 +1,8 @@
 import json
+import ijson
 from elasticsearch import Elasticsearch
 from connect_to_elasticsearch import connect_to_elasticsearch
-from custom_analytics.nlp_analysis import analyze
+from nlp_analysis import analyze
 
 
 def indexing( filepath, es_object, index_name ):
@@ -13,9 +14,13 @@ def indexing( filepath, es_object, index_name ):
     :return:             
     """
     documents = process_jsonfile( filepath )
+    print( len(documents) )
+    counter = 0
     for doc in documents:
         document = process_document( doc )
         indexing_document( es_object, index_name, document )
+        counter += 1
+        print( counter )
     print( 'file successfully indexed' )
 
 
@@ -27,7 +32,8 @@ def process_jsonfile( filepath ):
     """
     try:
         with open( filepath ) as json_file:
-            documents = json.load( json_file )
+            objects = ijson.items( json_file, 'arguments.item' )
+            documents = list( objects )
         return documents
     except Exception as ex:
         print( 'Error loading file' )
@@ -38,7 +44,7 @@ def process_document( dict_object ):
     """
     Subfunction to extract specific data out of a dictionary and form it into a dictionary which fits the mapping of the index.
     :param dict_object:     dictionary with raw data
-    :return:                dictionary with structured data fitting the mapping of the indey
+    :return:                dictionary with structured data fitting the mapping of the index
     """
 
     _conclusion = dict_object['conclusion']
@@ -103,11 +109,10 @@ def indexing_document( es_object, index_name, document ):
         print( str(ex) )
 
 
-"""
-index_name = 'testindex1'
+index_name = 'testindex3'
 document_filepath = 'documents/parliamentary/parliamentary'
 es_object = connect_to_elasticsearch()
 for i in range(1,2):
     filepath = document_filepath + str(i) + '.json'
     indexing( filepath, es_object, index_name )
-"""
+

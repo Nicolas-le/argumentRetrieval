@@ -26,10 +26,9 @@ def delete_indices( index_object, index_name, appx_start, appx_end ):
             print( 'no index ' + index_name + str(i) + ' exists' )
 
 
-"""
+
 index_object = connect_to_elasticsearch()
-index_name = 'testindex'
+index_name = 'testindex3'
 appendixnr_start = 0
 appendixnr_end = 0
 delete_indices( index_object, index_name, appendixnr_start, appendixnr_end )
-"""
