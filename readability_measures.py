@@ -21,7 +21,7 @@ def main(tokens):
 def average_wordlength(tokens):
     """
     Calculates the average word length.
-    sum(len(token) for token in tokens) -> count the length of every token and builds the sum
+    sum(len(token) for token in tokens) --> count the length of every token and builds the sum
     / len(tokens) -> number of tokens
     :param tokens:  the tokenized list of words
     :return:        all words lengths together divided through the word count
