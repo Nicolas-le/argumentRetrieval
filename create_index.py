@@ -17,22 +17,33 @@ def create_index( es_object, index_name ):
                     'custom_analyzer' : {
                         'type' : 'custom',
                         'tokenizer' : 'standard',
-                        'filter' : [
+                        'filter' : [ 
                             'asciifolding',
                             'classic',
                             'elision',
                             'lowercase',
                             'stop',
-                            'kstem'
-                        ]   
+                            'kstem',
+                            'my_custom_stop_words_filter' 
+                            ]   
                     }
                 },
+                'filter': {
+                        'my_custom_stop_words_filter': { 
+                          'type': 'stop',
+                          'stopwords': '_english_'
+                        }
+                    }
             }
         },
         # creating the schema in form of mappings
         'mappings' : {
             'dynamic' : 'strict',
             'properties': {
+                'id' : {
+                   'type' : 'keyword', 
+                   'index': 'false',
+                },
                 'discussionTitle' : { 
                     'type' : 'text',
                     'index' : 'true',
@@ -51,80 +62,27 @@ def create_index( es_object, index_name ):
                 'stance' : { 
                     'type' : 'boolean', 
                     'index' : 'false' 
-                },
-                'argsMeID' : { 
-                    'type' : 'keyword', 
-                    'index' : 'false' 
-                },
-                'sourceDomain' : { 
-                    'type' : 'keyword', 
-                    'index' : 'false' 
-                },
-                'sourceUrl' : { 
-                    'type' : 'text', 
-                    'index' : 'false' 
-                }, 
-                'custom_scores' : {
-                    'dynamic' : 'strict',
-                    'properties' : {
-                        'bias_score' : {
-                            'type' : 'double',
-                            'index' : 'false'
-                        },
-                        'stylo_scores' : {
-                            'dynamic' : 'strict',
-                            'properties' : {
-                                'vocab_richness' : {
-                                    'type' : 'double',
-                                    'index' : 'false'
-                                },
-                                'hepax_legomena' : {
-                                    'type' : 'double',
-                                    'index' : 'false'
-                                },
-                                'readability_measures' : {
-                                    'dynamic' : 'strict',
-                                    'properties' :{
-                                        'average_wordlength' : {
-                                            'type' : 'double',
-                                            'index' : 'false'
-                                        },
-                                        'average_sentlength' : {
-                                            'type' : 'double',
-                                            'index' : 'false'
-                                        }
-                                    }
-                                },
-                                'spelling_errors' : {
-                                    'type' : 'double',
-                                    'index' : 'false'
-                                }
-                            }
-                        },
-                        'topics' : {
-                            'type' : 'object',
-                            'enabled' : 'false'
-                        }
-                    }
                 }
+             
+              }
             }
         }
-    }  
+  
     try:
         # tests if the index already exists
         if not es_object.indices.exists( index_name ):
             # creates the index
             index = es_object.indices.create( index=index_name, ignore=400, body=settings )
             print( index )
-            print( 'Index created' )
+            print( index_name + 'is being succefullay created ! ' )
         else:
             print( 'Index already exists' )
     except Exception as ex:
         print( str(ex) )
 
 
-
+"""
 index_object = connect_to_elasticsearch()
-index_name = 'testindex3'
+index_name = 'testindex1'
 create_index( index_object, index_name )
-
+"""
