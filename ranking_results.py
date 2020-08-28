@@ -16,9 +16,9 @@ def ranking_results( list_of_results, query_scores ):
     query_topics = query_scores[ 'topics' ]
 
     for doc in list_of_results:
-        doc_bias_score = doc[ '_source' ][ 'custom_scores' ][ 'bias_score' ]
-        doc_stylo_scores = doc[ '_source' ][ 'custom_scores' ][ 'stylo_scores' ]
-        doc_topics = doc[ '_source' ][ 'custom_scores' ][ 'topics' ]
+        doc_bias_score = doc['bias_score']
+        doc_stylo_scores = doc[ 'stylo_scores' ]
+        doc_topics = doc[ 'topics' ]
         
         old_score = doc[ '_score' ]
         bias = bias_distance( query_bias_score, doc_bias_score )
