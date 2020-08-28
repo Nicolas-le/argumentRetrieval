@@ -16,6 +16,8 @@ from process_topics import *
 
 from process_trec_format import *
 
+import csv
+
 
 
 
@@ -80,15 +82,7 @@ write_header( outputDir )
 process_xml( es_obj, index_name,inputDataSet,outputDir )
 
 
-
-
-
-
-
-
-
-
-
+generate_results( outputDir )
 
 
 
