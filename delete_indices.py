@@ -1,5 +1,6 @@
 from elasticsearch import Elasticsearch
 from connect_to_elasticsearch import connect_to_elasticsearch
+from indices import * 
 
 
 def delete_indices( index_object, index_name, appx_start, appx_end ): 
@@ -26,9 +27,29 @@ def delete_indices( index_object, index_name, appx_start, appx_end ):
             print( 'no index ' + index_name + str(i) + ' exists' )
 
 
-
+"""
 index_object = connect_to_elasticsearch()
-index_name = 'testindex3'
+index_name = 'testindex'
 appendixnr_start = 0
 appendixnr_end = 0
 delete_indices( index_object, index_name, appendixnr_start, appendixnr_end )
+"""
+
+
+
+
+def deleteAllindicies(indicies, index_object):
+
+    for index in indicies:
+        if index_object.indices.exists( index ):
+           index_object.indices.delete(index)
+           print( index + ' has been succefally deleted! ')
+ 
+        else:
+            print(index + ' does not exist! ')
+
+
+index_object = connect_to_elasticsearch()
+indicies = getAllIndiciesNames()
+deleteAllindicies(indicies, index_object)
+
