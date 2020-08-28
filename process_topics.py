@@ -1,19 +1,18 @@
 from xml.dom import minidom
 import os 
+from search_index import * 
 
-def process_xml(topics_xml):
+def process_xml(es_object, index_name, inputDataSet,outputDir):
 
    print("start processing the topics")
    print("LOADING TOPICS")
 
-
-   mydoc = minidom.parse(os.path.join(topics_xml,'topics.xml'))
+   mydoc = minidom.parse(os.path.join(inputDataSet,'topics.xml'))
 
    topics = mydoc.getElementsByTagName('topic')
 
    print('\nAll item data: ')
 
-   topic_dic= []
 
    for topic in topics:
 
@@ -25,14 +24,6 @@ def process_xml(topics_xml):
 
        print("title:",title.childNodes[0].data)
 
-       single_topic_dic = {"topic_number" : number.childNodes[0].data, "topic_query": title.childNodes[0].data }
-
-       topic_dic.append(single_topic_dic)
-
-
-
-
-
-
-
+       search_and_display( es_object, index_name, title.childNodes[0].data, number.childNodes[0].data, outputDir )
+       
 
