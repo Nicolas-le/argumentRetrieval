@@ -393,37 +393,61 @@ def extract_bias_features(text, do_get_caster=False):
     # presupposition markers
     count = count_feature_freq(presup, words, txt_lwr)
     features['presup_cnt'] = count
-    features['presup_rto'] = round(old_div(float(count), float(len(words))), 4)
-
+    if float(len(words))==0:
+        features['presup_rto']=0
+    else:
+        features['presup_rto'] = round(old_div(float(count), float(len(words))), 4)
+     
     # doubt markers
     count = count_feature_freq(doubt, words, txt_lwr)
     features['doubt_cnt'] = count
-    features['doubt_rto'] = round(old_div(float(count), float(len(words))), 4)
+    if float(len(words))==0:
+        features['doubt_rto']=0
+    else:
+        features['doubt_rto'] = round(old_div(float(count), float(len(words))), 4)
+  
+
+
 
     # partisan words and phrases
     count = count_feature_freq(partisan, words, txt_lwr)
     features['partisan_cnt'] = count
-    features['partisan_rto'] = round(old_div(float(count), float(len(words))), 4)
+    if float(len(words))==0:
+         features['partisan_rto'] =0
+    else:
+         features['partisan_rto'] = round(old_div(float(count), float(len(words))), 4)
 
     # subjective value laden word count
     count = count_feature_freq(value_laden, words, txt_lwr)
     features['value_cnt'] = count
-    features['value_rto'] = round(old_div(float(count), float(len(words))), 4)
+    if float(len(words))==0:
+       features['value_rto']= 0
+    else:
+       features['value_rto'] = round(old_div(float(count), float(len(words))), 4)
 
     # figurative language markers
     count = count_feature_freq(figurative, words, txt_lwr)
     features['figurative_cnt'] = count
-    features['figurative_rto'] = round(old_div(float(count), float(len(words))), 4)
+    if float(len(words))==0:
+       features['figurative_rto']=0
+    else:
+       features['figurative_rto'] = round(old_div(float(count), float(len(words))), 4)
 
     # attribution markers
     count = count_feature_freq(attribution, words, txt_lwr)
     features['attribution_cnt'] = count
-    features['attribution_rto'] = round(old_div(float(count), float(len(words))), 4)
+    if float(len(words))==0:
+        features['attribution_rto'] =0
+    else:
+       features['attribution_rto'] = round(old_div(float(count), float(len(words))), 4)
 
     # self reference pronouns
     count = count_feature_freq(self_refer, words, txt_lwr)
     features['self_refer_cnt'] = count
-    features['self_refer_rto'] = round(old_div(float(count), float(len(words))), 4)
+    if float(len(words))==0:
+        features['self_refer_rto']=0
+    else:
+        features['self_refer_rto'] = round(old_div(float(count), float(len(words))), 4)
 
     # Contextual Aspect Summary and Topical-Entity Recognition (CASTER)
     if do_get_caster:
