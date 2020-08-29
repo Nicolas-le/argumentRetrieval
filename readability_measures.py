@@ -26,8 +26,10 @@ def average_wordlength(tokens):
     :param tokens:  the tokenized list of words
     :return:        all words lengths together divided through the word count
     """
-
-    return (sum(len(token) for token in tokens)) / len(tokens)
+    if len(tokens)==0:
+        return 0;
+    else:
+       return (sum(len(token) for token in tokens)) / len(tokens)
 
 
 def average_sentlength(tokens):
@@ -44,7 +46,9 @@ def average_sentlength(tokens):
 
     #use the sentence tokenizer
     sent_tokens = nltk.sent_tokenize(original_text)
-
-    return (sum(len(nltk.word_tokenize(sent)) for sent in sent_tokens)) / len(sent_tokens)
+    if len(sent_tokens)==0:
+       return 0
+    else:
+       return (sum(len(nltk.word_tokenize(sent)) for sent in sent_tokens)) / len(sent_tokens)
 
 
