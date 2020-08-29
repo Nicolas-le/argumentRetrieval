@@ -3,8 +3,6 @@ from elasticsearch import  helpers
 from get_doc_structure import * 
 
 
-
-
 '''
 this function opens a file and returns its
 contents as a list of json items
@@ -22,9 +20,6 @@ def process_jsonfile( filepath ):
     except Exception as ex:
         print( 'Error loading file' )
         print( str(ex) )
-
-
-
 
 
 """

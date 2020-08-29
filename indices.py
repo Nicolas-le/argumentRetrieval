@@ -1,13 +1,11 @@
 from connect_to_elasticsearch import *
 
 
-
-def getAllIndiciesNames():
-    
+def getAllIndiciesNames():  
     indicies = set()
-    for index in connect_to_elasticsearch().indices.get_alias("*"):
-        indicies.add(index)
-        print (index)
+    for index in connect_to_elasticsearch().indices.get_alias( "*" ):
+        indicies.add( index )
+        print( index )
     return indicies     
 
 

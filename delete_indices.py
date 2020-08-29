@@ -36,20 +36,18 @@ delete_indices( index_object, index_name, appendixnr_start, appendixnr_end )
 """
 
 
-
-
-def deleteAllindicies(indicies, index_object):
+def deleteAllindicies( indicies, index_object ):
 
     for index in indicies:
         if index_object.indices.exists( index ):
-           index_object.indices.delete(index)
-           print( index + ' has been succefally deleted! ')
+           index_object.indices.delete (index )
+           print( index + ' has been succefally deleted!' )
  
         else:
-            print(index + ' does not exist! ')
+            print( index + ' does not exist!' )
 
 
 index_object = connect_to_elasticsearch()
 indicies = getAllIndiciesNames()
-deleteAllindicies(indicies, index_object)
+deleteAllindicies( indicies, index_object )
 

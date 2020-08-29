@@ -13,6 +13,6 @@ def process_results( results_list ):
          #   print(values)
         rl.append( new_dic )
         count= count+1 
-        print(count)
+        print( count )
         
     return rl 

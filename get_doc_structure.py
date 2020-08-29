@@ -2,7 +2,6 @@ from nlp_analysis import analyze
 from tokenizer import * 
 
 def get_document_structure( dict_object ):
-
     """
     Subfunction to extract specific data out of a dictionary and form it into a dictionary which fits the mapping of the index.
     :param dict_object:     dictionary with raw data
