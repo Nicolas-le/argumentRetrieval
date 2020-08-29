@@ -45,7 +45,7 @@ def create_vector(style_dict):
     """
     vector = [0,0,0,0]
 
-    vector[0] = style_dict["vocab_richeness"]
+    vector[0] = style_dict["vocab_richness"]
     vector[1] = style_dict["hepax_legomena"]
     vector[2] = style_dict["readability_measures"]["average_wordlength"]
     vector[3] = style_dict["readability_measures"]["average_sentlength"]
