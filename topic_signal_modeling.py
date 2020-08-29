@@ -30,10 +30,6 @@ def threshold_filter(lexicon):
     """
     threshold = 0.001 #hardcoded for now
     lexicon = { k: v for k,v in lexicon.items() if v >= threshold }
-    
-    with open( 'results/topics.json', 'w' ) as file:
-        json.dump( lexicon, file, indent=4 )
-   
     return lexicon
 
 
@@ -44,10 +40,6 @@ def sort_topics_by_value( lexicon ):
     :return:            sorted dictionary of them topics
     """
     lexicon_sorted = { k: v for k, v in sorted( lexicon.items(), key=lambda item: item[1], reverse=True) }
-    
-    with open( 'results/topics_sorted.json', 'w' ) as file:
-        json.dump( lexicon_sorted, file, indent=4 )
-    
     return lexicon_sorted
 
 
@@ -58,10 +50,6 @@ def shortlist_topics( lexicon ):
     :return:            shortlist dictionary of the 10 most important topics
     """
     lexicon_shortlist = dict( list( lexicon.items() )[:10] )
-
-    with open( 'results/topics_shortlist.json', 'w' ) as file:
-        json.dump( lexicon_shortlist, file, indent=4 )
-
     return lexicon_shortlist
 
 

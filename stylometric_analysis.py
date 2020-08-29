@@ -79,7 +79,8 @@ def spelling_errors(tokens):
     return len(misspelled)/len(tokens)
 
 
-# test the functionality
+"""
 sentence = "I wouuld like to go to thhe beach, sir. "
 tokens = nltk.word_tokenize(sentence)
 main_stylo(tokens)
+"""

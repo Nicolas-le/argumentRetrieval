@@ -20,13 +20,13 @@ def analyze( text ):
     scores = {
         'bias_score' : bias,
         'stylo_scores' : {
-            'vocab_richness' : stylo_scores[ 'vocab_richness' ],
-            'hepax_legomena' : stylo_scores[ 'hepax_legomena' ],
+            'vocab_richness' : stylo_scores['vocab_richness'],
+            'hepax_legomena' : stylo_scores['hepax_legomena'],
             'readability_measures' : {
-                'average_wordlength' : stylo_scores[ 'readability_measures' ]['average_wordlength'],
-                'average_sentlength' : stylo_scores[ 'readability_measures' ]['average_sentlength']
+                'average_wordlength' : stylo_scores['readability_measures']['average_wordlength'],
+                'average_sentlength' : stylo_scores['readability_measures']['average_sentlength']
             },
-            'spelling_errors' : stylo_scores[ 'spelling_errors' ]
+            'spelling_errors' : stylo_scores['spelling_errors']
         },
         'topics' : topics
     }

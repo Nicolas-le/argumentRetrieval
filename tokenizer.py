@@ -10,6 +10,7 @@ def tokenize( text ):
     tokens = nltk.word_tokenize( text )
     return tokens
 
+
 def stopword_removal( tokens ):
     """
     Tokenize a given text and remove the stopwords.

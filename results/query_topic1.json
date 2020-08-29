@@ -1,7 +1,7 @@
 {
     "query": {
         "multi_match": {
-            "query": "is a strong police force good?",
+            "query": "Should Teachers Get Tenure?",
             "fields": [
                 "conclusion",
                 "premise",
@@ -11,24 +11,17 @@
             "tie_breaker": 0.3
         }
     },
-    "custom_scores": {
-        "bias_score": 1.0887497652,
+    "nlp_scores": {
+        "bias_score": 0.7444195000000001,
         "stylo_scores": {
             "vocab_richness": 1.0,
             "hepax_legomena": 1.0,
             "readability_measures": {
-                "average_wordlength": 3.5714285714285716,
-                "average_sentlength": 7.0
+                "average_wordlength": 4.8,
+                "average_sentlength": 5.0
             },
             "spelling_errors": 0.0
         },
-        "topics": {
-            "aggression": 0.4,
-            "strength": 0.4,
-            "masculine": 0.2,
-            "healing": 0.2,
-            "fight": 0.2,
-            "power": 0.2
-        }
+        "topics": {}
     }
 }
