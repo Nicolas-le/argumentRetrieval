@@ -82,7 +82,7 @@ write_header( outputDir )
 process_xml( es_obj, index_name,inputDataSet,outputDir )
 
 
-generate_results( outputDir )
+
 
 
 
