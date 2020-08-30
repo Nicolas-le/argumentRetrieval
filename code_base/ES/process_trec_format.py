@@ -16,7 +16,7 @@ def write_into_trec( ranked_results, topicNumber,outputDir ):
     final_ranks = pd.DataFrame(list(results.items()), columns=['arg_ids', 'new_doc_score'])
     final_ranks = final_ranks.sort_values(by='new_doc_score', ascending=False)
     final_ranks['rank'] = np.arange(len(final_ranks)) + 1
-    final_ranks['normal_method'] = 'bias_detection'
+    final_ranks['method'] = 'bias_detection'
     final_ranks['Q0'] = "Q0"
     final_ranks['topic_number'] = topicNumber
     #APPEND CURRENT DATAFRAME TO OUTPUT FILE
