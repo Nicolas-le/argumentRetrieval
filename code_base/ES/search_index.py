@@ -24,11 +24,11 @@ def search_index( es_object, index_name, topic_query,value ):
     results_scors= process_results( list_of_results ) 
     query_scores = analyze( topic_query )
     search_query['custom_scores'] = query_scores
-    with open( 'results/query.json', 'w' ) as file:
+    with open( './results/query.json', 'w' ) as file:
           json.dump( search_query, file, indent=4 )
     
     ranked_results = ranking_results( results_scors, query_scores )
-    with open( 'results/results.json', 'w' ) as file:
+    with open( './results/results.json', 'w' ) as file:
           json.dump( ranked_results, file, indent=4 )
     return list_of_results
 
