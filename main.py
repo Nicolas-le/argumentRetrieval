@@ -69,12 +69,12 @@ es_obj = connect_to_elasticsearch()
 
 index_name = "index_v1.0"
 
-#indexObj = create_index( es_obj, index_name )
+indexObj = create_index( es_obj, index_name )
 
 
 #start extracting and indexing the corpus 
 
-#extractdataSetToIndex( inputDataSet, es_obj, index_name  )
+extractdataSetToIndex( inputDataSet, es_obj, index_name  )
 
 
 
