@@ -19,13 +19,15 @@ ___
 
 `cd argumentRetrieval`
 
-`python main.py --i <source> --o <output-file>`
+`pip3 install -r requirements.txt`
+
+`python3 main.py --i <source> --o <output-file>`
 
 **source:** Link to directory, has to be structured in the same way as the args.me corpus [https://webis.de/data/args-me-corpus.html]
 
 **output-file:** Link to directory with run.txt file existing in it.
 
-**example:** `python main.py --i ./corpus --o ./run`
+**example:** `python3 main.py --i ./corpus --o ./run`
 ___
 
 #### Elastic Search
