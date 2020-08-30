@@ -1,6 +1,11 @@
 #import the necessary packages
 import argparse
 
+import sys
+sys.path.append('./code_base/nlp_analytics')
+sys.path.append('./code_base/ES')
+sys.path.append('./code_base/distance_calculations')
+
 from connect_to_elasticsearch import *
 
 from create_index import *
@@ -9,7 +14,7 @@ from process_topics import *
 
 from extract_dataSet_toIndex import *
 
-import sys 
+
 
 from process_topics import * 
 
