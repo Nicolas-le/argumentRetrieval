@@ -1,0 +1,56 @@
+FROM jupyter/base-notebook:latest
+
+USER root  
+
+RUN mkdir -p /src/app
+
+WORKDIR src/app
+
+RUN apt-get update \
+    && apt-get upgrade -y \
+    && apt-get autoremove -y \
+    && apt-get install -y \
+        gcc \
+        build-essential \
+        zlib1g-dev \
+        wget \
+        unzip \
+        cmake \
+        python3-dev \
+        gfortran \
+        libblas-dev \
+        liblapack-dev \
+        libatlas-base-dev \
+	python3.8-dev \
+	libmysqlclient-dev \
+    && apt-get clean
+
+# Install Python packages
+RUN pip3 install --upgrade pip \
+    && pip3 install \
+        ipython[all] \
+        numpy \
+        nose \
+        matplotlib \
+        pandas \
+        scipy \
+        sympy \
+        cython \
+        scikit-learn\
+	pattern \
+    && rm -fr /root/.cache
+
+
+COPY requirments.txt  .  
+
+RUN pip3 install -r requirments.txt
+
+RUN python3 -m nltk.downloader punkt
+
+RUN python3 -m nltk.downloader wordnet_ic
+
+EXPOSE 8888
+
+CMD ["jupyter","notebook","--port=8888","--allow-root","--no-browser","--ip=0.0.0.0"]
+
+
