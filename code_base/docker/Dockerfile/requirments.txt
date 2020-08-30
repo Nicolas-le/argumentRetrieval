@@ -1,0 +1,14 @@
+elasticsearch==7.8.1
+pyspellchecker
+nltk
+empath
+pytest
+vaderSentiment 
+requests
+textstat
+future==0.16.0
+decorator==4.2.1
+decorators==0.1.1
+sklearn==0.0
+
+

@@ -1,0 +1,34 @@
+{
+    "query": {
+        "multi_match": {
+            "query": "Should birth control pills be available over the counter?",
+            "fields": [
+                "conclusion",
+                "premise",
+                "discussionTitle"
+            ],
+            "fuzziness": "AUTO",
+            "tie_breaker": 0.3
+        }
+    },
+    "nlp_scores": {
+        "bias_score": 0.7815995,
+        "stylo_scores": {
+            "vocab_richness": 1.0,
+            "hepax_legomena": 1.0,
+            "readability_measures": {
+                "average_wordlength": 4.9,
+                "average_sentlength": 10.0
+            },
+            "spelling_errors": 0.0
+        },
+        "topics": {
+            "medical_emergency": 0.14285714285714285,
+            "health": 0.14285714285714285,
+            "restaurant": 0.14285714285714285,
+            "strength": 0.14285714285714285,
+            "power": 0.14285714285714285,
+            "children": 0.14285714285714285
+        }
+    }
+}
