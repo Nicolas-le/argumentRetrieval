@@ -27,7 +27,7 @@ ___
 
 **output-file:** Link to directory with run.txt file existing in it.
 
-**example:** `python3 main.py --i ./corpus --o ./run`
+**example:** `python3 main.py --i ./code_base/corpus --o ./code_base/run`
 ___
 
 #### Elastic Search
