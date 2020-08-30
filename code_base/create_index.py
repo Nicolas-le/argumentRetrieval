@@ -61,7 +61,7 @@ def create_index( es_object, index_name ):
                 },
                 'stance' : { 
                     'type' : 'boolean', 
-                    'index' : 'false' 
+                    'index' : 'true' 
                 }
              
               }
