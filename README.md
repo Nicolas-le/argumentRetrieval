@@ -28,7 +28,7 @@ ___
 **example:** `python main.py --i ./corpus --o ./run`
 ___
 
-####Elastic Search
+#### Elastic Search
 
 Elastic Search has to be running as a service before starting the retrieval process. If it's not starting automatically use this command:
 
