@@ -28,6 +28,8 @@ ___
 **output-file:** Link to directory with run.txt file existing in it.
 
 **example:** `python3 main.py --i ./code_base/corpus --o ./code_base/run`
+
+**requirements:** Python 3.6 is necessary at the moment, because of the Pattern.en module and some unfixed issues with this package and the newer python versions.
 ___
 
 #### Elastic Search
