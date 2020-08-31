@@ -16,7 +16,7 @@ def bias_score(text):
         return bias.compute_bias(text)
 
     for sentence in sentences:
-            total_bias += bias.compute_bias(sentence)
+        total_bias += bias.compute_bias(sentence)
 
 
         return total_bias/len(sentences)

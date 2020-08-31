@@ -41,12 +41,12 @@ outputDir = args["output_dir"]
 es_obj = connect_to_elasticsearch()
 
 #create an Index_object
-index_name = "index_v1.0"
+index_name = "local_index_v1.0"
 
 indexObj = create_index( es_obj, index_name )
 
 #start extracting and indexing the corpus 
-extractdataSetToIndex( inputDataSet, es_obj, index_name  )
+#extractdataSetToIndex( inputDataSet, es_obj, index_name  )
 
 """
 processing the xml_topics and searching them

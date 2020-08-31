@@ -26,7 +26,7 @@ def process_xml(es_object, index_name, inputDataSet, outputDir, value):
 
    for topic in topics:
 
-       number = topic.getElementsByTagName('num')[0]
+       number = topic.getElementsByTagName('number')[0]
 
        print("topic Number:",number.childNodes[0].data)
 

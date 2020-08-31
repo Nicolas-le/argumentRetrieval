@@ -15,7 +15,7 @@ def main_stylo(tokens):
 
     feature_Dict = defaultdict(dict)
 
-    feature_Dict['vocab_richeness'] = vocab_richness(tokens)
+    feature_Dict['vocab_richness'] = vocab_richness(tokens)
     feature_Dict['hepax_legomena'] = hepax_legomena(tokens)
     feature_Dict['readability_measures'] = readability_measures.main(tokens)
     feature_Dict['spelling_errors'] = spelling_errors(tokens)
@@ -57,7 +57,11 @@ def hepax_legomena(tokens):
     words_appearing_once = len(all_words-duplicates)
     total_words = len(tokens)
 
+    if total_words == 0:
+        return
+
     return words_appearing_once/total_words
+   
 
 def spelling_errors(tokens):
     """
@@ -68,6 +72,9 @@ def spelling_errors(tokens):
     """
     spell = sc()
     misspelled = spell.unknown(tokens)
+
+    if len(tokens) == 0:
+        return
 
     #spelling error in relation to the length of the input tokens
     return len(misspelled)/len(tokens)

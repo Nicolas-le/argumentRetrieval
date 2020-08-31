@@ -33,7 +33,7 @@ def search_index( es_object, index_name, topic_query,value ):
     ranked_results = ranking_results( results_scors, query_scores )
     #with open( './results/results.json', 'w' ) as file:
     #      json.dump( ranked_results, file, indent=4 )
-    return list_of_results
+    return ranked_results
 
 
 """
@@ -44,45 +44,16 @@ def search_index( es_object, index_name, topic_query,value ):
 # for multi-field full text search with the query analyzed in the same way as the idexed documents got analyzed
 def multi_match_search( query, value ):
     
-    #search_query = {
-        # 'query': {
-           #  'multi_match': {
-          #       'query' : query,
-         #        'fields' : [ 'conclusion', 'premise', 'discussionTitle' ],
-        #         'fuzziness' : 'AUTO',
-       #          'tie_breaker' : 0.3
-      #       }
-     #    }
-    # }
-    
-     
     search_query = {
-           'query': {
-               'bool': {
-                  'must': {
-                     'multi_match': {
-                                       'fields': [
-                                                       'conclusion',
-                                                       'premise',
-                                                       'discussionTitle',
-                                                 ],
-                                       'query' : query,
-                                       'fuzziness' : 'AUTO',
-                                       'tie_breaker' : 0.3
-
-
- 
-                                    }
-               },
-               'filter': {
-                   'terms': {
-                        'stance': [value] 
-                   }
-               }
-          }
-       }
-   }
-
+        'query': {
+             'multi_match': {
+                 'query' : query,
+                'fields' : [ 'conclusion', 'premise', 'discussionTitle' ],
+                 'fuzziness' : 'AUTO',
+                'tie_breaker' : 0.3
+            }
+         }
+     }
     return search_query
 
 
