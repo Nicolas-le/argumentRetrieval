@@ -1,12 +1,15 @@
 from nlp_analysis import analyze
 from tokenizer import * 
 
+
+
+"""
+Subfunction to extract specific data out of a dictionary and form it into a dictionary which fits the mapping of the index.
+:param dict_object:     dictionary with raw data
+:return:                dictionary with structured data fitting the mapping of the indey
+"""
 def get_document_structure( dict_object ):
-    """
-    Subfunction to extract specific data out of a dictionary and form it into a dictionary which fits the mapping of the index.
-    :param dict_object:     dictionary with raw data
-    :return:                dictionary with structured data fitting the mapping of the indey
-    """
+    
     _id = dict_object['id']
     _conclusion = dict_object['conclusion']
     _premise = dict_object['premises'][0]['text']
