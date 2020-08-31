@@ -11,7 +11,6 @@ query, which has to be searched.
 this ia an iterative process: it will be iterated over the list topics 
 and search each one of them at a time. 
 """
-
 def process_xml(es_object, index_name, inputDataSet, outputDir, value):
 
    print("start processing the topics")

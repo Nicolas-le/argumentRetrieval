@@ -7,14 +7,17 @@ from process_results import *
 from process_trec_format import * 
 
 
+
+
+"""
+  Searches a given index by a given query and presents the retrieved documents ranked by custom nlp scores. 
+ :param es_object:   connection to the elasticsearch cluster
+ :param index_name:  name of the index which will get searched
+ :param query:       the query by which the index will get searched
+ :return:            list of retrieved documents ranked by custom nlp scores
+"""
 def search_index( es_object, index_name, topic_query,value ):
-    """
-    Searches a given index by a given query and presents the retrieved documents ranked by custom nlp scores. 
-    :param es_object:   connection to the elasticsearch cluster
-    :param index_name:  name of the index which will get searched
-    :param query:       the query by which the index will get searched
-    :return:            list of retrieved documents ranked by custom nlp scores
-    """
+   
     search_query = multi_match_search( topic_query,value )
     search_results = es_object.search( index=index_name, body=search_query, size=50,request_timeout=300 )
     print( 'Total of %d documents retrieved\n' % search_results['hits']['total']['value'] )
@@ -33,13 +36,14 @@ def search_index( es_object, index_name, topic_query,value ):
     return list_of_results
 
 
+"""
+ Defining the search process e.g. which fields should be searched and how acurate the query should match.
+ :param query:   input search query
+ :return:        dictionary which helds a defined search query for processing an index search
+"""
 # for multi-field full text search with the query analyzed in the same way as the idexed documents got analyzed
 def multi_match_search( query, value ):
-    """
-    Defining the search process e.g. which fields should be searched and how acurate the query should match.
-    :param query:   input search query
-    :return:        dictionary which helds a defined search query for processing an index search
-    """
+    
     #search_query = {
         # 'query': {
            #  'multi_match': {
@@ -79,31 +83,27 @@ def multi_match_search( query, value ):
        }
    }
 
-
-
-
     return search_query
 
 
+
+
+
+"""
+ Entry function for an index search. Takes in the input query an displays the search results. 
+ :param es_object:   connection to the elasticsearch cluster
+ :param index_name:  name of the index which will get searched
+ :param query:       the input query by which the index will get searched
+"""
 def search_and_display( es_object, index_name, topic_query, topic_number, outputDir, value ):
-    """
-    Entry function for an index search. Takes in the input query an displays the search results. 
-    :param es_object:   connection to the elasticsearch cluster
-    :param index_name:  name of the index which will get searched
-    :param query:       the input query by which the index will get searched
-    """
+   
     ranked_results = search_index( es_object, index_name, topic_query,value )
     print( '\nDocuments reranked by the comparisson of bias detection, stylometrics and hidden topics :\n' )
     print("topic_number,  Q0,  arg_ids,  score,  method "+"\n")
     #for doc in ranked_results:
     write_into_trec(ranked_results, topic_number,outputDir )
     
-      #  print( 'New score: %f' % doc['new_doc_score'] )
-      #  print( 'Original score: %f' % doc['_score'] )
-      #  print( 'Title: %s' % doc['_source']['discussionTitle'] )
-      #  print( 'Conclusion: %s' % doc['_source']['conclusion'] )
-      #  print( 'Premise: %s' % doc['_source']['premise'] )
-    
+   
 
 
 
