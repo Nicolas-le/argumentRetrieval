@@ -1,0 +1,1302 @@
+[
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "9DYMOnQBmlkxZEF4Xopm",
+        "_score": 62.625015,
+        "_source": {
+            "discussionTitle": "Is a Two-State Solution (Israel and Palestine) an Acceptable Solution to the Israeli-Palestinian Con",
+            "conclusion": "Is a Two-State Solution (Israel and Palestine) an Acceptable Solution to the Israeli-Palestinian Con",
+            "premise": "The Israeli-Palestinian conflict has reached a critical stage. For more than two decades, the two-state solution has been the basis of international efforts to make peace in the region... A failure of the two-state solution will generate further instability in the region, strengthen rejectionist elements on both sides and likely mean that the conflict will drag on for generations... The Palestinian leadership remains committed to a peaceful, negotiated settlement to our conflict with Israel based on the two-state solution.",
+            "stance": true,
+            "argsMeID": "S3b38021e-Aa79fa59e"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Ljk9OnQBmlkxZEF4IYZ5",
+        "_score": 62.110157,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "A two-state solution is best for peace",
+            "premise": "Palestinians and Israelis will not be able to live together in peace in the same state any time in the foreseeable future. The idea that Palestinians and Israelis can live in peace and harmony in one state, with tolerance for each other and in keeping with democratic principles of inclusion, is simply naive. This idea has been made impossible by nearly a century of direct conflict between these people. While this might change in coming centuries, it is unacceptable to adopt a one-state policy now based on these naive ideas. Israeli President Shimon Peres has argued: \u201cEstablishing a single multinational country is a tenuous path that does not bode well for peace but, rather, enforces the conflict's perpetuation. Lebanon, ravaged by bloodshed and instability, represents only one of many examples of an undesirable quagmire of this nature.\u201d(1) This stance has been endorsed by leaders and officials from around the world: US special envoy George Mitchell has stated \u201cIn the case of the Israeli-Palestinian conflict, we believe that the two-state solution, two states living side by side in peace, is the best and the only way to resolve this conflict.\u201d(2) Pope Benedict XVI has similarly called on Israel\u2019s leadership to embrace the two-state solution for peace with the Palestinians: \u201cI plead with all those responsible to explore every possible avenue in the search for a just resolution of the outstanding difficulties, so that both peoples may live in peace in a homeland of their own, within secure and internationally recognized borders.\u201d(3) Even Colonel Gaddafi, the late Libyan leader, argued that a two-state solution was essential for peace.(1) The reason the two-state solution has been recognised as the best for peace is because it respects the democratic will of both peoples for a state of their own. As Peres argues, \u201cThe Jewish people want and deserve to live in peace in their rightful, historical homeland. The Palestinian people want and deserve their own land, their own political institutions and their right to self-determination. It is vital that this cause be based on the prospect of coexistence between Jews and Arabs, which translates into cooperation in fields such as the economy, tourism, the environment and defence. Achieving all this will be possible only by granting each people its own state and borders, to enable their citizens to pray according to their faiths, cultivate their cultures, speak their own languages and safeguard their heritages.\u201d(1) Because only a two-state solution allows for this peaceful co-existence and development, a two-state solution is best for peace and thus more justified than a one-state solution.",
+            "stance": true,
+            "argsMeID": "S8d325e50-A2bb9a8c4"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Szk3OnQBmlkxZEF4PikC",
+        "_score": 60.020096,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Israelis/Palestinians are too intermingled for two state-solution",
+            "premise": "Mohammed Khaku. \"The Case for One-State Solution for the Israeli-Palestinian Conflict\". Cross-Cultural Understanding. May 2008: \"The only solution for the Palestinians is the creation of a single state in Palestine-Israel. Since the Palestinian and Israeli populations are so intermingled and a million Palestinians live throughout Israel the feasibility of a bi-national state, with the two peoples living in a kind of federation, seems workable. Given this 'reality' on the ground, the most practical solution seems to be a united democratic state offering equal citizenship for all: One Person, One Vote.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A7a8bac52"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "RTk3OnQBmlkxZEF4PSme",
+        "_score": 58.05248,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Israeli settlements make a two-state solution impossible",
+            "premise": "Sandy Tolan. \"George Mitchell and the end of the two-state solution\". Christian Science Monitor. February 4, 2009: \"The two-state solution is on its deathbed. [...] Since the Six-Day War of June 1967, the two-state solution, based on the concept of 'land for peace,' has been the central focus of almost all diplomatic efforts to resolve this tragedy. But because of Israel's unrelenting occupation and settlement project in the West Bank, the long-fought-for two-state solution has finally, tragically, become unworkable. Consider: In 1993, when Israeli Prime Minister Yitzhak Rabin and Palestine Liberation Organization leader Yasser Arafat famously shook hands on the White House lawn, there were 109,000 Israelis living in settlements across the West Bank (not including Jerusalem). Today there are 275,000, in more than 230 settlements and strategically placed 'outposts' designed to cement a permanent Jewish presence on Palestinian land.\" [Forcibly removing these settlers would be too difficult, could foment a kind of Jewish civil war, and would create a level of resentment among fundamentalist Jews that would likely inflame the Israeli-Palestinian conflict.",
+            "stance": true,
+            "argsMeID": "S402902df-Ab436f534"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "YTk3OnQBmlkxZEF4Pylf",
+        "_score": 55.521,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Israelis/Palestinians are too intermingled for two state-solution",
+            "stance": false,
+            "argsMeID": "S402902df-Ab631077e"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ODk9OnQBmlkxZEF4IoYT",
+        "_score": 55.01765,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "A one-state solution mean Israel would cease to be either democratic or Jewish",
+            "premise": "As described in the above quote by Peres, the vast majority of Israelis desire to live in a Jewish homeland in which they can define their own institutions and culture in light of their Jewish heritage. A one-state solution, however, would undermine Israel's legitimacy and internationally recognized right to exist as a sovereign Jewish state in the land of the Jewish forefathers. From Israel's perspective, it is not possible for the Jewish people to accept an arrangement that signifies the end of the existence of a Jewish state, which would be the result of a one-state solution, as the state could not be considered a Jewish one if it housed a very large Palestinian population, possibly even a Palestinian majority.(1) For this reason it is unlikely that any one-state solution would be truly democratic, and rather would be a situation of an Israeli minority ruling over a Palestinian majority, who would be largely excluded from the running of the country and determining their own affairs.(4) A one-state solution would only produce an explosive situation in which Jews would dominate the economy and most other aspects of the new state, creating a reality of exploitation. At that point in time, the new state would be a new form of occupation that would only set the conflict on a more violent track.(5) Therefore, the new state created by a one-state solution would be unacceptable either to Israelis or to Palestinians, as it would cease to be either Jewish or democratic, and so would not be a just outcome. Only a two-state solution can keep Israel Jewish and democratic, and allow a Palestinian state similarly to be Arab and democratic, as it would most likely wish.",
+            "stance": true,
+            "argsMeID": "S8d325e50-Afa950a8c"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Nzk3OnQBmlkxZEF4PCm7",
+        "_score": 54.888905,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Two-state solution would alienate Palestinians in Israel.",
+            "stance": false,
+            "argsMeID": "S402902df-A2b0dfe2b"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Yjk3OnQBmlkxZEF4Pylv",
+        "_score": 54.855835,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Many/most Israelis and Palestinians support two-state solution",
+            "stance": true,
+            "argsMeID": "S402902df-A86e79a83"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Sjk3OnQBmlkxZEF4PSnz",
+        "_score": 54.734646,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "General statements in support of a two-state solution",
+            "premise": "US special envoy George Mitchell: \"In the case of the Israeli-Palestinian conflict, we believe that the two-state solution, two states living side by side in peace, is the best and the only way to resolve this conflict.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A2c76f1cf"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "LDk9OnQBmlkxZEF4IYZZ",
+        "_score": 54.325558,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "Israelis and Palestinians are too intermingled for a two-state solution",
+            "premise": "A two-state solution could succeed in partitioning the land and the two peoples by including the largest Israeli settlements within Israel, possibly by allowing for non-contiguous \u201cislands\u201d of Israeli territory around the larger settlements surrounded by the new Palestinian state.(13) In any case, a two-state solution can find practical solutions to these problems, while having the advantage of solving the inherent and insolvable problems of having two opposed nations and identities in perpetual conflict within a single state.",
+            "stance": false,
+            "argsMeID": "S8d325e50-A3cff66d0"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "OTk9OnQBmlkxZEF4IoYl",
+        "_score": 54.02979,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "Only a one-state solution can end the conflict",
+            "premise": "It was no less a man than Albert Einstein who believed in 'sympathetic cooperation' between 'the two great Semitic peoples' and who insisted that 'no problem can be solved from the same level of consciousness that created it.' A relative handful of Israelis and Palestinians are beginning to survey the proverbial new ground, considering what Einstein's theories would mean in practice. They might take heart from Einstein's friend Martin Buber, the great philosopher who advocated a bi-national state of 'joint sovereignty,' with 'complete equality of rights between the two partners,' based on 'the love of their homeland that the two peoples share.'(10) This position has been adopted by some Palestinian leaders: In October 2005, Nusseibeh, then president of al-Quds University in Jerusalem, and several other liberal Palestinian political activists and intellectuals held a press conference in Jerusalem, stating: \u201cWe are pressing now for equal political and legal rights within a single, democratic Israel, and we are confident that our Israeli brothers and sisters will welcome us and that together we will build a free and democratic state in which Jews and Arabs will live together in peace.\u201d(5) A two-state solution, however, would most likely foster continued conflict, for two reasons. Firstly, a Palestinian state would be base for terrorism. As seen when Israel withdrew from Gaza, the Palestinians there did not embrace the two-state solution, but the Muslim hardliners who controlled Gaza continued to want nothing less than Israel's destruction, and Gaza's newly-elected Hamas government spent much of its money not on the welfare of Palestinians but on attacking Israel.(11) Similarly, a two-state solution makes Israel too narrow and vulnerable. A two-state solution would make Israel only 6 miles wide at a number of points where the West Bank juts into Israeli territory.(1) This creates a number of vulnerabilities, particularly the risk that Israel may become divided during a war (a not unlikely prospect). For all these reasons, a two-state solution cannot offer true peace, but a one-state solution built on co-operation and equal rights can, and so a one-state solution is more just.",
+            "stance": true,
+            "argsMeID": "S8d325e50-Acffbf811"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "QTk3OnQBmlkxZEF4PSla",
+        "_score": 53.73596,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "A two-state solution is the least bad option",
+            "premise": "Shimon Peres. \"One Region, Two States\". Washington Post. February 10, 2009: \"The difficulties of a two-state solution are numerous, but it remains the only realistic and moral formula to end the Israeli-Palestinian conflict.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A63275679"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ijTrOXQBmlkxZEF4hICp",
+        "_score": 53.47373,
+        "_source": {
+            "discussionTitle": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "conclusion": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "premise": "I thank my opponent, for his well thought out and executed response. (No really you totally killed it) \u201cForcing two groups of people who are deeply hostile to one another to live together is very unlikely to produce good results.\u201d Must remind you that in the Communist Manifesto, Marx describes history as a class struggle, and that class ultimately divided us more than race and ethnicity, so according to the resolution \u201ccommunism is a logical solution to the conflict\u201d this is since confirmed because, we must face the facts all the Palestinians want is really equality, and the absorption and formation of a proletariat class is key to a happy society. \u201cNeither the Israelis nor the Palestinians want equal land redistribution. The vast majority of Palestinians want an independent state\u201d Okay so here\u2019s where I get to attack a two state solution, with a question. What happened in 1948, when the British removed troops from Palestine and the Israelis declared independence? What happened was the Palestinians immediately started uprising and six other Arab countries attacks. In my statements I addressed this by saying that the two countries would be at a constant struggle with each other, and therefore, the statement about equal distribution of land is met and affirmed. This would also eliminate the large gap between wealthy and poor that plagues the Palestinian populace and allows the Israelis to keep power.\" Under ideal communism perhaps, but in practice in every \"communist\" country classes still existed, it would be very, very unlikely. I\u2019ll dispute your statement by saying there has never been a true communist country ever, and according to the definition agreed upon, this would work in alleviating tensions, therefore this is also a logical answer. Once again, the entire goal of the Palestinian people is to have INDEPENDENCE. What evidence is there that shows that the only alternative to a \"strong central government\" is a weak umbrella one? Once more, forcing them into becoming ONE people would be one of the worst things for both sides because the Palestinians want independence more than anything else. It seems my opponent was not smart enough to catch this but, it has been my goal to attack every one of the proposed resolution to institute there flaws and irrationality\u2019s, so that I could prove communism is a rational option. And you need to understand that no matter how much the Palestinians want independence, the resolution has to be equal and fair for both sides, and that is why REAL communism is a rational solution as it is for most other world problems. You argue that a single state solution would not unify the two groups without the constant use of force, when under your proposal of communism Israel and Palestine would be magically united without the use of force? First of all sir don\u2019t talk lightly about magic around me I am a level 69 goblin virgin mage. :P And yes once again like Marx said \u201chistory can be viewed as a constant class struggle\u201d so under this statement yes, the formation of the Israelis and Palestinians into a single proletariat would solve all problems of unity. This is a debate about ISRAEL and PALESTINE, not CHINA. Geez did your caps lock button have a seizure or something? This was simply to state that the rise of Maoism has worked very well for China and Maoism is a distort form of communism. It is also highly unrealistic and illogical since it would not be supported by either of the people seeing as Israel is a very capitalist country Okay, um ill just pretend you thought that one out and did not just say that\u2026 And so it is clear that TRUE communism would be a logical solution to the problem and that is all I had to prove, I never had to prove whether it would work (even though I did), and I have proven why it is logical and refuted all my opponents points, the victory is mine. Vote Pro!!! Sources: 1: http://www.marxists.org... 2: http://en.wikipedia.org... 3: http://en.wikipedia.org...",
+            "stance": true,
+            "argsMeID": "S71d8bac1-A2cc11058"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "MDk9OnQBmlkxZEF4IYaZ",
+        "_score": 53.38092,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "Israelis and Palestinians are too intermingled for a two-state solution",
+            "premise": "A million Palestinians live throughout Israel even without the West Bank and Gaza strip, and when the Israeli settlements in the West Bank are considered also, it becomes clear that dividing these two populations is simply unfeasible. By comparison, the feasibility of a bi-national state, with the two peoples living in a kind of federation, seems workable. Given this 'reality' on the ground, the most practical solution seems to be a united democratic state offering equal citizenship for all: One Person, One Vote.(12) The ever-expanding Israeli settlements in the West Bank particularly represent a barrier to the separation of the two peoples into two states. In 1993, when Israeli Prime Minister Yitzhak Rabin and Palestine Liberation Organization leader Yasser Arafat famously shook hands on the White House lawn, there were 109,000 Israelis living in settlements across the West Bank (not including Jerusalem). Today there are 275,000, in more than 230 settlements and strategically placed 'outposts' designed to cement a permanent Jewish presence on Palestinian land.(10) Forcibly removing settlers would be too difficult, could foment civil strife among Jewish Israeli citizens, and would create a level of resentment among fundamentalist Jews that would likely inflame the Israeli-Palestinian conflict.",
+            "stance": true,
+            "argsMeID": "S8d325e50-Af7ffd3b8"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "YDk3OnQBmlkxZEF4PylP",
+        "_score": 53.208405,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Iranian support for a two-state solution is diplomatically valuable",
+            "premise": "Iranian President Mahmud Ahmadinezhad has stated that Iran would support a two-state solution to the Israeli-Palestinian conflict. The success of a two-state solution, therefore, would, at a minimum, gain the support and possibly cooperation of the Iranians. This would be valuable diplomatically, particularly in resolving the larger conflict between Iran and the West.",
+            "stance": true,
+            "argsMeID": "S402902df-A88f15622"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Ojk3OnQBmlkxZEF4PCnq",
+        "_score": 53.15094,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution would prevent return of Palestinian refugees.",
+            "premise": "A two-state solution, and the establishment of a Jewish state, would kill the idea of the return of Palestinian refugees that were expelled from Israel during various wars and conflicts.",
+            "stance": true,
+            "argsMeID": "S402902df-Aea3674b"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Lzk9OnQBmlkxZEF4IYaJ",
+        "_score": 52.90838,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "Only a two-state solution can satisfy both sides",
+            "premise": "A two-state solution can offer sufficient territory for both Israelis and Palestinians. For Israel this would mean keeping the vast majority of areas inhabited by Israeli citizens within the state of Israel. The two-state solution would also, however, offer sufficient land to the Palestinians. While cynics might question the size of the West Bank and Gaza, optimists should look no further than Singapore for reassurance. The area of the West Bank and Gaza is nine times as large as Singapore's, yet the combined population of Palestinians in both regions is smaller than that of Singapore. Singapore enjoys one of the highest standards of living in the world. The Palestinians are capable of achieving similar success, through instituting a modern economy based on science, technology and the benefits of peace.(1) Moreover, throughout the years polls have consistently showed respectable Israeli and Palestinian majorities in favour of a negotiated two-state settlement.(6) Even the Iranian President Mahmud Ahmadinezhad has stated that Iran would support a two-state solution to the Israeli-Palestinian conflict. The success of a two-state solution, therefore, would, at a minimum, gain the support and possibly cooperation of the Iranians. This would be valuable diplomatically, particularly in resolving the larger conflict between Iran and the West.(7) Therefore, the best way to satisfy both sides and achieve peace is to adopt a two-state solution, which is therefore the most just solution.",
+            "stance": true,
+            "argsMeID": "S8d325e50-A6589ee1f"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "NTk3OnQBmlkxZEF4PCmc",
+        "_score": 52.81497,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Palestinians do not want peace and a two-state solution",
+            "stance": false,
+            "argsMeID": "S402902df-Aea58d5ba"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "WDk3OnQBmlkxZEF4PinR",
+        "_score": 52.81497,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Two-state solution gives Palestinians unequal rights",
+            "stance": false,
+            "argsMeID": "S402902df-A9c127b64"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Yzk3OnQBmlkxZEF4Pyl-",
+        "_score": 52.81497,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Two-state solution offers adequate territory to Palestinians",
+            "stance": true,
+            "argsMeID": "S402902df-Acced8fb4"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Pjk3OnQBmlkxZEF4PSks",
+        "_score": 52.789135,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Palestinians want two-state solution, assuming settlements stop.",
+            "stance": true,
+            "argsMeID": "S402902df-A2e32cc5"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "WTk3OnQBmlkxZEF4Pinh",
+        "_score": 52.789135,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Two-state solution does not offer Palestinians enough space.",
+            "stance": false,
+            "argsMeID": "S402902df-Ac879a058"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Wjk3OnQBmlkxZEF4Pinw",
+        "_score": 52.789135,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Palestinian support for two-state solution declined around 2008.",
+            "stance": false,
+            "argsMeID": "S402902df-A899a7acc"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "djk3OnQBmlkxZEF4QCmV",
+        "_score": 52.789135,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Two-state solution would prevent return of Palestinian refugees.",
+            "stance": false,
+            "argsMeID": "S402902df-A3116b93b"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Wzk3OnQBmlkxZEF4PykA",
+        "_score": 52.604073,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "A two-state solution makes Israel too narrow, vulnerable.",
+            "stance": false,
+            "argsMeID": "S402902df-Abc0eb500"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Rzk3OnQBmlkxZEF4PSnA",
+        "_score": 52.020306,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Israel will simply not accept a two-state solution",
+            "stance": false,
+            "argsMeID": "S402902df-A285c3337"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "QDk3OnQBmlkxZEF4PSlK",
+        "_score": 51.99716,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Israel will not relinquish Judea, Samaria in two-state solution",
+            "stance": false,
+            "argsMeID": "S402902df-A323040d2"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "azk3OnQBmlkxZEF4Pyn0",
+        "_score": 51.99716,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Israeli settlements make a two-state solution impossible",
+            "stance": false,
+            "argsMeID": "S402902df-A1fef48b6"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ojgsOnQBmlkxZEF4GX7c",
+        "_score": 51.979385,
+        "_source": {
+            "discussionTitle": "Israel and Palestine issue: Palestines future in the world map",
+            "conclusion": "Israel and Palestine issue: Palestines future in the world map",
+            "premise": "Although the two-state solution is increasingly losing support among Israelis and Palestinians, it still remains the basic approach to resolving the Israeli-Palestinian conflict. The struggle over the historical British Mandate of Palestine/Eretz Yisrael, now divided between Israel, Jordan, and the territories in between, can possibly be resolved by confederative arrangements. It can be politically transformed into a trilateral confederation\"a system that combines self-rule with shared rule. It will be comprised of three distinct, independent, sovereign states: the Jewish State of Israel, the Arab State of Palestine, and the Hashemite Kingdom of Jordan, and run by a Jerusalem-based confederal authority. Such a political arrangement may be the best form of government for the resolution of the heart of the Arab-Israeli conflict and the key for a full normalization of the relations between Israel and all Arab states. This concept was first presented in 1937 by Britain\"s Peel Commission and subsequently proposed by the United Nations in the 1947 Partition Plan. Since 1993, this solution has been accepted not only by the international community, but also by Israel and the Palestinians themselves. In 2002, it was proffered by President George W. Bush as a new vision for the Middle East, and supported by the Arab League. Since President Barack Obama\"s first inauguration in January 2009, he too has been promoting this vision. Even Prime Minister Benjamin Netanyahu, in his famous speech at Israel\"s Bar-Ilan University in June 2009, spoke of a Palestinian state, albeit one with very strict limits and certain conditions. At the basis of this confederation solution is the recognition that despite the moral and historical rights of the Jews to the Land of Israel, or Eretz Yisrael, we cannot ignore the realty on the ground: Palestinians will fight tooth and nail for national self-determination. The Israelis and Palestinians have had their destiny interconnected by virtue of the common land they live in, so they must accept that the constraints of Middle Eastern geography and demography engage in cooperation and compromise. Their historical aspirations and dreams of maximizing their territory must be compromised so that the two peoples can share the disputed land of historical Palestine/Eretz Yisrael.",
+            "stance": true,
+            "argsMeID": "S3dc15a15-Aefd68861"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "eTk3OnQBmlkxZEF4QCnB",
+        "_score": 51.977467,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution would alienate Palestinians in Israel.",
+            "premise": "A two-state solution, particularly one that enables a Jewish state, will alienate Palestinians living in Israeli territory. At best, they would be second class citizens. At worst, they would be pushed out, directly or indirectly.",
+            "stance": true,
+            "argsMeID": "S402902df-Aad5f8ad4"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "UDk3OnQBmlkxZEF4PilS",
+        "_score": 51.95136,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Israel loses strategic West Bank mountains in two-state solution",
+            "stance": false,
+            "argsMeID": "S402902df-Aa610349"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "cjk3OnQBmlkxZEF4QClc",
+        "_score": 51.82707,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution and peace is critical to regional stability.",
+            "premise": "For years, the middle east has been up in arms regarding the Israeli-Palestinian conflict. It is a source of tension between the Muslim world and the west, and a source of tension between populations and their governments. And, as a source of tension between Muslims and the West, it has been considered a source of terrorism. Solving the Israeli-Palestinian conflict is critical to relieving these various tensions. In so far as a two-state solution helps end the conflict and establish peace, it helps relieve tensions and restore stability in the broader middle east and in the global fight against terrorism.",
+            "stance": true,
+            "argsMeID": "S402902df-A719eeaf9"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "TDk3OnQBmlkxZEF4PikT",
+        "_score": 51.56422,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Palestinian state would be base for terrorism",
+            "premise": "\"Gaza and the two-state solution\". The Recliner Commentaries. May 16, 2009: \"Gaza was the perfect test case for Palestinians to prove they were ready for \"the two state solution\" which everyone seems to think is the best solution to peace in the mid-east--everyone but Muslim hardliners who want nothing less than Israel's destruction, that is. [...] And yet the Gaza experiment has failed miserably. The people elected a terrorist government which has spent so much of its money, not on the welfare of the Palestinian people, but on attacking Israel! [...] How can Israel be expected to support a two-state solution when Gaza has only turned out to be a base for attacking Israel?\"",
+            "stance": true,
+            "argsMeID": "S402902df-Abf3c325"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "aDk3OnQBmlkxZEF4PynH",
+        "_score": 51.53469,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Israel will simply not accept a two-state solution",
+            "premise": "There are many indications that, despite the rhetoric, Israel will not accept a two-state solution. The most important factor is the growth of settlements, which would have to be removed under a two-state solution, which many believe would be met by violent resistance by Jewish settlers. Territorial vulnerabilities from a two-state solution, and the inability to control the borders of the Palestinian state are also problems that make Israel unlikely to accept a two-state solution.",
+            "stance": true,
+            "argsMeID": "S402902df-A5af39395"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "VDk3OnQBmlkxZEF4PimS",
+        "_score": 51.3694,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution gives Palestinians unequal rights",
+            "premise": "\"The One State Declaration\". Issued by participants in the July 2007 Madrid meeting. November 29, 2007: \"A two-state solution is] predicated on the unjust premise that peace can be achieved by granting limited national rights to Palestinians living in the areas occupied in 1967, while denying the rights of Palestinians inside the 1948 borders and in the Diaspora. Thus, the two-state solution condemns Palestinian citizens of Israel to permanent second-class status within their homeland, in a racist state that denies their rights by enacting laws that privilege Jews constitutionally, legally, politically, socially and culturally. Moreover, the two-state solution denies Palestinian refugees their internationally recognized right of return.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A9ac79a81"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Tzk3OnQBmlkxZEF4PilC",
+        "_score": 51.252735,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Israelis/Palestinians can coexist peacefully in one state",
+            "stance": false,
+            "argsMeID": "S402902df-A7a561d31"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "dDk3OnQBmlkxZEF4QCl4",
+        "_score": 51.252735,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Israeli settlements ought not justify denying Palestinians a state.",
+            "stance": true,
+            "argsMeID": "S402902df-Ade7377d6"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "dzk3OnQBmlkxZEF4QCmj",
+        "_score": 51.252735,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Palestinians/Israelis cannot live in peace in one state",
+            "stance": true,
+            "argsMeID": "S402902df-A71011f00"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "czk3OnQBmlkxZEF4QClq",
+        "_score": 51.19201,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "One-state would see Israeli minority ruling over Palestinian majority",
+            "stance": true,
+            "argsMeID": "S402902df-Aeaeed108"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Ujk3OnQBmlkxZEF4Pily",
+        "_score": 51.155502,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "One-state solution would end Israel as a Jewish state",
+            "stance": true,
+            "argsMeID": "S402902df-Ae6dccd9d"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "izTrOXQBmlkxZEF4hIC5",
+        "_score": 51.117165,
+        "_source": {
+            "discussionTitle": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "conclusion": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "premise": "My opponent argues that a communist government would unite Palestinians and Israelis because it would \"combine their ethnicities\". Forcing two groups of people who are deeply hostile to one another to live together is very unlikely to produce good results. It wouldn't \"combine their ethnicities\" it would just make tensions worse. My opponent argues that since communism distributes land equally, there would be no more territorial disputes. Neither the Israelis nor the Palestinians want equal land redistribution. The vast majority of Palestinians want an independent state--a fully realized and truly independent state--in the West Bank and Gaza with East Jerusalem as its capital (1). This means firstly that forcing the two countries together would be against the wishes of there people, and secondly that equal land distribution would not please either group. My opponent also argues that \"Any class systems would vanish because everyone would become equal. This would also eliminate the large gap between wealthy and poor that plagues the Palestinian populace and allows the Israelis to keep power.\" Under ideal communism perhaps, but in practice in every \"communist\" country classes still existed, it would be very, very unlikely. My opponent argues that \"unlike a parallel state solution this would solve the problem of unity by having the one communist party be made up of Palestinians and Israelis alike.\" Once again, the entire goal of the Palestinian people is to have INDEPENDENCE. What evidence is there that shows that the only alternative to a \"strong central government\" is a weak umbrella one? Once more, forcing them into becoming ONE people would be one of the worst things for both sides because the Palestinians want independence more than anything else. You argue that a single state solution would not unify the two groups without the constant use of force, when under your proposal of communism Israel and Palestine would be magically united without the use of force? What does China have to do with this debate? This is a debate about ISRAEL and PALESTINE, not CHINA. That entire paragraph is totally off topic, and on top of that inaccurate. Go look up the name Deng Xiaoping and then come back and tell me how \"communist\" China is. Communism would not solve any of the key issues of the Israeli-Palestinian conflict. It is also highly unrealistic and illogical since it would not be supported by either of the people seeing as Israel is a very capitalist country and Palestine's entire goal is independence. Communism is not a logical answer to the Israeli-Palestinian conflict because it would not effectively solve any of the key issues, is not practically realistic, and would never be supported by the people. (1) http://www.endtheoccupation.org...",
+            "stance": false,
+            "argsMeID": "S71d8bac1-Af12eaf46"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Kzk9OnQBmlkxZEF4IYZK",
+        "_score": 50.67861,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "Only a two-state solution can satisfy both sides",
+            "premise": "Palestinian support for two-state solution declined around 2008, and is waning even among the 'moderate' Palestinian camp, as well as among additional Arab elements.(8) It is also na\u00efve to think that a two-state solution would gain the favour or even support of Iran. Iran wants to be the dominant power in the Middle East, and it wants nuclear weapons so that it can threaten not only Israel but other states in the region.(9) To this end, Iran has an incentive to keep the Israeli-Palestinian conflict big and bloody so as to distract the West from its own regional agenda. Furthermore, an independent Palestinian state would probably be perceived as a security threat to some of its neighbours, particularly Jordan, and thus might actually prompt further tensions.(9)",
+            "stance": false,
+            "argsMeID": "S8d325e50-A107eadec"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "aTk3OnQBmlkxZEF4PynV",
+        "_score": 50.45798,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "A two-state solution will not assuage Iran.",
+            "premise": "\"Two States? Many Problems\". Los Angeles Times, Letter to the Editor. May 7, 2009: \"Iran's disbanding its nuclear weapons program is surely not dependent on resolving the Israeli-Palestinian issue. Iran wants to be the dominant power in the Middle East, and it wants nuclear weapons so that it can threaten not only Israel but other states in the region. [...] If Iran's motivation to develop WMD was to effect resolution of the Israeli-Palestinian conflict, Saudi Arabia and Egypt wouldn't have grave concerns.\"",
+            "stance": true,
+            "argsMeID": "S402902df-Af0905c79"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "jDTrOXQBmlkxZEF4hIDH",
+        "_score": 50.23844,
+        "_source": {
+            "discussionTitle": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "conclusion": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "premise": "I would first like to correctly define communism... Communism: A political theory derived from Karl Marx, advocating class war and leading to a society in which all property is publicly owned and each person works and is paid according to their abilities and needs, a society where the proletariat and bourgeois become absorbed into one party. As for the other definition I accept then and would like to note that the BoP is shared, all I must do to win is prove it is a logical solution , while my opponent will try and prove how it is not in any way logical. The installment of a communist government would combine the ethnicities of Israelis and Palestinians under one government, uniting the two people. This would also end any territorial disputes because through the government there would be equal distribution of land and property rights. Any class systems would vanish because everyone would become equal. This would also eliminate the large gap between wealthy and poor that plagues the Palestinian populace and allows the Israelis to keep power. And unlike a parallel state solution this would solve the problem of unity by having the one communist party be made up of Palestinians and Israelis alike. For instance instead of a weak umbrella government that will get nothing done there will be one strong central government that will quickly reach a solution that is best for the state and people. Communism is also superior to a two state solution, because instead of two governments that would constantly be invading each other it would bring them together. It is also superior then a single state solution, because, like Zionist Vladimir Jabotinsky warned \u201cNative resistance to dispossession is irrepressible and Zionism would only survive with constant force to quell it.\u201d This statement reinforces the fact that a single state solution could not unify without the use of a constant force to suppress the people, this plan would of course be enforced by China. Each point that has been made here exemplifies why this solution is the only one that could be a long lasting affective solution. And for those of you out there look down on communism have no to right to do so because of what China has done. Consequently it has worked very well for China, as a result of communism it has become the largest exporter of fabricated goods in the world today. It also has one of the largest infrastructures in the world to attribute to its success, but this is a result of a communist government. China\u2019s environment is not a result of communism, which never states that the destruction of and ecology is necessary. China\u2019s environment is a result of poor leadership and indifference not communism. It is for these reason that communism is a highly logical solution to the conflict.",
+            "stance": true,
+            "argsMeID": "S71d8bac1-A9e45105e"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Ojk9OnQBmlkxZEF4IoYy",
+        "_score": 50.097588,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "Only a one-state solution can guarantee equal rights for all",
+            "premise": "A one-state solution is the most just because a two-state solution would inherently result in a worse situation for the Palestinians than the Israelis, whereas a one-state solution would guarantee equal rights for all. The July 2007 Madrid meeting in favour of a one-state solution put firth that: \u201cA two-state solution is predicated on the unjust premise that peace can be achieved by granting limited national rights to Palestinians living in the areas occupied in 1967, while denying the rights of Palestinians inside the 1948 borders and in the Diaspora.\u201d Thus, the two-state solution condemns Palestinian citizens of Israel to permanent second-class status within their homeland, in a racist state that denies their rights by enacting laws that privilege Jews constitutionally, legally, politically, socially and culturally. Moreover, the two-state solution denies Palestinian refugees their internationally recognized right of return.\u201d(14) A two-state solution, particularly one that enables a Jewish state, would also most likely alienate the Palestinian population remaining within Israel. At best, they would be second class citizens. At worst, they would be pushed out, directly or indirectly.(13) A two-state solution, and the establishment of a Jewish state, would also kill the idea of the return of Palestinian refugees that were expelled from Israel during various wars and conflicts. The Palestinian state created would also- if past experience is any judge- be highly divided (between factions such as Hamas and Fatah) and dysfunctional. This situation would have a material impact on the quality of life of citizens of the new Palestinian.(15)(16) Therefore, a one-state solution is more just than a two-state solution.",
+            "stance": true,
+            "argsMeID": "S8d325e50-Aba7dc64a"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "PTk3OnQBmlkxZEF4PSkc",
+        "_score": 50.048325,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "One state is more peaceful then a two state solution.",
+            "stance": false,
+            "argsMeID": "S402902df-Ae4dcbbb"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "STk3OnQBmlkxZEF4PSni",
+        "_score": 50.048325,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Idea of Jewish state, in two-state solution, is undemocratic",
+            "stance": false,
+            "argsMeID": "S402902df-Adc608001"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "SDk3OnQBmlkxZEF4PSnR",
+        "_score": 49.955055,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "A two-state solution will not assuage Iran.",
+            "stance": false,
+            "argsMeID": "S402902df-Ad289b9fe"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ZTk3OnQBmlkxZEF4Pymb",
+        "_score": 49.939087,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "General statements in support of a two-state solution",
+            "stance": true,
+            "argsMeID": "S402902df-A6f332ef5"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "bjk3OnQBmlkxZEF4QCkh",
+        "_score": 49.939087,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "A two-state solution is the least bad option",
+            "stance": true,
+            "argsMeID": "S402902df-Ada260e0a"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Pzk3OnQBmlkxZEF4PSk7",
+        "_score": 49.92323,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Two-state solution and peace is critical to regional stability.",
+            "stance": true,
+            "argsMeID": "S402902df-A9e1c7780"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "UTk3OnQBmlkxZEF4Pilj",
+        "_score": 49.92323,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Iranian support for a two-state solution is diplomatically valuable",
+            "stance": true,
+            "argsMeID": "S402902df-A2c8c151a"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "bTk3OnQBmlkxZEF4QCkT",
+        "_score": 49.907482,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Two-state solution offers peace, the most important factor",
+            "stance": true,
+            "argsMeID": "S402902df-A1e247133"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "dTk3OnQBmlkxZEF4QCmH",
+        "_score": 49.84193,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Palestinians are too divided to constitute a state.",
+            "stance": false,
+            "argsMeID": "S402902df-A108b16bf"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "XDk3OnQBmlkxZEF4PykQ",
+        "_score": 49.367313,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "A two-state conflict will not end conflict",
+            "stance": false,
+            "argsMeID": "S402902df-Ae31a5e2b"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ejk3OnQBmlkxZEF4QCnQ",
+        "_score": 49.22462,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Palestinians do not want peace and a two-state solution",
+            "premise": "Jeff Jacoby. \"Peace isn't Arab goal\". Boston Globe. May 20, 2009: \"International consensus or no, the two-state solution is a chimera. Peace will not be achieved by granting sovereignty to the Palestinians, because Palestinian sovereignty has never been the Arabs' goal. Time and time again, a two-state solution has been proposed. Time and time again, the Arabs have turned it down.\"",
+            "stance": true,
+            "argsMeID": "S402902df-Afdcf636a"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "bDk3OnQBmlkxZEF4QCkD",
+        "_score": 49.218807,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "A Palestinian state would be dysfunctional",
+            "stance": false,
+            "argsMeID": "S402902df-A6ce0be07"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ZDk3OnQBmlkxZEF4PymN",
+        "_score": 49.20538,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Palestinian state would be base for terrorism",
+            "stance": false,
+            "argsMeID": "S402902df-Ab53dff6c"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Njk3OnQBmlkxZEF4PCmt",
+        "_score": 49.192043,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "A Palestinian state would threaten its neighbors.",
+            "stance": false,
+            "argsMeID": "S402902df-A3998eaf"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "TTk3OnQBmlkxZEF4Pikj",
+        "_score": 49.00777,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution offers adequate territory to Palestinians",
+            "premise": "Shimon Peres. \"One Region, Two States\". Washington Post. February 10, 2009: \"Dissenters from the two-state solution contend -- not without some reason -- that Gaza and the West Bank are too small to absorb the Palestinian refugees. Yet this would also be the case under the one-state formula; it would result in a state that is merely 24,000 square kilometers and that already overflows with a population exceeding 10 million (5.5 million Jews and 4.5 million Arabs). While cynics might question the size of the West Bank and Gaza, optimists should look no further than Singapore for reassurance.\"",
+            "stance": true,
+            "argsMeID": "S402902df-Ab47d1dcf"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Rjk3OnQBmlkxZEF4PSmv",
+        "_score": 48.98761,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "General statements in favor of a one-state solution",
+            "stance": false,
+            "argsMeID": "S402902df-Ad6547540"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ajk3OnQBmlkxZEF4Pynl",
+        "_score": 48.975086,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Inclusive one-state solution adopts democratic principles",
+            "stance": false,
+            "argsMeID": "S402902df-A3f3aaa46"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Mzk9OnQBmlkxZEF4IYbI",
+        "_score": 48.92755,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "A one-state solution mean Israel would cease to be either democratic or Jewish",
+            "premise": "The two-state solution would have Israel relinquish the West Bank, known to the Israelis as \u201cJudea and Samaria\u201d. Yet, these are historic regions to the Jews. Israel would similarly have to undermine its identity to give up these two regions, and so any two-state solution acceptable to Israel would have to mean the retention of Judea and Samaria. Because of the large Palestinian population in the West Bank, even a two-state solution would mean Israel could not be both Jewish and democratic.(3)",
+            "stance": false,
+            "argsMeID": "S8d325e50-A7b688662"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "PDk3OnQBmlkxZEF4PSkL",
+        "_score": 48.89363,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Israeli settlements ought not justify denying Palestinians a state.",
+            "premise": "The intent of the Israeli settlers - and of any government policy, official and unofficial, that has supported the settlers - has often been to squeeze the Palestinians out of the \"Israeli homeland\" (including both the West Bank and Gaza). This objective is unjust, as it denies the right of the Palestinians to exist in what has been their historic homeland. It is wrong, therefore, to use the settlements as a justification for denying the Palestinians their own state (even if it is only argued as a matter of practicality). This is precisely what nefarious settlers have intended to do from the beginning: create facts on the ground that become too impractical for Israel and the world to deal with, and which are subsequently used to deny Palestinians their own homeland. Policies should not cave to these nefarious intentions, even if it is more practical. It is wrong to reward the immoral settlements in this way, by using them as an argument against an independent Palestinian state (within a two-state solution).",
+            "stance": true,
+            "argsMeID": "S402902df-A1d1dcb53"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Tjk3OnQBmlkxZEF4Pikz",
+        "_score": 48.74041,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Many/most Israelis and Palestinians support two-state solution",
+            "premise": "The New York Review of Books reported in a 2008 review of the middle east situation that \"[t]hroughout the years, polls consistently showed respectable Israeli and Palestinian majorities in favor of a negotiated two-state settlement.\"[2]",
+            "stance": true,
+            "argsMeID": "S402902df-Ac550e088"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "KjYLOnQBmlkxZEF44YNV",
+        "_score": 48.443275,
+        "_source": {
+            "discussionTitle": "Media in the Israeli-Palestinian Conflict",
+            "conclusion": "Media in the Israeli-Palestinian Conflict",
+            "premise": "Thanks for the topic! I'll defend that the media coverage towards the Israel-Palestinian conflict is not biased and that our problems with regards to our policy towards Israel stem mostly from government inadequacies, not problems with the media. Definitions The media is defined by Random House Dictionary as \"the means of communication,\" and traditionally has been limited to radio, print news, and television, but has involved to include online media and the blogosphere. \"Mainstream media\" would refer to a vague conception of traditional media sources, but the word mainstream does not appear in the resolution, so this debate will also encompass non-traditional media sources. Burden of Proof While my opponent may try to avoid proving anything by taking Con, it is her burden to show how the media coverage is bias so that I might refute this. The presumption should be that there is no problem with the media coverage, since for the radio and television, the FCC requires that any news station provide equal coverage to both sides of an issue in order to maintain their lease on government bandwidths. Contention 1: Time Magazine Even though it's mainstream, Time Magazine ran a cover story very critical of Israel, entitled \"Why Israel Doesn't Care About Peace,\" suggesting the U.S. must take a more hard-line stance towards Israel to get them to cede ground on a Two State Solution. Contention 2: Al Jazeera Al Jazeera recently opened a branch in the United States called Al Jazeera: English, which provides a more Arab viewpoint to the Palestinian conflict. Al Jazeera: English has both a television station and online \"print media.\" Contention 3: Blame the lobbyists AIPAC and the Pro-Israel lobby have more to do with public opinion towards Israel and the Palestinian conflict than does the media. CNN, for example, prides itself on its un-biased reporting and NPR is required to provide un-biased reporting. The way our government treats Israel has more to do with AIPAC lobbyists than it does with CNN's and NPR's news coverage. I await my opponent's case so that I may refute it.",
+            "stance": true,
+            "argsMeID": "S73691aa4-Abcf2f2fe"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Vjk3OnQBmlkxZEF4Pimx",
+        "_score": 48.43175,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution does not offer Palestinians enough space.",
+            "premise": "A two-state solution offers the Palestinians a very small amount of territory in the West Bank and Gaza strip. This small amount of space is not going to work for such a large and rapidly growing population of Palestinians.",
+            "stance": true,
+            "argsMeID": "S402902df-A4b7afe9c"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "cDk3OnQBmlkxZEF4QCk_",
+        "_score": 48.31506,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Israel will not relinquish Judea, Samaria in two-state solution",
+            "premise": "The two-state solution would have Israel relinquish Judea and Samarra. Yet, these are historic regions to the Jews. Israel will not undermine its identity by relinquishing these territories, so it will not and should not accept a two-state solution.",
+            "stance": true,
+            "argsMeID": "S402902df-Ac2f7fdd"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Qzk3OnQBmlkxZEF4PSl8",
+        "_score": 48.25068,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution offers peace, the most important factor",
+            "premise": "Shimon Peres. \"One Region, Two States\". Washington Post. February 10, 2009: \"Those not committed to this solution argue that, after the creation of a Palestinian state, Israel's waist would be too narrow -- some six miles -- to ensure security for its citizens. [...] Indeed, six miles will be too narrow to guarantee full security, which only reinforces our belief that Israel's safety is not embedded only in territorial defense but in peace. Peace provides breadth of wings, even when the waist is narrow.\"",
+            "stance": true,
+            "argsMeID": "S402902df-Ae06a9bde"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Xjk3OnQBmlkxZEF4Pykw",
+        "_score": 48.24411,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "One-state solution would end Israel as a Jewish state",
+            "premise": "Shimon Peres. \"One Region, Two States\". Washington Post. February 10, 2009: \"A minority of Middle East pundits have recently emerged as advocates for a one-state solution, which would undermine Israel's legitimacy and internationally recognized right to exist as a sovereign Jewish state in the land of my forefathers. [...] From Israel's perspective, it is not possible for the Jewish people to accept an arrangement that signifies the end of the existence of a Jewish state.\" [The reason for this is that it could not be considered a Jewish state if it housed a very large Palestinian population].",
+            "stance": true,
+            "argsMeID": "S402902df-Ae1e6f65f"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "jTTrOXQBmlkxZEF4hIDW",
+        "_score": 48.19104,
+        "_source": {
+            "discussionTitle": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "conclusion": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "premise": "I wish my opponent well on this debate. My opponent will be arguing communism is a logical solution to the Israeli-Palestinian conflict, I will be arguing that it is not. Since my opponent did not provide definitions, I will: Communism: 1.) A theory advocating elimination of private property 2.) A system in which goods are owned in common and are available to all as needed. (http://www.merriam-webster.com...) Logical: 1.) Of or according to the rules of logic or formal argument: \"a logical impossibility\". 2.) Characterized by clear, sound reasoning. Israeli-Palestinian conflict: The ongoing dispute between the Jewish and Arab populations in the former Ottoman Empire region of Palestine, consisting of the state of Israel, the West Bank, and the Gaza Strip (http://www.chegg.com...) I look forward to my opponent's opening argument.",
+            "stance": false,
+            "argsMeID": "S71d8bac1-A7412831f"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "VTk3OnQBmlkxZEF4Pimi",
+        "_score": 48.147964,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "A two-state solution makes Israel too narrow, vulnerable.",
+            "premise": "A two-state solution would make Israel only 6 miles wide at a number of points where the West Bank juts into Israeli territory. This creates a number of vulnerabilities, particularly the risk that Israel become divided during a war (a not unlikely prospect).",
+            "stance": true,
+            "argsMeID": "S402902df-Ad4298806"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Kjk9OnQBmlkxZEF4IYY6",
+        "_score": 48.13294,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "A two-state solution is best for peace",
+            "premise": "Simply because past conflict has existed is no reason to believe that peace and understanding cannot be established through co-operation, shared institutions and interaction. This is exactly what a one-state solution would foster in the long term, but which a two-state solution prevents by separating the two communities. Even if they each have a state of their own, unless the Israelis and Palestinians learn to live in proximity to each other in co-operation, there will be no peace.",
+            "stance": false,
+            "argsMeID": "S8d325e50-A977234df"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Ozk3OnQBmlkxZEF4PCn7",
+        "_score": 48.02461,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Palestinians are too divided to constitute a state.",
+            "premise": "MJ Rosenberg. \"Loving The Two-State Solution to Death\". Huffington Post. December 22, 2008: \"we are further from implementing the two-state solution today than we were in 2001. In fact, it can't be implemented because the Palestinians themselves constitute two states. Without Palestinian unity -- unity that ended with the Hamas election and then full seizure of power in Gaza--the two-state solution is simply not achievable.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A5c811590"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Vzk3OnQBmlkxZEF4PinC",
+        "_score": 47.94526,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Palestinian support for two-state solution declined around 2008.",
+            "premise": "The Reut Institute described in a May 1, 2008 report, \"a trend towards the erosion of the principle of the Two-State Solution among the 'moderate' Palestinian camp, as well as among additional Arab elements.\"[3]",
+            "stance": true,
+            "argsMeID": "S402902df-A35b48318"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "NDk3OnQBmlkxZEF4PCmL",
+        "_score": 47.93696,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state solution to Israeli-Palestinian conflict",
+            "premise": "Two-state plan respects democratic will for separate states",
+            "stance": true,
+            "argsMeID": "S402902df-A25a9c88f"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "iTTrOXQBmlkxZEF4hICX",
+        "_score": 47.677242,
+        "_source": {
+            "discussionTitle": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "conclusion": "Communism is a logical solution to the Israeli-Palestinian conflict",
+            "premise": "I thank my opponent in return for his good sportsmanship. \"Forcing two groups of people who are deeply hostile to one another to live together is very unlikely to produce good results.\" They are hostile to each other for complex historical reasons, communism will not make that go away overnight. Once more, all the Palestinians want is independence, not equality. (1) There's a reason why the Palestinian Liberation Organizations is recognized as the sole representative of the Palestinian people. \"Neither the Israelis nor the Palestinians want equal land redistribution. The vast majority of Palestinians want an independent state\" The outcome of war such as the one that occurred in 1948 is unlikely to reoccur for three reasons. 1.) The Palestinians would be getting what they wanted, unlike in 1948. 2.) The PLO has denounced violence and terrorism and become an observer state in the UN. 3.) By recognizing Palestinian independence, Israel would be improving relations with its Arab neighbors, not hurting them. This would also eliminate the large gap between wealthy and poor that plagues the Palestinian populace and allows the Israelis to keep power.\" Under ideal communism perhaps, but in practice in every \"communist\" country classes still existed, it would be very, very unlikely. If there has never been a communist country ever, what makes you think Israel could be the first one? This is an illogical answer because it is simply not realistic. Once again, the entire goal of the Palestinian people is to have INDEPENDENCE. What evidence is there that shows that the only alternative to a \"strong central government\" is a weak umbrella one? Once more, forcing them into becoming ONE people would be one of the worst things for both sides because the Palestinians want independence more than anything else. Just because every other option has flaws does not immediately mean that communism isn't a flawed option as well. \"Real\" communism under your own definition advocates class war, and something tells me that a class war wouldn't lessen the violence between Israel and Palestine. It is possible to have a fair and equal two state solution as well. I would like to congratulate my opponent on achieving the prestigious rank of \"Level 69 goblin virgin mage\". Once again, and I really don't know how many times I can emphasize this, the Palestinians want independence more than anything, and the Israelis want security. (2) Even now the Palestinians and Israelis live in relative separation. By forcing them together the Palestinians would be deprived of their independence, and as such would very likely lash out against Israel. This already happened in the \"al-Aqsa Intifada\" (3) Thus, the Palestinians would be denied their independence and the Israelis their security, meaning that neither faction had their main goal met, making communism a highly illogical solution once more. This is a debate about ISRAEL and PALESTINE, not CHINA. I used caps lock because you seem to get distracted from the argument easily and typed up a whole pointless paragraph about China, which has nothing to do with Israel and Palestine. If you would like to argue the merits of Maoism, please save it for another debate. It is also highly unrealistic and illogical since it would not be supported by either of the people seeing as Israel is a very capitalist country What I meant is that Israel operates under a capitalist economic system, and that it's main export and import partner (4) as well as military ally is the United States, which would probably not take kindly to its main ally in the Middle East to turning communist. \"True\" communism would not work because as I have proven it would not help solve any of the main issues of the Israeli-Palestinian conflict, would not give either faction what they wanted, and would simply not be supported by the people. I'm sorry to be the one to tell you this, but in order to be logical something has to work practically, so you can't use semantics to try to distort the argument. Vote Con! Sources: 1.) http://www.endtheoccupation.org... 2.) http://www.endtheoccupation.org... 3.) http://www.endtheoccupation.org... 4.) http://en.wikipedia.org...",
+            "stance": false,
+            "argsMeID": "S71d8bac1-Ade9f9109"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Njk9OnQBmlkxZEF4IYby",
+        "_score": 47.486893,
+        "_source": {
+            "discussionTitle": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "conclusion": "in the conflict between Israel and Palestine, a two-state solution is better justified than a one-state solution",
+            "premise": "Israelis and Palestinians are too intermingled for a two-state solution",
+            "stance": false,
+            "argsMeID": "S8d325e50-A1c0aa19d"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "OTk3OnQBmlkxZEF4PCnb",
+        "_score": 47.41904,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "One-state would see Israeli minority ruling over Palestinian majority",
+            "premise": "\"Is the two-state solution in danger?\". Haaretz. May 21, 2009: \"The left in Israel has long warned that if settlement construction continues and Israel does not separate from the Palestinians, the country will eventually slide into an apartheid-like reality in which a Jewish minority rules over an Arab majority. The result, they contend: the end of a democratic, Jewish state.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A891edd07"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "lzk2OnQBmlkxZEF4wyGa",
+        "_score": 47.253223,
+        "_source": {
+            "discussionTitle": "UN recognition of Palestinian statehood",
+            "conclusion": "UN support would breath new light into the two-state solution",
+            "premise": "Jonathan Freedland. \"Britain should say yes to Palestinian statehood \u2013 and so should Israel.\" guardian.co.uk. September 13th, 2011: \"UN recognition of a Palestinian state in the territories occupied by Israel in 1967 will breathe fresh life into the ailing idea which, despite everything, remains the last best hope of Israeli-Palestinian peace \u2013 a two-state solution. By recognising a state of Palestine alongside Israel, the UN will entrench the notion that the only way to resolve this most stubborn of conflicts is for these two nations to divide the land between them into two states. In so doing it will halt the steady drift, born of despair more than enthusiasm, towards the so-called one-state solution \u2013 so-called because while it would bring one state, it offers no solution, just a single entity that would frustrate the yearning for self-determination of both sides.\"",
+            "stance": true,
+            "argsMeID": "Sa9ca9e97-A4f946d5a"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "XTk3OnQBmlkxZEF4Pykg",
+        "_score": 47.19094,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Israelis/Palestinians can coexist peacefully in one state",
+            "premise": "Sandy Tolan. \"George Mitchell and the end of the two-state solution\". Christian Science Monitor. February 4, 2009: \"it was no less a man than Albert Einstein who believed in 'sympathetic cooperation' between 'the two great Semitic peoples' and who insisted that 'no problem can be solved from the same level of consciousness that created it.' A relative handful of Israelis and Palestinians are beginning to survey the proverbial new ground, considering what Einstein's theories would mean in practice. They might take heart from Einstein's friend Martin Buber, the great philosopher who advocated a binational state of 'joint sovereignty,' with 'complete equality of rights between the two partners,' based on 'the love of their homeland that the two peoples share.'\"",
+            "stance": true,
+            "argsMeID": "S402902df-Ab8fdb765"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ODk3OnQBmlkxZEF4PCnK",
+        "_score": 47.189316,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Palestinians/Israelis cannot live in peace in one state",
+            "premise": "While it is nice to believe that Palestinians and Israelis can live in peace and harmony in one state, with tolerance for each other and in keeping with democratic principals of inclusion, while nice, is simply naive. This idea has been made impossible by nearly a century of direct conflict between these people. While this might change in coming centuries, it is unacceptable to adopt a one-state policy now based on these naive ideas.",
+            "stance": true,
+            "argsMeID": "S402902df-A13f3cb77"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Uzk3OnQBmlkxZEF4PimC",
+        "_score": 46.53655,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "A two-state conflict will not end conflict",
+            "premise": "Prof. Hassan Nafaa. \"No Room for Two States\". Global Research. February 12, 2008: \"The conflict between the Palestinians and the Zionist movement is not over disputed borders or material interests and, therefore, resolvable by merely coming to an agreement over permanent borders and a give-and-take over material interests. Rather, it is a conflict between two identities, each of which claims sole propriety right over a given territory. Such a conflict cannot be solved by the same means that are brought to bear on conventional international conflicts.\"",
+            "stance": true,
+            "argsMeID": "S402902df-Ac495d695"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "RDk3OnQBmlkxZEF4PSmN",
+        "_score": 45.8501,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "A Palestinian state would be dysfunctional",
+            "premise": "\"Why plans for a two-state solution in the Middle East have failed.\". International Journal on World Peace. March 1, 2008: \"The plan for a Palestinian state failed to comprehend that the Palestinians, unlike the Jews, had not created an apparatus for self-government.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A6c2585d7"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "mTk2OnQBmlkxZEF4wyG7",
+        "_score": 45.67636,
+        "_source": {
+            "discussionTitle": "UN recognition of Palestinian statehood",
+            "conclusion": "Supporting Palestine at UN would bolster Israeli security",
+            "premise": "Isaac Herzog. \"Why Israel should vote for Palestinian independence.\" Foreign Affairs. September 16th, 2011: \"rather than oppose the resolution, Israel should seize the initiative and use it to its advantage by agreeing to support the Palestinian bid for statehood at the UN. Voting for Palestinian statehood may finally open the door for Israeli-Palestinian peace negotiations, strengthen the possibility of a two-state solution, and greatly improve Israel\u2019s position in the region and in the international community.\"",
+            "stance": true,
+            "argsMeID": "Sa9ca9e97-A946e6964"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "cTk3OnQBmlkxZEF4QClN",
+        "_score": 45.670906,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Palestinians want two-state solution, assuming settlements stop.",
+            "premise": "Jerusalem - PLO Executive Committee Secretary Yasir Abd-Rabbuh replying to Israeli Prime Minister Binyamin Netanyahu's statements that he is ready to negotiate immediately with the Palestinians by affirming that no negotiations will take place before the suspension of the settlement activities. \"Abd-Rabbuh said in statements to Al-Ayyam: There can be no negotiations unless the Israelis stop the settlement activities and we no longer wish to meet with the Israelis on the same table to exchange views and ideas while they change the facts on the ground in Jerusalem and all the West Bank. This is a policy that represents the highest forms of deception.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A15c97dd3"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Zjk3OnQBmlkxZEF4Pymp",
+        "_score": 45.360546,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "General statements in favor of a one-state solution",
+            "premise": "Edward Said, a famous Palestinian writer and activist, advocated for a one-state solution, arguing: \"Two people in one land. Or, equality for all. Or, one person one vote. Or, a common humanity asserted in a bi-national state.\"[1]",
+            "stance": true,
+            "argsMeID": "S402902df-A5f9d8e37"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ezk3OnQBmlkxZEF4QCnf",
+        "_score": 45.300537,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "A Palestinian state would threaten its neighbors.",
+            "premise": "\"Two States? Many Problems\". Los Angeles Times, Letter to the Editor. May 7, 2009: \"King Abdullah II is not being straight on this issue either. He doesn't want a Palestinian state between Jordan and Israel because of the threat to Jordan that a Palestinian state would pose to him.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A45f4d0e4"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "JzTpOXQBmlkxZEF4jmAf",
+        "_score": 45.046234,
+        "_source": {
+            "discussionTitle": "Israel is the major roadblock to peace, in the Israel/Palestine conflict.",
+            "conclusion": "Israel is the major roadblock to peace, in the Israel/Palestine conflict.",
+            "premise": "I agree that my wording is off. I will change my statement to \"Israel and the Palestinians/Arab countries have equal parts to have been played in the conflict so far.\" I disagree that the creation of Israel is irrelevant to today's peace making process. Understanding the history of Israel helps understand why each party is so against the other and why Israel is so afraid of the two state solution. To begin, I would like to start with a brief history of Israel, starting just before WW1. I do this because it is the major problem of conflict now. Just before World War One, Great Britain set out something called the Balfour Declaration. This Declaration pronounced England's support for a Jewish State in Israel, as the Zionist Congress had been begging for all these years. However, in the midst of WW1, England made another strange promise: It promised the Palestinians that if they helped in the war against the Ottoman Empire, they would receive their own country! This never happened and it angered the Palestinians. By the time World war two came around, nobody had bothered with the Palestinian problem. England had gotten away with making its false promise because the League of Nations was not strong enough nor its members financially able to do anything about it. The Zionist Congress lamented that they did not have their own country but were not as sore about it as the Palestinians. They had paid in blood for that country but they had not received it. After World War Two and the discovery of the Holocaust, the world knew that Israel needed to be created. They needed to be set apart due to the antisemitism that rocked Europe, despite the sympathy gained by the Holocaust. However, the Palestinians too wanted their own country, So England turned the problem over to the newly created U.N. The U.N., seeing the problem of both promises by England, and the need for a Jewish state. So they came up with the Two-State-Solution. This took the land that was to become Israel and split it in half, including the sacred city of Jerusalem. But what did they do to enforce this? The British Military forcibly removed Palestinians from their homes and sent them to the Palestinian half of the country, despite the fact that they had lived their for far longer than the British had controlled the land. While this step may have seemed to be a necessary component to the Two-State-Solution, it had disastrous effects. Not only were the Palestinians enraged, but so were many Arab countries. So, the day after the first Israeli flag shown upon the land, 6 Arab nations attacked the infant nation. Fortunately, the Israelis were able to fend off the attack and secure their country, but they lost vast pieces of land to the enemy- the Two-State-Solution had just been shattered. As time went on, truck bombs, skirmishes, and harsh words were passed. In the late 1960's, the six day war occurs. Here the Egyptians began preparing to attack Israel and had blockaded the straight of Tiran. Israel preemptively attacks Egypt, overwhelming the Egyptian forces and taking large quantities of land. The war becomes regional and Israel defeats the combined forces of Egypt, Syria, Jordan, and Iraq. After this more and more battles are fought, another war in the 1970's proves Israel lives in fear of attack at all times. Palestinians continue attacking the Israelis with futile terrorists attacks. http://en.wikipedia.org... Just to skip into the future now, it has been known that every time Israel makes a peace deal, it is taken advantage of. When the Gaza Strip was given to the Hamas, they used it as a place to shoot rockets into Israel! While Israel is also at fault for many things that have gone wrong in the past as well as inhumane treatment of the Palestinians, they have a reason for their actions. They live in fear of attack by their enemies and it seems that with every foot they give, they lose more lives.",
+            "stance": false,
+            "argsMeID": "S8f77a64e-Af07488d0"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Xzk3OnQBmlkxZEF4Pyk_",
+        "_score": 44.941147,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Israel loses strategic West Bank mountains in two-state solution",
+            "premise": "Giving control over the West Bank to the Palestinians would deprive Israel of the strategic asset of the mountains in the West Bank, which provide a natural barrier to foreign invasions as well as a good vantage scouting invaders or nefarious activities.",
+            "stance": true,
+            "argsMeID": "S402902df-Ac6d99140"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Qjk3OnQBmlkxZEF4PSlr",
+        "_score": 44.846485,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Inclusive one-state solution adopts democratic principles",
+            "premise": "Prof. Hassan Nafaa. \"No Room for Two States\". Global Research. February 12, 2008: \"The single, bi-national democratic state solution has the advantage of conforming to modern liberal democratic principles officially espoused in the West and in Israel itself.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A3f03627c"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "bzk3OnQBmlkxZEF4QCkx",
+        "_score": 44.619404,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "One state is more peaceful then a two state solution.",
+            "premise": "\"The Palestinians are like crocodiles, the more you give them meat, they want more.\" -- Ehud Barak, Prime Minister of Israel at the time - August 28, 2000. Reported in the Jerusalem Post August 30, 2000.",
+            "stance": true,
+            "argsMeID": "S402902df-Ae5256d7f"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "dDcfOnQBmlkxZEF4CLGC",
+        "_score": 43.584305,
+        "_source": {
+            "discussionTitle": "Israel has no choice",
+            "conclusion": "Israel has no choice",
+            "premise": "The full text of the resolution is \"Although Israel's position in the West Bank is mutually undesirable for Israel and Palestinians, Israel has no choice in the matter, because there are no reasonable alternatives.\" Cons job will be to suggest an alternative solution that does not increase the risk of harm to Israel, Israeli citizens, or the Jewish People. This debates definition of unreasonable includes, but is not limited to, anything that results in that. My opening points assume three options for Israel: 1) Assimilate the West Bank. This would mean annexation, and full Israeli citizenship for all occupants. It seems highly unlikely that the Palestinians would agree to this, and the average Palestinian would probably reject citizenship. Even if this were not so, it would be highly unsafe to assimilate an openly aggressive population into the country. Even if this were not so, Israel would likely risk losing its Jewish majority, and be subject to an the whims of a historically unfriendly regional Arab majority. 2) Two state solution. This proposes an Palestinian state in the West Bank. The trouble with this is that Israel could not safely defend itself from its 1967 borders, and no one who could make a lasting commitment to Israeli security from a potential state will make one. Israel could withdraw to newly drawn, defensible borders, but such a move would mean annexing certain parts of the West Bank, an illegal move that would likely provoke war with neighboring Arab states without impossible-to-get Palestinian approval. 3) Population shifts. This remains illegal and immoral. Most other suggestions are subject to some of the above objections; Con will have find one that isn't refuted by them, not just unlisted. I look forward to your response.",
+            "stance": true,
+            "argsMeID": "Sa8b3ad91-A16ded002"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Zzk3OnQBmlkxZEF4Pym4",
+        "_score": 43.163498,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Idea of Jewish state, in two-state solution, is undemocratic",
+            "premise": "Todd May. \"The Emerging Case for a Single-State Solution\". Counter Punch. September 9, 2004: \"A first objection might appeal to the motivation for recognizing [...] a Jewish state in the first place. [...] That the Holocaust proves that European Jews deserve protection against the history of hatred against them is undeniable. It does not follow from this that they deserved a state where they would be privileged vis-\u00e0- vis another people. That idea has more to do with nineteenth-century nationalism than with the internationalism more characteristic of the contemporary world. Moreover, history has shown the effects of this privileging.\"",
+            "stance": true,
+            "argsMeID": "S402902df-A5ed14176"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "ODk-OnQBmlkxZEF4SZiC",
+        "_score": 42.96147,
+        "_source": {
+            "discussionTitle": "Israel should return to its pre-1967 borders",
+            "conclusion": "Returning to the 1967 borders would bring peace to Israel.",
+            "premise": "Simply withdrawing to its 1967 borders would not end the Israel-Palestinian conflict. Violence between Israelis and Palestinians long pre-dates the 1967 war. The 1967 war itself was caused by the fact that even an Israel within its 1967 borders was hated by neighbouring states for existing.[1]\u00a0Palestinian support for two-state solution, even one where Israel withdrew to its 1967 borders declined around 2008, and is waning even among the 'moderate' Palestinian camp, as well as among additional Arab elements.[2]\u00a0Regarding Hamas, the reason it speaks only of \u201clong term truces\u201d with Israel and not peace is because it only wishes to make a deal allowing it to grow strong enough to eventually destroy the Israeli state, not to make permanent peace.[3]\u00a0It is also na\u00efve to think that an Israeli state existing within its 1967 borders would gain the favour or even support of Iran. Iran wants to be the dominant power in the Middle East, and any form of Israeli state is a threat to this. Iran has a history of supporting violent Islamist terrorist groups dedicated to Israel's destruction, such as Hamas and Hezbollah.[4]\u00a0The political futures of Syria and Egypt are also uncertain, due to the unrest of the 2011 'Arab Spring', and it is not beyond the realm of possibility that both could come under the sway of Islamist groups seek Israel's total destruction. [1]\u00a0BBC News. \u201c1967: Israel launches attack on Egypt\u201d. BBC News On This Day. 5 June 1967. http://news.bbc.co.uk/onthisday/hi/dates/stories/june/5/newsid_2654000/2... [2]\u00a0The Reut Institute. \u201cThe Trend of Palestinian and Arab Inversion towards the Two State Solution\u201d. The Reut Institute.1 May 2008. http://www.reut-institute.org/en/Publication.aspx?PublicationId=3209 [3]\u00a0El-Khodary, Taghreed and Bronner, Ethan. \u201cHamas Fights Over Gaza\u2019s Islamist Identity\u201d. New York Times. 5 September 2009. http://www.nytimes.com/2009/09/06/world/middleeast/06gaza.html [4]\u00a0Los Angeles Times. \"Two States? Many Problems\". Los Angeles Times, Letter to the Editor. 7 May 2009\u00a0",
+            "stance": false,
+            "argsMeID": "S49c61a23-A5563d078"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "JTTpOXQBmlkxZEF4jWD_",
+        "_score": 42.556458,
+        "_source": {
+            "discussionTitle": "Israel is the major roadblock to peace, in the Israel/Palestine conflict.",
+            "conclusion": "Israel is the major roadblock to peace, in the Israel/Palestine conflict.",
+            "premise": "I will agree that I made some historical errors there, but I stand by my my idea of the fear of attack leads to hostility. We must remember that Israel is not the only one at fault in any war. Just like in any car accident, it takes two faults to make the accident happen. With each war, both Israel and its enemies have been at fault. Israel has treated its non-jew occupants with little to no humanity in mind. However, they are not the only ones. Palestinians often carry out terrorist attacks on the Israeli civilians. The Hamas (a terrorist organisation according to the U.S. and the legitimate government of the Gaza Strip to the Arab world) have repeatedly launched attacks on Israel and they have responded in kind. In any case, all the hostility over the years has led to terrible war crimes by both sides. The harsh words, constant attacks, and seemingly imminent annihilation (both the Israelis and the Palestinians believe this) has fostered fear of the other party. Israel sees the Two-state-solution as a strategic disaster. The country would lose all of its hard fought land (despite the illegal occupation of it) and more and more attacks would become impossible to stop. A two-state-solution, while making sense, would require trust that neither party has for each other. However, Pro is right. Israel is A major stumbling block to peace. There are others that are just as formidable, but it appears that the nation with the largest most powerful army has not pursued peace as it should. Even if the terrorist attacks continue until the end of time, Israel should know enough to understand that it has to be the better man and step up to the negotiations. If they could put aside their old differences with each other, the Palestinian/Israeli conflict would be over. In debates like these, I mainly come to learn more about the subject and see if my perception of the events is the reality. This debate has proven that this is a good tool for doing so. I will look further into the history of the Israel/Palestinian conflict just so that I will not be so ignorant of the subject in the future.",
+            "stance": false,
+            "argsMeID": "S8f77a64e-Ab9a4b849"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "eDk3OnQBmlkxZEF4QCmy",
+        "_score": 42.47895,
+        "_source": {
+            "discussionTitle": "Two-state solution to Israeli-Palestinian conflict",
+            "conclusion": "Two-state plan respects democratic will for separate states",
+            "premise": "Shimon Peres. \"One Region, Two States\". Washington Post. February 10, 2009: \"The Jewish people want and deserve to live in peace in their rightful, historical homeland. The Palestinian people want and deserve their own land, their own political institutions and their right to self-determination. It is vital that this cause be based on the prospect of coexistence between Jews and Arabs, which translates into cooperation in fields such as the economy, tourism, the environment and defense. Achieving all this will be possible only by granting each people its own state and borders, to enable their citizens to pray according to their faiths, cultivate their cultures, speak their own languages and safeguard their heritages.\"",
+            "stance": true,
+            "argsMeID": "S402902df-Ad322ed48"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "KDYLOnQBmlkxZEF44YMy",
+        "_score": 42.10375,
+        "_source": {
+            "discussionTitle": "Media in the Israeli-Palestinian Conflict",
+            "conclusion": "Media in the Israeli-Palestinian Conflict",
+            "premise": "Thanks. Peaceintheeast, are you going to present a case that there is bias in the media regarding the Palestinian Conflict? If not, there's nothing for me to refute and the judges should give the debate to me by default. I first need to clarify, though...my argument is intended to attack known bias in the media but I am unclear if your purpose is to argue that there should be bias in the media or that there is no bias in the media. I'm arguing that if you look at the totality of the coverage, including all media sources, that you cannot prove systematic bias in one direction (either Pro-Israel or Pro-Palestinian). The NY Times front page story on the new Fatah/Hamas partnership even pointed out multiple times that Hamas is not considered a terrorist organization in many parts of the world. I've seen numerous articles that say that no Two State Solution will work if Hamas doesn't sign off on it, and Israel's treatment of Hamas as categorically a terrorist organization is harming the peace process. But honestly, I'm just assuming that you would argue that the coverage has been too pro-Israel. But I guess you could argue that it's been too pro-Palestinian, so I don't even know what bias I'm arguing against. C1) Time On the Time Magazine article: You make a good point in saying that publishing a poignant article provoked action on the part of the Israeli government. However, it proves that in this case, the media had a specific agenda, and if it had a particular agenda, then it can no longer claim to be communicating information but rather, opinion. My opponent never proves that Time Magazine had an agenda by publishing an article critical of Israel. If taking a position for one side or another means \"having an agenda,\" then unbiased reporting would be really boring. My opponent's vision of unbiased reporting would consist of dry articles that are a straight recitation of facts. Articles are only interesting when the author advances and clear, concise, and convincing thesis. Unbiased reporting means giving authors on both sides of an issue access to publication, not refusing to take a stance. Imagine if you were trying to see how you felt about Solar Energy, and no one was allowed to talk in favor or against solar energy. It'd be very difficult to become educated on the topic. All articles would just read like the CIA World Factbook or an Almanac - just a list of facts and statistics. C2) Al Jazeera On the Al Jazeera point, if you look closely, you will see that Al Jazeera English does not publish the same material as Al Jazeera in Arabic. It would be much easier simply to translate articles from Arabic than to pay to have new articles written for the English-speaking audience. No one would watch Al Jazeera if it was a straight translation of Arabic. Subtitled movies don't fair well in the United States for the same reason - because it's boring to watch someone speaking in a language you don't understand, for an hour, and having to read subtitles. Al Jazeera: English advances the same agenda and perspective, while trying to appeal to an English-speaking audience, featuring people who speak English and understand local culture, as well as Mid-East culture. C3) Lobbyists Most people acknowledge that the flow of information is lobbyists to media, not media to lobbyists. Lobbyists create material, journalists sometimes use that material rather than doing original research (*cough* Fox News *cough*). So blame the pro-Israel lobby for being more effective at corralling public opinion than the pro-Palestinian lobby; don't blame the media, which actually counteracts AIPAC's agenda by publishing dissident voices. My opponent still has not proven that the coverage of the Israel-Palestine Conflict is biased.",
+            "stance": true,
+            "argsMeID": "S73691aa4-A8a939cc8"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "8zYMOnQBmlkxZEF4XopW",
+        "_score": 41.993965,
+        "_source": {
+            "discussionTitle": "Is a Two-State Solution (Israel and Palestine) an Acceptable Solution to the Israeli-Palestinian Con",
+            "conclusion": "Is a Two-State Solution (Israel and Palestine) an Acceptable Solution to the Israeli-Palestinian Con",
+            "premise": "I would like to thank my opponent for creating this debate. PLAGIARISM My opponent has plagiarized his/her entire first round argument from the following website: http://articles.latimes.com... I ask the voters on this debate to consider this when voting on conduct.",
+            "stance": false,
+            "argsMeID": "S3b38021e-Af76da67f"
+        }
+    },
+    {
+        "_index": "local_index_v1.0",
+        "_type": "_doc",
+        "_id": "Hzk_OnQBmlkxZEF4-7Pb",
+        "_score": 41.701115,
+        "_source": {
+            "discussionTitle": "Israel should recognise the Palestinian right of return",
+            "conclusion": "A Palestinian right of return would destroy the 'Jewish State' in Israel",
+            "premise": "If all or a large majority of Palestinian refugees and their descendants were to implement a 'right of return', it would make Arabs the majority within Israel and Jews an ethnic minority. This amounts to abolishing the Jewish people's right to self-determination, which they hold under the 1993 Vienna Declaration.[1]\u00a0It would also mean eradicating Israel as a Jewish state, which was the intention behind its foundation. The majority of Israelis find a literal right of return for Palestinian refugees to be unacceptable, pointing to this worry that as they become a minority Israel as a Jewish state would be undermined.[2] Re-enforcing the need for the existence of a Jewish state (as a safe haven for persecuted Jews) is the presence in Israel of 758,000-866,000 Jews who were expelled, fled or emigrated from the Arab Middle East and North Africa between 1945 and 1956, to whom the Arab states which expelled them are not willing to offer any 'right of return' of their own.[3]\u00a0An open letter to the Palestinian leadership published in 2001 by Amos Oz, A.B. Yehoshua and other Israeli intellectuals and peace activists dramatically demonstrated the agreement even among the 'peace camp' in Israel that a total right of return for Palestinians can never be acceptable to the Israeli people: \u201cWe shall never be able to agree\u201d, they wrote, \u201cto the return of the refugees to within the borders of Israel. The meaning of such a return would be the elimination of the state of Israel.\u201d Yossi Sarid, chairman of the Meretz Party, stated baldly that \u201cIsrael can survive without sovereignty over Temple Mount, but it cannot survive with the right of return. If the Palestinians insist on it, there will be no (peace) agreement.\u201d[4]\u00a0Thus asking Israel to recognise the Palestinian right of return is tantamount to asking Israel to accept its own destruction as a state, and is thus totally unacceptable. There are further reasons that recognising the Palestinian right of return would be fundamentally harmful to Israel's welfare, and thus an invalid action. Article 29 of the Universal Declaration of Human Rights provides that rights can be limited by law solely for securing 'due recognition and respect for the rights of others and of meeting the just requirements of morality, public order, and general welfare in a democratic society.' Article 30 states that nothing in the declaration may be interpreted as permitting any state, group, or person to engage in activity aimed at the destruction of any rights or freedoms guaranteed. The 'rights' and 'general welfare' of Israel's Jewish citizens would be endangered if millions of Palestinians who were openly hostile to Israel's existence became a majority. Article 3 of the declaration further states that \"these rights and freedoms may in no case be exercised contrary to the purpose and principles of the United Nations\".[5]\u00a0The Palestinian right of return would result in the loss of Israeli sovereignty and its replacement with an Arab-majority state, and the dismantling of Israeli society in favour of an Arab-Muslim dominated society, resulting in the destruction of a UN member state: a violation of the United Nations Charter. For this reason, a Palestinian right of return is invalidated. A right of return would also result in a flood of Palestinians stating their 'right of return' as justification for entering Israel at any time and in unlimited numbers and laying claim to old homes. This creates an unworkable legal nightmare, clouded by historical ambiguities. Such an extended legal nightmare would last for decades, and hurt the reconciliation process.\u00a0[i-[1] There are many things that Israel can and has offered to Palestinian refugees: compensation, assistance in resettlement, and return for an extremely limited number of refugees based solely on family reunification or humanitarian considerations. But an unlimited right of return for all refugees and their descendants simply goes too far.\u00a0This is largely because it is purely unworkable to allow millions of Palestinians to return back to a territory that is already overcrowded.[i-[2]\u00a0[6]\u00a0For all these reasons, recognising the Palestinian right of return would destroy Israel as a 'Jewish state' and fundamentally harm the welfare of its current legal inhabitants by infringing on their rights, and so Israel should not pursue this recognition. [1]\u00a0United Nations World Conference on Human Rights. \u201cVIENNA DECLARATION AND PROGRAMME OF ACTION\u201d. United Nations. 14-25 June 1993. http://www.unhchr.ch/huridocda/huridoca.nsf/%28symbol%29/a.conf.157.23.en [2]\u00a0The Economist. \"The Palestinian right of return\". The Economist. 4 January 2001. http://www.economist.com/node/464892 [3]\u00a0Schwartz, Adi. \"All I wanted was justice\". Haaretz/adi-schwartz.com. 4 January 2008. http://www.adi-schwartz.com/israeli-arab-conflict/all-i-wanted-was-justice/ [4]\u00a0The Economist. \"The Palestinian right of return\". The Economist. 4 January 2001. http://www.economist.com/node/464892 [5]\u00a0United Nations. \"Universal Declaration of Human Rights\". Wikisource. 10 December 1948. http://en.wikisource.org/wiki/Universal_Declaration_of_Human_Rights#Arti... [6]\u00a0The Economist. \"The Palestinian right of return\". The Economist. 4 January 2001. http://www.economist.com/node/464892",
+            "stance": true,
+            "argsMeID": "Sc1b474c5-A16225683"
+        }
+    }
+]

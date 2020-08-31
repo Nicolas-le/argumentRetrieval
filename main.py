@@ -28,6 +28,7 @@ ap.add_argument("-o", "--output-dir", required=True ,help='topics-dir')
 #turn the parsed command line arguments into a Python dictionary 
 args = vars(ap.parse_args())
 
+# check if the given files are exist 
 if os.path.exists(args["output_dir"]) & os.path.exists(args["input_dir"]) :
        print("input and outputfiles exist")
 else:
@@ -37,11 +38,9 @@ inputDataSet = args["input_dir"]
 outputDir = args["output_dir"]
 
 #elastic_search object
-
 es_obj = connect_to_elasticsearch()
 
 #create an Index_object
-
 index_name = "index_v1.0"
 
 indexObj = create_index( es_obj, index_name )
@@ -49,6 +48,13 @@ indexObj = create_index( es_obj, index_name )
 #start extracting and indexing the corpus 
 extractdataSetToIndex( inputDataSet, es_obj, index_name  )
 
-#processing the xml_topics and searching them 
+"""
+processing the xml_topics and searching them
+
+the function will be called twice:  !) to retrieve arguments
+
+where the stance is pro and 2) to retrieve arguments , where the stance is con
+"""
+
 process_xml( es_obj, index_name,inputDataSet,outputDir,True )
 process_xml( es_obj, index_name,inputDataSet,outputDir,False)

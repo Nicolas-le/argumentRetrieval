@@ -4,11 +4,20 @@ from search_index import *
 from process_trec_format import * 
 
 
-def process_xml(es_object, index_name, inputDataSet,outputDir, value):
+
+"""
+processes the topics in the topics.xml file and extracts the
+query, which has to be searched.
+this ia an iterative process: it will be iterated over the list topics 
+and search each one of them at a time. 
+"""
+
+def process_xml(es_object, index_name, inputDataSet, outputDir, value):
 
    print("start processing the topics")
    print("LOADING TOPICS")
-
+   
+   # parses the xml file , so we can processe it.
    mydoc = minidom.parse(os.path.join(inputDataSet,'topics.xml'))
 
    topics = mydoc.getElementsByTagName('topic')
@@ -18,7 +27,7 @@ def process_xml(es_object, index_name, inputDataSet,outputDir, value):
 
    for topic in topics:
 
-       number = topic.getElementsByTagName('number')[0]
+       number = topic.getElementsByTagName('num')[0]
 
        print("topic Number:",number.childNodes[0].data)
 
