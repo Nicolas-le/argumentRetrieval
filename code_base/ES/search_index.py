@@ -33,7 +33,7 @@ def search_index( es_object, index_name, topic_query,value ):
     ranked_results = ranking_results( results_scors, query_scores )
     #with open( './results/results.json', 'w' ) as file:
     #      json.dump( ranked_results, file, indent=4 )
-    return list_of_results
+    return ranked_results
 
 
 """
