@@ -12,7 +12,7 @@ Pandas.
 def write_into_trec( ranked_results, topicNumber,outputDir ):
     results = dict()
     for hit in ranked_results:
-         results[hit['_source']['id']] = hit['new_doc_score']
+         results[hit['_source']['argsMeID']] = hit['new_doc_score']
         #CONVERT DICTIONARY TO TREC-STYLE DATAFRAME
     final_ranks = pd.DataFrame(list(results.items()), columns=['arg_ids', 'new_doc_score'])
     final_ranks = final_ranks.sort_values(by='new_doc_score', ascending=False)

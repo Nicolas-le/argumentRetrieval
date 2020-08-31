@@ -12,12 +12,13 @@ def bias_score(text):
     sentences = nltk.sent_tokenize(text)
     total_bias = 0
 
-    if len(sentences) is 0:
-        return bias.compute_bias(text)
-
+    #if len(sentences) == 0:
+     #   return bias.compute_bias(text)
     for sentence in sentences:
-        total_bias += bias.compute_bias(sentence)
+        if len(sentence) > 1:
+            total_bias += bias.compute_bias(sentence)
+        else: 
+            total_bias += 0
 
-
-        return total_bias/len(sentences)
+    return total_bias
 
