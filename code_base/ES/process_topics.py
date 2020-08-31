@@ -25,10 +25,15 @@ def process_xml(es_object, index_name, inputDataSet, outputDir, value):
 
 
    for i in range( 3 ):
+
        number = topics[i].getElementsByTagName('number')[0]
+
        print("topic Number:", number.childNodes[0].data)
-       title = topic[i].getElementsByTagName('title')[0]
+
+       title = topics[i].getElementsByTagName('title')[0]
+
        print("title:",title.childNodes[0].data)
+
        search_and_display( es_object, index_name, title.childNodes[0].data, number.childNodes[0].data, outputDir, value)
        
        
