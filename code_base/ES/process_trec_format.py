@@ -8,7 +8,6 @@ import numpy as np
 writes trec-formatted results into the outputDir:
 we convert the given dict-results into a Dataframe using 
 Pandas.
-
 """
 def write_into_trec( ranked_results, topicNumber,outputDir ):
     results = dict()
