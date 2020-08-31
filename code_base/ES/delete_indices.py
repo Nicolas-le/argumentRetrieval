@@ -43,7 +43,7 @@ delete_indices( index_object, index_name, appendixnr_start, appendixnr_end )
 
 
 """
-delets indices based on the given indices names  
+deletes indices based on the given indices names  
 """
 
 def deleteAllindicies( indicies, index_object ):
