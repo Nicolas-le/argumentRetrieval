@@ -9,7 +9,7 @@ def bias_score(text):
     :param sentence: Sentence, the bias should be calculated for.
     :return: a bias value between 0 and 3
     """
-    sentences = nltk.sent_tokenizer(text)
+    sentences = nltk.sent_tokenize(text)
     total_bias = 0
     for sentence in sentences:
         total_bias += bias.compute_bias(sentence)
