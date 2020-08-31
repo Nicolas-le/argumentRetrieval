@@ -4,7 +4,12 @@ import os
 import numpy as np
 
 
+"""
+writes trec-formatted results into the outputDir:
+we convert the given dict-results into a Dataframe using 
+Pandas.
 
+"""
 
 
 
@@ -32,11 +37,7 @@ def write_into_trec( ranked_results, topicNumber,outputDir ):
 
      
 
-def write_header( outputDir ):
 
-   with open(f'{outputDir}/run.txt', 'a', newline='') as txtfile:
-        
-        txtfile.write("topic_number,  Q0,  arg_ids,  score,  method "+"\n")
 
 
 
