@@ -10,9 +10,6 @@ we convert the given dict-results into a Dataframe using
 Pandas.
 
 """
-
-
-
 def write_into_trec( ranked_results, topicNumber,outputDir ):
     results = dict()
     for hit in ranked_results:
@@ -30,10 +27,6 @@ def write_into_trec( ranked_results, topicNumber,outputDir ):
    #LOOK AT WHAT WAS ACTUALLY WRITTEN TO FILE
     print(final_ranks)
 
-
-     # with open(f'{outputDir}/run.txt', 'a', newline='') as txtfile:
-     #      txtfile.write( topicNumber+" "+"Q0"+" "+str(doc['_source']['id'])+" "+str(doc['new_doc_score'])+" "+ "bias_detection"+"\n" )
-     # print( topicNumber+" "+"Q0"+" "+str(doc['_source']['id'])+" "+str(doc['new_doc_score'])+" "+ "bias_detection"+"\n" )
 
      
 
