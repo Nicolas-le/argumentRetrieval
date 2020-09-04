@@ -79,10 +79,3 @@ def create_index( es_object, index_name ):
             print( 'Index already exists' )
     except Exception as ex:
         print( str(ex) )
-
-
-"""
-index_object = connect_to_elasticsearch()
-index_name = 'testindex1'
-create_index( index_object, index_name )
-"""

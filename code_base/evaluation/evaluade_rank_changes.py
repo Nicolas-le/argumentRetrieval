@@ -2,6 +2,12 @@ from extract_notable_docs import extract_notable_docs
 
 
 def rank_changes( documents, min_jump_distance ):
+    """
+    Investigates rank changes by how big a rank change might be, the maximum rank jumps in both directions, the tendency in which direction most of the rank jumps happens and looks up all documents wich overcome a given jump threshold and gives back a tuple with all the data.
+    :param documents:           list of documents to evaluate
+    :param min_jump_distance:   minimum jump threshold value to extract notable documents which jumped ranks bigger than that number
+    :return:                    tuple with all the evaluated data
+    """
     
     count_changes = 0
     max_rank_distance_up = 0

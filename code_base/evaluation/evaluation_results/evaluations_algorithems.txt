@@ -1,0 +1,39 @@
+topic: 1
+bias-distance * 2, stylo-distance * 0.1
+Rank: 1 ID: Sc065954f-Ae72bc9c6 Bias score: 0.84 Bias distance: 0.10 Stylo distance: 25.58 Rank before: 1
+Rank: 2 ID: Sc065954f-A39b0539e Bias score: 1.02 Bias distance: 0.27 Stylo distance: 19.39 Rank before: 3
+Rank: 3 ID: Sc065954f-A24a16870 Bias score: 0.88 Bias distance: 0.14 Stylo distance: 25.73 Rank before: 2
+Rank: 4 ID: Sb0680508-Aa5189771 Bias score: 0.85 Bias distance: 0.11 Stylo distance: 18.80 Rank before: 4
+Rank: 5 ID: Sc065954f-A6deb09b6 Bias score: 1.00 Bias distance: 0.25 Stylo distance: 16.56 Rank before: 5
+Rank: 6 ID: Sb0680508-Aaa8d88c Bias score: 1.11 Bias distance: 0.37 Stylo distance: 10.64 Rank before: 7
+Rank: 7 ID: Sff0947ec-A46d54897 Bias score: 1.07 Bias distance: 0.32 Stylo distance: 21.52 Rank before: 6
+Rank: 8 ID: S51530f3f-Ae32a4a1b Bias score: 1.09 Bias distance: 0.35 Stylo distance: 16.42 Rank before: 9
+Rank: 9 ID: Sc065954f-Aca97908 Bias score: 0.80 Bias distance: 0.05 Stylo distance: 3.27 Rank before: 12
+Rank: 10 ID: Sb0680508-Adc5b4f9d Bias score: 0.86 Bias distance: 0.11 Stylo distance: 2.28 Rank before: 14
+
+topic: 1
+bias-distance * 5, stylo-distance * 0.1
+Rank: 1 ID: Sc065954f-Ae72bc9c6 Bias score: 0.84 Bias distance: 0.10 Stylo distance: 25.58 Rank before: 1 
+Rank: 2 ID: Sc065954f-A24a16870 Bias score: 0.88 Bias distance: 0.14 Stylo distance: 25.73 Rank before: 2 
+Rank: 3 ID: Sc065954f-A39b0539e Bias score: 1.02 Bias distance: 0.27 Stylo distance: 19.39 Rank before: 3
+Rank: 4 ID: Sb0680508-Aa5189771 Bias score: 0.85 Bias distance: 0.11 Stylo distance: 18.80 Rank before: 4
+Rank: 5 ID: Sc065954f-A6deb09b6 Bias score: 1.00 Bias distance: 0.25 Stylo distance: 16.56 Rank before: 5
+Rank: 6 ID: Sff0947ec-A46d54897 Bias score: 1.07 Bias distance: 0.32 Stylo distance: 21.52 Rank before: 6
+Rank: 7 ID: Sb0680508-Aaa8d88c Bias score: 1.11 Bias distance: 0.37 Stylo distance: 10.64 Rank before: 7
+Rank: 8 ID: Sc065954f-Aca97908 Bias score: 0.80 Bias distance: 0.05 Stylo distance: 3.27 Rank before: 12
+Rank: 9 ID: Sb0680508-Adc5b4f9d Bias score: 0.86 Bias distance: 0.11 Stylo distance: 2.28 Rank before: 14
+Rank: 10 ID: S51530f3f-Ae32a4a1b Bias score: 1.09 Bias distance: 0.35 Stylo distance: 16.42 Rank before: 9
+
+topic: 1
+bias-distance * 10, stylo-distance * 0.05
+Rank: 1 ID: Sc065954f-Ae72bc9c6 Bias score: 0.84 Bias distance: 0.10 Stylo distance: 25.58 Rank before: 1 
+Rank: 2 ID: Sc065954f-A24a16870 Bias score: 0.88 Bias distance: 0.14 Stylo distance: 25.73 Rank before: 2 
+Rank: 3 ID: Sb0680508-Aa5189771 Bias score: 0.85 Bias distance: 0.11 Stylo distance: 18.80 Rank before: 4
+Rank: 4 ID: Sc065954f-A39b0539e Bias score: 1.02 Bias distance: 0.27 Stylo distance: 19.39 Rank before: 3
+Rank: 5 ID: Sc065954f-A6deb09b6 Bias score: 1.00 Bias distance: 0.25 Stylo distance: 16.56 Rank before: 5
+Rank: 6 ID: Sff0947ec-A46d54897 Bias score: 1.07 Bias distance: 0.32 Stylo distance: 21.52 Rank before: 6
+Rank: 7 ID: Sc065954f-Aca97908 Bias score: 0.80 Bias distance: 0.05 Stylo distance: 3.27 Rank before: 12
+Rank: 8 ID: Sb0680508-Aaa8d88c Bias score: 1.11 Bias distance: 0.37 Stylo distance: 10.64 Rank before: 7
+Rank: 9 ID: Sb0680508-Adc5b4f9d Bias score: 0.86 Bias distance: 0.11 Stylo distance: 2.28 Rank before: 14
+Rank: 10 ID: S51530f3f-Ae32a4a1b Bias score: 1.09 Bias distance: 0.35 Stylo distance: 16.42 Rank before: 9
+

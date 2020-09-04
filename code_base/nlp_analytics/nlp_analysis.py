@@ -4,6 +4,7 @@ from stylometric_analysis import main_stylo
 from topic_signal_modeling import ts_mod
 from ranking_results import ranking_results
 
+
 def analyze( text ):
     """
     Analyzes a given text for bias, stylometrics and hidden topics and returns an dictionary with all the scores.

@@ -1,27 +1,26 @@
 from empath import Empath
 import nltk
 
-def ts_mod(tokens):
+
+def ts_mod( tokens ):
     """
     This function implements the topic signal approach of Empath. Empath uses a trained (Neuronal Networks) word category list with the aim to detect topic signals in tokenized text. It then sorts the topics by value and shortlist it to the 10 highest ranked topics.
     :param tokens:  tokenized list of words f.ex.: ["cheese","fighting","dog","cold","man","war"]
     :return:        dictionary (created by empath) shortlist of the 10 highest ranked topics - key: detected topic / value: calculated value of importance
     """
     lexicon = Empath()
-    lexicon = lexicon.analyze(tokens,normalize=True)
+    lexicon = lexicon.analyze( tokens, normalize=True )
 
-    #check if there are detected topics, if not return
     if lexicon == None:
         return
 
-    topics = threshold_filter(lexicon)
+    topics = threshold_filter( lexicon )
     topics_sorted = sort_topics_by_value( topics )
     topics_shortlist = shortlist_topics( topics_sorted )
-
     return topics_shortlist
 
 
-def threshold_filter(lexicon):
+def threshold_filter( lexicon ):
     """
     Implements a threshold for empath values and filters all detected topics below the threshold value. Used to filter irrelevant topics.
     :param lexicon:     dictionary created with empath
@@ -50,8 +49,3 @@ def shortlist_topics( lexicon ):
     """
     lexicon_shortlist = dict( list( lexicon.items() )[:10] )
     return lexicon_shortlist
-
-
-sentence = "Should Election Day be a National Holiday?"
-tokens = nltk.word_tokenize(sentence)
-print(ts_mod(tokens))

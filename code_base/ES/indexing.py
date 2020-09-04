@@ -3,15 +3,11 @@ from elasticsearch import  helpers
 from get_doc_structure import * 
 
 
-'''
-this function opens a file and returns its
-contents as a list of json items
-'''
 def process_jsonfile( filepath ):
     """
-    Subfunction to open a JSON document and return it as a dictionary.
+    Subfunction to open a JSON document and return it as a python dictionary.
     :param filepath:    filepath to the JSON file
-    :return:            dictionary with the structure of the JSON file               
+    :return:               
     """
     try:
         json_file = open(filepath, encoding= 'utf-8')
@@ -22,11 +18,13 @@ def process_jsonfile( filepath ):
         print( str(ex) )
 
 
-"""
-generator to push bulk data from a JSON
-file into an Elasticsearch index
-"""
 def bulk_json_data( json_file ,index_name ):
+    """
+    Generator to push bulk data from a JSON file into an Elasticsearch index.
+    :param json_file:   the JSON file with the data to get indexed 
+    :param index_name:  the name of the index to store the data
+    :return:      
+    """
     print("start Indexing "+ json_file )
     json_list = process_jsonfile( json_file )
     for doc in json_list:
@@ -37,16 +35,20 @@ def bulk_json_data( json_file ,index_name ):
                   "_id": doc['id'],
                   "_source": get_document_structure( doc )
            }
-     
-"""
-index the given file  
-"""
-def indexing( filePath, index_name, index_object ):
 
-   gen = bulk_json_data( filePath, index_name )
-   print("Now indexing...")
-   helpers.bulk(index_object, gen)
-   print("Done indexing.")
+    
+def indexing( filePath, index_name, index_object ):
+    """
+    Indexes a given file.
+    :param filePath:        the JSON file with the data to get indexed 
+    :param index_name:      the name of the index to store the data
+    :param index_object:    connection to the elasticsearch cluster
+    :return:
+    """
+    gen = bulk_json_data( filePath, index_name )
+    print("Now indexing...")
+    helpers.bulk(index_object, gen)
+    print("Done indexing.")
        
 
 

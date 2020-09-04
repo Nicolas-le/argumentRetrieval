@@ -1,4 +1,12 @@
-def extract_notable_docs( documents, min_jump_distance ):
+
+
+def extract_notable_docs( documents, jump_threshold ):
+    """
+    Extracts all documents from a list of documents which jumped ranks above a given threshold value
+    :param documents:           list of documents 
+    :param jump_threshold:      threshold value
+    :return:                    list of documents which fulfill the criteria
+    """
     notable_docs = []
     max_rank_distance_up = 0
     max_rank_distance_down = 0
@@ -11,7 +19,7 @@ def extract_notable_docs( documents, min_jump_distance ):
         elif rank_distance < max_rank_distance_down:
             max_rank_distance_down = rank_distance
         
-        if abs( rank_distance ) > min_jump_distance:
+        if abs( rank_distance ) > jump_threshold:
             jump = True
             if rank_distance < 0:
                 jump = False

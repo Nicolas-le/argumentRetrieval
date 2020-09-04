@@ -1,5 +1,11 @@
-def investigate_notable_docs( documents ):
 
+
+def investigate_notable_docs( documents ):
+    """
+    Investigates and presents given documents with their new rank, what rank jump they performed, their bias distance and their stylometric distance, as well as average scores for the latter ones for the upranked and the downranked documents. 
+    :param documents:           list of documents to evaluate
+    :return:                    the scores for the averages
+    """
     rank_up = []
     rank_down = []
     

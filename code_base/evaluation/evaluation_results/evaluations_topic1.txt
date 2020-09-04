@@ -1,0 +1,182 @@
+Topic1: Should Teachers Get Tenure? (complete retrieval)
+bias distance * 10, stylo distance * 0.05
+
+Average rank changes: 9.06 
+Maximum rank up: 41 
+Maximum rank down: 38 
+tendency of direction of rank changes : 1.17
+
+Rank: 1 ID: Sc065954f-Ae72bc9c6 Bias score: 0.84 Bias distance: 0.10 Stylo distance: 25.58 Rank before: 1 
+Rank: 2 ID: Sc065954f-A24a16870 Bias score: 0.88 Bias distance: 0.14 Stylo distance: 25.73 Rank before: 2 
+Rank: 3 ID: Sb0680508-Aa5189771 Bias score: 0.85 Bias distance: 0.11 Stylo distance: 18.80 Rank before: 4
+Rank: 4 ID: Sc065954f-A39b0539e Bias score: 1.02 Bias distance: 0.27 Stylo distance: 19.39 Rank before: 3
+Rank: 5 ID: Sc065954f-A6deb09b6 Bias score: 1.00 Bias distance: 0.25 Stylo distance: 16.56 Rank before: 5
+Rank: 6 ID: Sff0947ec-A46d54897 Bias score: 1.07 Bias distance: 0.32 Stylo distance: 21.52 Rank before: 6
+Rank: 7 ID: Sc065954f-Aca97908 Bias score: 0.80 Bias distance: 0.05 Stylo distance: 3.27 Rank before: 12
+Rank: 8 ID: Sb0680508-Aaa8d88c Bias score: 1.11 Bias distance: 0.37 Stylo distance: 10.64 Rank before: 7
+Rank: 9 ID: Sb0680508-Adc5b4f9d Bias score: 0.86 Bias distance: 0.11 Stylo distance: 2.28 Rank before: 14
+Rank: 10 ID: S51530f3f-Ae32a4a1b Bias score: 1.09 Bias distance: 0.35 Stylo distance: 16.42 Rank before: 9
+Rank: 11 ID: Sb0680508-A304d661e Bias score: 1.04 Bias distance: 0.30 Stylo distance: 20.74 Rank before: 10
+Rank: 12 ID: Se3f07189-Aead8dad7 Bias score: 0.92 Bias distance: 0.18 Stylo distance: 17.02 Rank before: 11
+Rank: 13 ID: Sb0680508-A36f03a2d Bias score: 0.98 Bias distance: 0.24 Stylo distance: 3.03 Rank before: 15
+Rank: 14 ID: Se3f07189-A638f0f08 Bias score: 0.96 Bias distance: 0.22 Stylo distance: 17.10 Rank before: 13
+Rank: 15 ID: Sc065954f-Ac3a1cfc1 Bias score: 1.18 Bias distance: 0.44 Stylo distance: 31.00 Rank before: 8
+Rank: 16 ID: S4d8487a-Af2581065 Bias score: 0.85 Bias distance: 0.11 Stylo distance: 21.01 Rank before: 20
+Rank: 17 ID: S51530f3f-A4715d76f Bias score: 1.00 Bias distance: 0.26 Stylo distance: 10.59 Rank before: 16
+Rank: 18 ID: Sff0947ec-A8ab4b1ab Bias score: 0.84 Bias distance: 0.10 Stylo distance: 36.01 Rank before: 19
+Rank: 19 ID: S1a76ed9f-A25eafb83 Bias score: 0.95 Bias distance: 0.21 Stylo distance: 17.72 Rank before: 17
+Rank: 20 ID: S51530f3f-Ab10cafd7 Bias score: 0.79 Bias distance: 0.05 Stylo distance: 14.85 Rank before: 27
+Rank: 21 ID: S51530f3f-Ac5b10bae Bias score: 1.05 Bias distance: 0.31 Stylo distance: 15.66 Rank before: 18
+Rank: 22 ID: Se3f07189-Aecbb7c4b Bias score: 0.88 Bias distance: 0.14 Stylo distance: 15.38 Rank before: 22
+Rank: 23 ID: S51530f3f-Ad9a140f Bias score: 0.88 Bias distance: 0.14 Stylo distance: 23.68 Rank before: 23
+Rank: 24 ID: Se3f07189-A2885f8e4 Bias score: 0.93 Bias distance: 0.19 Stylo distance: 15.03 Rank before: 25
+Rank: 25 ID: S51530f3f-A6ac2dcba Bias score: 0.99 Bias distance: 0.25 Stylo distance: 15.71 Rank before: 21
+Rank: 26 ID: S24e47090-A5a7440e2 Bias score: 0.94 Bias distance: 0.20 Stylo distance: 20.73 Rank before: 26
+Rank: 27 ID: S1b03f390-Aa73ba80f Bias score: 1.00 Bias distance: 0.26 Stylo distance: 13.83 Rank before: 28
+Rank: 28 ID: S5596abaa-Aa281c786 Bias score: 0.90 Bias distance: 0.16 Stylo distance: 26.34 Rank before: 30
+Rank: 29 ID: S3f1ddbda-A86668a20 Bias score: 0.85 Bias distance: 0.10 Stylo distance: 10.25 Rank before: 38
+Rank: 30 ID: S5596abaa-A79683d03 Bias score: 0.75 Bias distance: 0.01 Stylo distance: 3.02 Rank before: 71 
+Rank: 31 ID: S1a76ed9f-A56a9d3c2 Bias score: 0.97 Bias distance: 0.22 Stylo distance: 19.14 Rank before: 31
+Rank: 32 ID: S75039982-Ae5f9662f Bias score: 0.82 Bias distance: 0.08 Stylo distance: 16.62 Rank before: 49
+Rank: 33 ID: S4d8487a-A2a082989 Bias score: 0.70 Bias distance: 0.04 Stylo distance: 28.31 Rank before: 46
+Rank: 34 ID: S51530f3f-A4af6e080 Bias score: 0.98 Bias distance: 0.24 Stylo distance: 12.97 Rank before: 33
+Rank: 35 ID: S31e2f374-A1eba69c9 Bias score: 1.11 Bias distance: 0.37 Stylo distance: 16.18 Rank before: 29
+Rank: 36 ID: S1b03f390-Ab387b162 Bias score: 1.02 Bias distance: 0.28 Stylo distance: 14.95 Rank before: 32
+Rank: 37 ID: S1b03f390-Af6cc7be2 Bias score: 0.97 Bias distance: 0.23 Stylo distance: 12.43 Rank before: 35
+Rank: 38 ID: S75039982-A9cc62007 Bias score: 0.87 Bias distance: 0.13 Stylo distance: 18.52 Rank before: 43
+Rank: 39 ID: Sc98346fc-A57e48241 Bias score: 1.18 Bias distance: 0.44 Stylo distance: 15.03 Rank before: 24
+Rank: 40 ID: S75039982-A271dbf8b Bias score: 0.92 Bias distance: 0.18 Stylo distance: 15.03 Rank before: 41
+Rank: 41 ID: Scafa7193-Ac3b0e93f Bias score: 0.86 Bias distance: 0.12 Stylo distance: 13.72 Rank before: 62
+Rank: 42 ID: Sdc43c974-A3d9aff89 Bias score: 0.93 Bias distance: 0.19 Stylo distance: 17.40 Rank before: 39
+Rank: 43 ID: S9b531995-A8675fb9f Bias score: 0.97 Bias distance: 0.23 Stylo distance: 13.18 Rank before: 40
+Rank: 44 ID: S91988e1b-A6794c6a5 Bias score: 0.93 Bias distance: 0.18 Stylo distance: 8.69 Rank before: 64
+Rank: 45 ID: S1a76ed9f-A9e25ccac Bias score: 0.98 Bias distance: 0.24 Stylo distance: 12.39 Rank before: 44
+Rank: 46 ID: S39b69e06-A4b6ecedd Bias score: 0.91 Bias distance: 0.17 Stylo distance: 6.93 Rank before: 72 
+Rank: 47 ID: Sda9522e2-A82b482d Bias score: 0.97 Bias distance: 0.23 Stylo distance: 12.81 Rank before: 48
+Rank: 48 ID: S91988e1b-A6a6aa709 Bias score: 0.93 Bias distance: 0.18 Stylo distance: 8.69 Rank before: 69
+Rank: 49 ID: S5cfdd422-Accd570a2 Bias score: 0.90 Bias distance: 0.15 Stylo distance: 18.03 Rank before: 60
+Rank: 50 ID: Sf4d1bca9-Ad2fc4a64 Bias score: 0.97 Bias distance: 0.22 Stylo distance: 14.54 Rank before: 47
+Rank: 51 ID: Se5083ebf-Ae2a71fd9 Bias score: 0.96 Bias distance: 0.22 Stylo distance: 14.95 Rank before: 50
+Rank: 52 ID: S591127c0-Ad4834c95 Bias score: 1.04 Bias distance: 0.29 Stylo distance: 14.22 Rank before: 37
+Rank: 53 ID: S302aacc2-A4b35b3d1 Bias score: 0.93 Bias distance: 0.18 Stylo distance: 7.20 Rank before: 77
+Rank: 54 ID: S5596abaa-Ae874c602 Bias score: 0.90 Bias distance: 0.16 Stylo distance: 12.46 Rank before: 78
+Rank: 55 ID: Sd23aca82-A9293c2b8 Bias score: 0.94 Bias distance: 0.20 Stylo distance: 8.09 Rank before: 76
+Rank: 56 ID: S2313226a-A20f203d0 Bias score: 1.02 Bias distance: 0.28 Stylo distance: 26.40 Rank before: 36
+Rank: 57 ID: S1a76ed9f-Ae7cff11e Bias score: 0.98 Bias distance: 0.24 Stylo distance: 15.62 Rank before: 53
+Rank: 58 ID: S87e36ea8-Ae44e27c0 Bias score: 1.02 Bias distance: 0.28 Stylo distance: 19.67 Rank before: 42
+Rank: 59 ID: S4d8487a-A3ee8e2dd Bias score: 0.94 Bias distance: 0.19 Stylo distance: 6.40 Rank before: 89
+Rank: 60 ID: S3ad69ff4-A3907c75a Bias score: 0.95 Bias distance: 0.20 Stylo distance: 6.05 Rank before: 87
+Rank: 61 ID: S991f1842-Afa8af6fe Bias score: 0.98 Bias distance: 0.24 Stylo distance: 11.73 Rank before: 70
+Rank: 62 ID: Sb9169fe2-Ac84f0322 Bias score: 0.95 Bias distance: 0.20 Stylo distance: 21.78 Rank before: 63
+Rank: 63 ID: S87cfcfdc-A9bc2446f Bias score: 1.17 Bias distance: 0.43 Stylo distance: 12.68 Rank before: 34
+Rank: 64 ID: S1b03f390-A22aff8a0 Bias score: 0.99 Bias distance: 0.24 Stylo distance: 15.47 Rank before: 68
+Rank: 65 ID: S39b69e06-A8b4b8b2a Bias score: 1.03 Bias distance: 0.28 Stylo distance: 15.18 Rank before: 57
+Rank: 66 ID: Sbe19aa3c-A25e5ec06 Bias score: 1.06 Bias distance: 0.32 Stylo distance: 19.57 Rank before: 45
+Rank: 67 ID: S3f1ddbda-Ac5dd685d Bias score: 1.02 Bias distance: 0.27 Stylo distance: 21.56 Rank before: 51
+Rank: 68 ID: S991f1842-A180d5aff Bias score: 0.97 Bias distance: 0.23 Stylo distance: 9.08 Rank before: 90 
+Rank: 69 ID: S3ed5e074-A8dd5cb5b Bias score: 1.02 Bias distance: 0.28 Stylo distance: 14.85 Rank before: 65
+Rank: 70 ID: S75039982-A9500ef6f Bias score: 1.04 Bias distance: 0.29 Stylo distance: 14.66 Rank before: 58
+Rank: 71 ID: S31e2f374-A777fbd9 Bias score: 1.05 Bias distance: 0.30 Stylo distance: 16.48 Rank before: 52
+Rank: 72 ID: S591127c0-Aff783fd6 Bias score: 1.04 Bias distance: 0.29 Stylo distance: 15.67 Rank before: 61
+Rank: 73 ID: Sdc43c974-Acc747e3b Bias score: 1.08 Bias distance: 0.34 Stylo distance: 15.04 Rank before: 55
+Rank: 74 ID: Se3f07189-A44ef099a Bias score: 0.94 Bias distance: 0.19 Stylo distance: 19.54 Rank before: 100
+Rank: 75 ID: S26a99a54-A342f1b46 Bias score: 1.04 Bias distance: 0.30 Stylo distance: 19.26 Rank before: 66
+Rank: 76 ID: S5596abaa-Aae070af3 Bias score: 0.98 Bias distance: 0.24 Stylo distance: 19.01 Rank before: 88
+Rank: 77 ID: S66b90e37-Af55d86ec Bias score: 1.01 Bias distance: 0.27 Stylo distance: 18.94 Rank before: 82
+Rank: 78 ID: Se43a535a-A9f1e56e5 Bias score: 1.03 Bias distance: 0.29 Stylo distance: 18.98 Rank before: 75
+Rank: 79 ID: S75039982-A46e0f227 Bias score: 1.11 Bias distance: 0.36 Stylo distance: 14.77 Rank before: 54
+Rank: 80 ID: S4a17a194-A81fdf609 Bias score: 1.03 Bias distance: 0.29 Stylo distance: 20.20 Rank before: 74
+Rank: 81 ID: S1b03f390-A2f800ca1 Bias score: 1.03 Bias distance: 0.29 Stylo distance: 20.67 Rank before: 73
+Rank: 82 ID: S79f77aa2-A5db5e330 Bias score: 1.03 Bias distance: 0.28 Stylo distance: 15.48 Rank before: 86
+Rank: 83 ID: Se0e31c74-A33beed5f Bias score: 1.07 Bias distance: 0.32 Stylo distance: 23.40 Rank before: 59
+Rank: 84 ID: Sc6de6870-Abf10e988 Bias score: 1.04 Bias distance: 0.30 Stylo distance: 16.26 Rank before: 85
+Rank: 85 ID: S2345fbf4-A62f858b1 Bias score: 1.03 Bias distance: 0.29 Stylo distance: 23.24 Rank before: 79
+Rank: 86 ID: S21dc5a14-A77fb2cc3 Bias score: 1.03 Bias distance: 0.29 Stylo distance: 12.35 Rank before: 96
+Rank: 87 ID: S2345fbf4-A3610bb29 Bias score: 1.03 Bias distance: 0.28 Stylo distance: 18.03 Rank before: 91
+Rank: 88 ID: S52024672-A6b07bd3e Bias score: 1.06 Bias distance: 0.31 Stylo distance: 15.07 Rank before: 92
+Rank: 89 ID: S52024653-A6b07bd3e Bias score: 1.06 Bias distance: 0.31 Stylo distance: 15.07 Rank before: 93
+Rank: 90 ID: S52024653-A6b07bd3e Bias score: 1.06 Bias distance: 0.31 Stylo distance: 15.07 Rank before: 94
+Rank: 91 ID: S660f5d92-A4b9a668f Bias score: 1.09 Bias distance: 0.35 Stylo distance: 16.34 Rank before: 83
+Rank: 92 ID: S5cfdd422-Afc7f9c11 Bias score: 1.09 Bias distance: 0.35 Stylo distance: 23.64 Rank before: 84
+Rank: 93 ID: S31e2f374-A8bd5286c Bias score: 1.13 Bias distance: 0.39 Stylo distance: 19.77 Rank before: 80
+Rank: 94 ID: S77fb8a5-A3b5da823 Bias score: 1.22 Bias distance: 0.48 Stylo distance: 23.95 Rank before: 56
+Rank: 95 ID: S3ed5e074-A79546d85 Bias score: 1.14 Bias distance: 0.40 Stylo distance: 17.20 Rank before: 97
+Rank: 96 ID: S7f546086-Ab5c9c936 Bias score: 1.21 Bias distance: 0.47 Stylo distance: 25.52 Rank before: 67
+Rank: 97 ID: S9c1c0573-A9907cae5 Bias score: 1.24 Bias distance: 0.50 Stylo distance: 13.20 Rank before: 81
+Rank: 98 ID: Sb58929b-A1459fe71 Bias score: 1.12 Bias distance: 0.37 Stylo distance: 34.01 Rank before: 95
+Rank: 99 ID: Sd9f7c3ee-A4b6d02bf Bias score: 1.09 Bias distance: 0.35 Stylo distance: 38.78 Rank before: 99
+Rank: 100 ID: S58273601-Acc3e857c Bias score: 1.25 Bias distance: 0.51 Stylo distance: 16.78 Rank before: 98
+
+Notable documents (rank changes > 10):
+rank: 30        jump distance: 41       bias distance: 0.01     stylo distance: 3.02
+rank: 32        jump distance: 17       bias distance: 0.08     stylo distance: 16.62
+rank: 33        jump distance: 13       bias distance: 0.04     stylo distance: 28.31
+rank: 39        jump distance: -15      bias distance: 0.44     stylo distance: 15.03
+rank: 41        jump distance: 21       bias distance: 0.12     stylo distance: 13.72
+rank: 44        jump distance: 20       bias distance: 0.18     stylo distance: 8.69
+rank: 46        jump distance: 26       bias distance: 0.17     stylo distance: 6.93
+rank: 48        jump distance: 21       bias distance: 0.18     stylo distance: 8.69
+rank: 49        jump distance: 11       bias distance: 0.15     stylo distance: 18.03
+rank: 52        jump distance: -15      bias distance: 0.29     stylo distance: 14.22
+rank: 53        jump distance: 24       bias distance: 0.18     stylo distance: 7.20
+rank: 54        jump distance: 24       bias distance: 0.16     stylo distance: 12.46
+rank: 55        jump distance: 21       bias distance: 0.20     stylo distance: 8.09
+rank: 56        jump distance: -20      bias distance: 0.28     stylo distance: 26.40
+rank: 58        jump distance: -16      bias distance: 0.28     stylo distance: 19.67
+rank: 59        jump distance: 30       bias distance: 0.19     stylo distance: 6.40
+rank: 60        jump distance: 27       bias distance: 0.20     stylo distance: 6.05
+rank: 63        jump distance: -29      bias distance: 0.43     stylo distance: 12.68
+rank: 66        jump distance: -21      bias distance: 0.32     stylo distance: 19.57
+rank: 67        jump distance: -16      bias distance: 0.27     stylo distance: 21.56
+rank: 68        jump distance: 22       bias distance: 0.23     stylo distance: 9.08
+rank: 70        jump distance: -12      bias distance: 0.29     stylo distance: 14.66
+rank: 71        jump distance: -19      bias distance: 0.30     stylo distance: 16.48
+rank: 72        jump distance: -11      bias distance: 0.29     stylo distance: 15.67
+rank: 73        jump distance: -18      bias distance: 0.34     stylo distance: 15.04
+rank: 74        jump distance: 26       bias distance: 0.19     stylo distance: 19.54
+rank: 76        jump distance: 12       bias distance: 0.24     stylo distance: 19.01
+rank: 79        jump distance: -25      bias distance: 0.36     stylo distance: 14.77
+rank: 83        jump distance: -24      bias distance: 0.32     stylo distance: 23.40
+rank: 93        jump distance: -13      bias distance: 0.39     stylo distance: 19.77
+rank: 94        jump distance: -38      bias distance: 0.48     stylo distance: 23.95
+rank: 96        jump distance: -29      bias distance: 0.47     stylo distance: 25.52
+rank: 97        jump distance: -16      bias distance: 0.50     stylo distance: 13.20
+
+Notable up ranked documents:
+rank: 30        jump distance: 41       bias distance: 0.01     stylo distance: 3.02
+rank: 32        jump distance: 17       bias distance: 0.08     stylo distance: 16.62
+rank: 33        jump distance: 13       bias distance: 0.04     stylo distance: 28.31
+rank: 41        jump distance: 21       bias distance: 0.12     stylo distance: 13.72
+rank: 44        jump distance: 20       bias distance: 0.18     stylo distance: 8.69
+rank: 46        jump distance: 26       bias distance: 0.17     stylo distance: 6.93
+rank: 48        jump distance: 21       bias distance: 0.18     stylo distance: 8.69
+rank: 49        jump distance: 11       bias distance: 0.15     stylo distance: 18.03
+rank: 53        jump distance: 24       bias distance: 0.18     stylo distance: 7.20
+rank: 54        jump distance: 24       bias distance: 0.16     stylo distance: 12.46
+rank: 55        jump distance: 21       bias distance: 0.20     stylo distance: 8.09
+rank: 59        jump distance: 30       bias distance: 0.19     stylo distance: 6.40
+rank: 60        jump distance: 27       bias distance: 0.20     stylo distance: 6.05
+rank: 68        jump distance: 22       bias distance: 0.23     stylo distance: 9.08
+rank: 74        jump distance: 26       bias distance: 0.19     stylo distance: 19.54
+rank: 76        jump distance: 12       bias distance: 0.24     stylo distance: 19.01
+average bias distance: 0.15     average stylo distance: 10.90
+
+Notable down ranked documents:
+rank: 39        jump distance: -15      bias distance: 0.44     stylo distance: 15.03
+rank: 52        jump distance: -15      bias distance: 0.29     stylo distance: 14.22
+rank: 56        jump distance: -20      bias distance: 0.28     stylo distance: 26.40
+rank: 58        jump distance: -16      bias distance: 0.28     stylo distance: 19.67
+rank: 63        jump distance: -29      bias distance: 0.43     stylo distance: 12.68
+rank: 66        jump distance: -21      bias distance: 0.32     stylo distance: 19.57
+rank: 67        jump distance: -16      bias distance: 0.27     stylo distance: 21.56
+rank: 70        jump distance: -12      bias distance: 0.29     stylo distance: 14.66
+rank: 71        jump distance: -19      bias distance: 0.30     stylo distance: 16.48
+rank: 72        jump distance: -11      bias distance: 0.29     stylo distance: 15.67
+rank: 73        jump distance: -18      bias distance: 0.34     stylo distance: 15.04
+rank: 79        jump distance: -25      bias distance: 0.36     stylo distance: 14.77
+rank: 83        jump distance: -24      bias distance: 0.32     stylo distance: 23.40
+rank: 93        jump distance: -13      bias distance: 0.39     stylo distance: 19.77
+rank: 94        jump distance: -38      bias distance: 0.48     stylo distance: 23.95
+rank: 96        jump distance: -29      bias distance: 0.47     stylo distance: 25.52
+rank: 97        jump distance: -16      bias distance: 0.50     stylo distance: 13.20
+average bias distance: 0.38     average stylo distance: 17.82

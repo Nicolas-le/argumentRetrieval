@@ -1,0 +1,27 @@
+{
+    "query": {
+        "multi_match": {
+            "query": "Should Insider Trading Be Allowed?",
+            "fields": [
+                "conclusion",
+                "premise",
+                "discussionTitle"
+            ],
+            "fuzziness": "AUTO",
+            "tie_breaker": 0.3
+        }
+    },
+    "nlp_scores": {
+        "bias_score": 0.0,
+        "stylo_scores": {
+            "vocab_richness": 1.0,
+            "hepax_legomena": 1.0,
+            "readability_measures": {
+                "average_wordlength": 5.0,
+                "average_sentlength": 6.0
+            },
+            "spelling_errors": 0.0
+        },
+        "topics": {}
+    }
+}

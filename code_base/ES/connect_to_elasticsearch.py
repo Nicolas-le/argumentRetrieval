@@ -12,6 +12,3 @@ def connect_to_elasticsearch():
         return es_object
     else:
         print( 'No connection' )
-        
-
-# connect_to_elasticsearch()
