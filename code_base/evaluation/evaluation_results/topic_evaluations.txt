@@ -1,0 +1,260 @@
+Topic: Should Teachers Get Tenure? Bias: 0.7444195000000001
+First 5 documents
+Documents ranked up: 1
+Documents ranked down: 1
+Average rank changes per doc in documentlist: 0.40 
+Average rank change by: 0.40
+Maximum rank jump up: 1
+Maximum rank jump down: 1
+Tendency of direcion: 0.00
+
+Topic: Should Teachers Get Tenure? Bias: 0.7444195000000001
+First 10 documents
+Documents ranked up: 3
+Documents ranked down: 2
+Average rank changes per doc in documentlist: 0.50 
+Average rank change by: 1.20
+Maximum rank jump up: 6
+Maximum rank jump down: 1
+Tendency of direcion: 1.50
+
+Topic: Should Teachers Get Tenure? Bias: 0.7444195000000001
+First 20 documents
+Documents ranked up: 7
+Documents ranked down: 6
+Average rank changes per doc in documentlist: 0.65 
+Average rank change by: 2.15
+Maximum rank jump up: 8
+Maximum rank jump down: 12
+Tendency of direcion: 1.17
+
+Topic: Should Teachers Get Tenure? Bias: 0.7444195000000001
+First 50 documents
+Documents ranked up: 22
+Documents ranked down: 17
+Average rank changes per doc in documentlist: 0.78 
+Average rank change by: 5.02
+Maximum rank jump up: 41
+Maximum rank jump down: 14
+Tendency of direcion: 1.29
+
+Topic: Should Teachers Get Tenure? Bias: 0.7444195000000001
+First 100 documents
+Documents ranked up: 45
+Documents ranked down: 44
+Average rank changes per doc in documentlist: 0.89 
+Average rank change by: 8.82
+Maximum rank jump up: 41
+Maximum rank jump down: 38
+Tendency of direcion: 1.02
+
+
+
+Topic: Is Vaping with E-Cigarettes Safe? Bias: 0.8785600608
+First 5 documents
+Documents ranked up: 1
+Documents ranked down: 1
+Average rank changes per doc in documentlist: 0.40
+Average rank change by: 0.40
+Maximum rank jump up: 1
+Maximum rank jump down: 1
+Tendency of direcion: 0.00
+
+Topic: Is Vaping with E-Cigarettes Safe? Bias: 0.8785600608
+First 10 documents
+Documents ranked up: 3
+Documents ranked down: 2
+Average rank changes per doc in documentlist: 0.50
+Average rank change by: 0.60
+Maximum rank jump up: 1
+Maximum rank jump down: 2
+Tendency of direcion: 1.50
+
+Topic: Is Vaping with E-Cigarettes Safe? Bias: 0.8785600608
+First 20 documents
+Documents ranked up: 7
+Documents ranked down: 5
+Average rank changes per doc in documentlist: 0.60
+Average rank change by: 1.55
+Maximum rank jump up: 8
+Maximum rank jump down: 4
+Tendency of direcion: 1.40
+
+Topic: Is Vaping with E-Cigarettes Safe? Bias: 0.8785600608
+First 50 documents
+Documents ranked up: 26
+Documents ranked down: 16
+Average rank changes per doc in documentlist: 0.84
+Average rank change by: 6.04
+Maximum rank jump up: 43
+Maximum rank jump down: 16
+Tendency of direcion: 1.62
+
+Topic: Is Vaping with E-Cigarettes Safe? Bias: 0.8785600608
+First 100 documents
+Documents ranked up: 49
+Documents ranked down: 42
+Average rank changes per doc in documentlist: 0.91
+Average rank change by: 10.48
+Maximum rank jump up: 43
+Maximum rank jump down: 40
+Tendency of direcion: 1.17
+
+
+
+Topic: Should Any Vaccines Be Required for Children? Bias: 0.8378845000000001
+First 5 documents
+Documents ranked up: 3
+Documents ranked down: 0
+Average rank changes per doc in documentlist: 0.60
+Average rank change by: 1.60
+Maximum rank jump up: 4
+Maximum rank jump down: 0
+Tendency of direcion: 3.00
+
+Topic: Should Any Vaccines Be Required for Children? Bias: 0.8378845000000001
+First 10 documents
+Documents ranked up: 6
+Documents ranked down: 1
+Average rank changes per doc in documentlist: 0.70
+Average rank change by: 3.70
+Maximum rank jump up: 16
+Maximum rank jump down: 4
+Tendency of direcion: 6.00
+
+Topic: Should Any Vaccines Be Required for Children? Bias: 0.8378845000000001
+First 20 documents
+Documents ranked up: 10
+Documents ranked down: 6
+Average rank changes per doc in documentlist: 0.80
+Average rank change by: 5.90
+Maximum rank jump up: 23
+Maximum rank jump down: 12
+Tendency of direcion: 1.67
+
+Topic: Should Any Vaccines Be Required for Children? Bias: 0.8378845000000001
+First 50 documents
+Documents ranked up: 27
+Documents ranked down: 19
+Average rank changes per doc in documentlist: 0.92
+Average rank change by: 7.90
+Maximum rank jump up: 30
+Maximum rank jump down: 23
+Tendency of direcion: 1.42
+
+Topic: Should Any Vaccines Be Required for Children? Bias: 0.8378845000000001
+First 100 documents
+Documents ranked up: 53
+Documents ranked down: 42
+Average rank changes per doc in documentlist: 0.95
+Average rank change by: 11.88
+Maximum rank jump up: 37
+Maximum rank jump down: 71
+Tendency of direcion: 1.26
+
+
+
+
+Topic: Should birth control pills be available over the counter? Bias: 0.7815995
+First 5 documents
+Documents ranked up: 3
+Documents ranked down: 0
+Average rank changes per doc in documentlist: 0.60
+Average rank change by: 4.20
+Maximum rank jump up: 10
+Maximum rank jump down: 0
+Tendency of direcion: 3.00
+
+Topic: Should birth control pills be available over the counter? Bias: 0.7815995
+First 10 documents
+Documents ranked up: 6
+Documents ranked down: 2
+Average rank changes per doc in documentlist: 0.80
+Average rank change by: 6.80
+Maximum rank jump up: 27
+Maximum rank jump down: 4
+Tendency of direcion: 3.00
+
+Topic: Should birth control pills be available over the counter? Bias: 0.7815995
+First 20 documents
+Documents ranked up: 11
+Documents ranked down: 7
+Average rank changes per doc in documentlist: 0.90
+Average rank change by: 7.05
+Maximum rank jump up: 27
+Maximum rank jump down: 13
+Tendency of direcion: 1.57
+
+Topic: Should birth control pills be available over the counter? Bias: 0.7815995
+First 50 documents
+Documents ranked up: 28
+Documents ranked down: 20
+Average rank changes per doc in documentlist: 0.96
+Average rank change by: 10.10
+Maximum rank jump up: 27
+Maximum rank jump down: 23
+Tendency of direcion: 1.40
+
+Topic: Should birth control pills be available over the counter? Bias: 0.7815995
+First 100 documents
+Documents ranked up: 54
+Documents ranked down: 42
+Average rank changes per doc in documentlist: 0.96
+Average rank change by: 12.68
+Maximum rank jump up: 38
+Maximum rank jump down: 67
+Tendency of direcion: 1.29
+
+
+
+
+Topic: Should Tablets Replace Textbooks in Schools? Bias: 0.7143575000000001
+First 5 documents
+Documents ranked up: 1
+Documents ranked down: 1
+Average rank changes per doc in documentlist: 0.40
+Average rank change by: 0.40
+Maximum rank jump up: 1
+Maximum rank jump down: 1
+Tendency of direcion: 0.00
+
+Topic: Should Tablets Replace Textbooks in Schools? Bias: 0.7143575000000001
+First 10 documents
+Documents ranked up: 4
+Documents ranked down: 1
+Average rank changes per doc in documentlist: 0.50
+Average rank change by: 0.50
+Maximum rank jump up: 1
+Maximum rank jump down: 1
+Tendency of direcion: 4.00
+
+Topic: Should Tablets Replace Textbooks in Schools? Bias: 0.7143575000000001
+First 20 documents
+Documents ranked up: 9
+Documents ranked down: 5
+Average rank changes per doc in documentlist: 0.70
+Average rank change by: 1.60
+Maximum rank jump up: 7
+Maximum rank jump down: 4
+Tendency of direcion: 1.80
+
+Topic: Should Tablets Replace Textbooks in Schools? Bias: 0.7143575000000001
+First 50 documents
+Documents ranked up: 22
+Documents ranked down: 20
+Average rank changes per doc in documentlist: 0.84
+Average rank change by: 3.46
+Maximum rank jump up: 17
+Maximum rank jump down: 9
+Tendency of direcion: 1.10
+
+Topic: Should Tablets Replace Textbooks in Schools? Bias: 0.7143575000000001
+First 100 documents
+Documents ranked up: 42
+Documents ranked down: 48
+Average rank changes per doc in documentlist: 0.90
+Average rank change by: 5.36
+Maximum rank jump up: 17
+Maximum rank jump down: 20
+Tendency of direcion: 1.14
+

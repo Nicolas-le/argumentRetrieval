@@ -1,0 +1,50 @@
+Corpus of 50 documentlists (queries)
+First 5 documents of each list
+Average of documents ranked up: 2.28
+Average of documents ranked down: 0.9
+Average rank changes per doc of documentlist: 0.64
+Average rank change by: 2.04 ranks
+Average maximum rank jump up: 5.52
+Average maximum rank jump down: 1.04
+Average tendency of direction: 1.85
+
+Corpus of 50 documentlists (queries)
+First 10 documents of each list
+Average of documents ranked up: 4.94
+Average of documents ranked down: 2.38
+Average rank changes per doc of documentlist: 0.73
+Average rank change by: 2.87 ranks
+Average maximum rank jump up: 9.08
+Average maximum rank jump down: 3.06
+Average tendency of direction: 2.53
+
+Corpus of 50 documentlists (queries)
+First 20 documents of each list
+Average of documents ranked up: 10.38
+Average of documents ranked down: 5.94
+Average rank changes per doc of documentlist: 0.82
+Average rank change by: 4.01 ranks
+Average maximum rank jump up: 13.90
+Average maximum rank jump down: 7.92
+Average tendency of direction: 1.86
+
+Corpus of 50 documentlists (queries)
+First 50 documents of each list
+Average of documents ranked up: 28.7
+Average of documents ranked down: 16.24
+Average rank changes per doc of documentlist: 0.90
+Average rank change by: 7.74 ranks
+Average maximum rank jump up: 30.48
+Average maximum rank jump down: 21.18
+Average tendency of direction: 1.83
+
+Corpus of 50 documentlists (queries)
+First 100 documents of each list
+Average of documents ranked up: 52.04
+Average of documents ranked down: 41.54
+Average rank changes per doc of documentlist: 0.94
+Average rank change by: 10.99 ranks
+Average maximum rank jump up: 34.46
+Average maximum rank jump down: 57.48
+Average tendency of direction: 1.27
+

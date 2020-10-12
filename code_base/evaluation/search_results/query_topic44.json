@@ -12,7 +12,7 @@
         }
     },
     "nlp_scores": {
-        "bias_score": 0.0,
+        "bias_score": 0.9805216588,
         "stylo_scores": {
             "vocab_richness": 1.0,
             "hepax_legomena": 1.0,

@@ -34,12 +34,16 @@ def rank_changes( documents, min_jump_distance ):
     max_rank_changes_up = max_rank_distance_up
     max_rank_changes_down = abs( max_rank_distance_down )
     tendency = 0
-    if count_rank_up > count_rank_down:
+    if count_rank_up > count_rank_down and count_rank_down != 0:
         tendency = count_rank_up / count_rank_down
-    elif count_rank_down > count_rank_up:
+    elif count_rank_down > count_rank_up and count_rank_up != 0:
         tendency = count_rank_down / count_rank_up
-        
+    elif count_rank_up > count_rank_down and count_rank_down == 0:
+        tendency = count_rank_up
+    elif count_rank_down > count_rank_up and count_rank_up == 0:
+        tendency = count_rank_down
+
     notable_docs = extract_notable_docs( documents, min_jump_distance )
 
-    ranking_tuple = ( average_rank_changes, max_rank_changes_up, max_rank_changes_down, tendency, notable_docs )
+    ranking_tuple = ( average_rank_changes, max_rank_changes_up, max_rank_changes_down, tendency, notable_docs, count_rank_up, count_rank_down )
     return ranking_tuple

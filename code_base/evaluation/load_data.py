@@ -62,3 +62,43 @@ def get_data( filepath_query, filepath_results ):
 
     data_tuple = ( query_data, results_data )
     return data_tuple
+
+
+def get_just_results_data( filepath ):
+    with open( filepath ) as results_file:
+        results = json.load( results_file )
+    
+    results_data = []
+    for doc in results:
+        argID = doc['_source']['argsMeID']
+        premise = doc['_source']['premise']
+        average_wordlength = doc['nlp_scores']['stylo_scores']['readability_measures']['average_wordlength']
+        average_sentlength = doc['nlp_scores']['stylo_scores']['readability_measures']['average_sentlength']
+        bias_score = doc['nlp_scores']['bias_score']
+        bias_distance = doc['bias_distance']
+        stylo_distance = doc['stylo_distance']
+        topic_match_count = doc['topic_match_count']
+        old_score  = doc['old_score']
+        new_score = doc['new_score']
+        scoring_distance = doc['scoring_distance']
+        old_rank = doc['old_rank']
+        new_rank = doc['new_rank']
+            
+        doc_data = {
+            'argID' : argID,
+            'premise' : premise,
+            'wordlength' : average_wordlength,
+            'sentlength' : average_sentlength,
+            'bias_score' : bias_score,
+            'bias_distance' : bias_distance,
+            'stylo_distance' : stylo_distance,
+            'topic_match_count' : topic_match_count,
+            'old_score' : old_score,
+            'new_score' : new_score,
+            'scoring_distance' : scoring_distance,
+            'old_rank' : old_rank,
+            'new_rank' : new_rank
+        }
+        results_data.append( doc_data )
+
+    return results_data

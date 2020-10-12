@@ -21,7 +21,7 @@ def process_xml( es_object, index_name, inputDataSet, outputDir ):
     topics = mydoc.getElementsByTagName( 'topic' )
 
     print( '\nAll item data: ' )
-    for i in range( 30, 50 ):
+    for i in range(0, 50 ):
         number = topics[i].getElementsByTagName('number')[0]
         print( "topic Number:", number.childNodes[0].data )
         title = topics[i].getElementsByTagName('title')[0]

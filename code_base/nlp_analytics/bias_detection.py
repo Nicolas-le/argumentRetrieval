@@ -13,7 +13,7 @@ def bias_score( text ):
     total_bias = 0
 
     for sentence in sentences:
-        if len( sentence ) > 1:
+        if len( sentence ) < 2:
             total_bias = total_bias
         else:
             total_bias += bias.compute_bias( sentence )
@@ -22,5 +22,3 @@ def bias_score( text ):
         total_bias = total_bias/len( sentences )
 
     return total_bias
-    
-

@@ -42,8 +42,12 @@ def investigate_notable_docs( documents ):
         if doc['stylo_distance'] > max_stylo_rank_up:
             max_stylo_rank_up = doc['stylo_distance']
 
-    average_bias_rank_up = ( count_bias_rank_up - max_bias_rank_up ) / ( len( rank_up ) - 1 )
-    average_stylo_rank_up = ( count_stylo_rank_up - max_stylo_rank_up ) / ( len( rank_up ) - 1 )
+    no_zero_division_1 = 0
+    if len(rank_up) - 1 == 0:
+        no_zero_division_1 = 1
+    
+    average_bias_rank_up = ( count_bias_rank_up - max_bias_rank_up ) / ( len( rank_up ) - 1 + no_zero_division_1 )
+    average_stylo_rank_up = ( count_stylo_rank_up - max_stylo_rank_up ) / ( len( rank_up ) - 1 + no_zero_division_1 )
     print( f'\naverage bias distance: {average_bias_rank_up:.2f} \taverage stylo distance: {average_stylo_rank_up:.2f}' )
 
     count_bias_rank_down = 0
@@ -67,8 +71,12 @@ def investigate_notable_docs( documents ):
         if doc['stylo_distance'] > min_stylo_rank_down:
             min_stylo_rank_down = doc['stylo_distance']
     
-    average_bias_rank_down = ( count_bias_rank_down - min_bias_rank_down ) / ( len( rank_down ) - 1 )
-    average_stylo_rank_down = ( count_stylo_rank_down - min_stylo_rank_down ) / ( len( rank_down ) -1 )
+    no_zero_division_2 = 0
+    if len(rank_down) - 1 == 0:
+        no_zero_division_2 = 1
+
+    average_bias_rank_down = ( count_bias_rank_down - min_bias_rank_down ) / ( len( rank_down ) - 1 + no_zero_division_2)
+    average_stylo_rank_down = ( count_stylo_rank_down - min_stylo_rank_down ) / ( len( rank_down ) -1 + no_zero_division_2)
     print( f'\naverage bias distance: {average_bias_rank_down:.2f} \taverage stylo distance: {average_stylo_rank_down:.2f}' )
 
     notable_documents_analysis = ( average_bias_rank_up, average_stylo_rank_up, average_bias_rank_down, average_stylo_rank_down )

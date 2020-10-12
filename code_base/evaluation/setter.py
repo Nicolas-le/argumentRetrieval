@@ -1,8 +1,8 @@
-    """
-    Return the first documents of a list of documents by a given length
-    :param doclist:     list of documents 
-    :return:            the first ... documents of this list
-    """
+"""
+Return the first documents of a list of documents by a given length
+:param doclist:     list of documents 
+:return:            the first ... documents of this list
+"""
 
 def first_5_documents( doclist ):
     results_data = doclist[:5]

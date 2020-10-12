@@ -63,7 +63,7 @@ es_obj = connect_to_elasticsearch()
 """
 create an index
 """
-index_name = "index_v1.0"
+index_name = "local_index_v1.0"
 indexObj = create_index( es_obj, index_name )
 
 
