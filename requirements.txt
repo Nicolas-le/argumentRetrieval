@@ -6,7 +6,7 @@ pytest
 vaderSentiment 
 requests
 textstat
-future==0.16.0
+future==1.0.0
 decorator==4.2.1
 decorators==0.1.1
 sklearn==0.0
